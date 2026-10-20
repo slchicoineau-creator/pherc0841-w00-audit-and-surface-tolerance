@@ -1,0 +1,51 @@
+{
+ "seed": 2026100815,
+ "created": "2026-10-08 14:01",
+ "repeat": [
+  "XT11",
+  "XT30"
+ ],
+ "pages": [
+  {
+   "id": "X134",
+   "strip": "XT01",
+   "tag": "test"
+  },
+  {
+   "id": "X166",
+   "strip": "XT30",
+   "tag": "test"
+  },
+  {
+   "id": "X875",
+   "strip": "XT20",
+   "tag": "test"
+  },
+  {
+   "id": "X836",
+   "strip": "XT00",
+   "tag": "test"
+  },
+  {
+   "id": "X273",
+   "strip": "XT11",
+   "tag": "test"
+  },
+  {
+   "id": "X909",
+   "strip": "XT31",
+   "tag": "test"
+  },
+  {
+   "id": "X611",
+   "strip": "XT11",
+   "tag": "repeat"
+  },
+  {
+   "id": "X730",
+   "strip": "XT30",
+   "tag": "repeat"
+  }
+ ],
+ "build": "2026100815_2026-10-08_1401"
+}

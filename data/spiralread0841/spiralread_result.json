@@ -1,0 +1,36 @@
+{
+ "outcome": "SPIRAL-NO-ROWS (one rater: chris)",
+ "rater_class": {
+  "chris": "VALID",
+  "seb": "VALID"
+ },
+ "calls": {
+  "chris": {
+   "calib": "rows",
+   "A1": "strokes",
+   "guard": "strokes",
+   "C_level": "rows",
+   "A2_blank": "nothing",
+   "A2": "strokes",
+   "A1_blank": "nothing",
+   "blank09": "nothing",
+   "C_blank": "nothing"
+  },
+  "seb": {
+   "C_blank": "nothing",
+   "blank09": "nothing",
+   "C_level": "rows",
+   "A2": "rows",
+   "A1_blank": "nothing",
+   "A1": "rows",
+   "calib": "rows",
+   "A2_blank": "nothing"
+  }
+ },
+ "arms_shown": [
+  "A1",
+  "A2"
+ ],
+ "labels": [],
+ "scope": "one spiral fit (one seed, 30k ACW, post-snap), one anchor point, field W on PHerc0841 only; both raters know W"
+}

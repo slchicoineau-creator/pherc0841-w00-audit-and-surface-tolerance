@@ -1,0 +1,37 @@
+{
+ "prereg": "prereg/2026-10-05_seb_w00native.md",
+ "n_crosses": 6553,
+ "n_both": 6479,
+ "tau": {
+  "copy": 82.0,
+  "native": 89.0
+ },
+ "median_A25": {
+  "copy@2.4um-L2": {
+   "0": 0.1,
+   "+75um": 0.113,
+   "-75um": 0.133
+  },
+  "native@9.366um": {
+   "0": 0.101,
+   "+75um": 0.12,
+   "-75um": 0.139
+  }
+ },
+ "sensitivity_ok": {
+  "copy@2.4um-L2": true,
+  "native@9.366um": true
+ },
+ "median_D": 0.0,
+ "mean_D": -0.002,
+ "D_pos": 2760,
+ "D_neg": 2939,
+ "sign_p": 0.018372124466877703,
+ "share_A25_gt_0p3": {
+  "copy": 0.17,
+  "native": 0.169
+ },
+ "spearman_native_A25_vs_bend": 0.327,
+ "verdict_by_rule": "G: the mesh itself (its 187 um grid) is the main cause",
+ "seconds": 215
+}

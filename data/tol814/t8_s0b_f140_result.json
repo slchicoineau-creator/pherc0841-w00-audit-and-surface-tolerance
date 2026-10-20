@@ -1,0 +1,32 @@
+{
+ "floor_um": 140,
+ "n_hop_px": 3578524,
+ "auc_hop": 0.5765,
+ "auc_blank_same_px": 0.509,
+ "bar_hop": 0.559,
+ "hop_ok": false,
+ "auc_ctrl_hop_px": 0.8406,
+ "n_unmoved_px": 11152189,
+ "auc_unmoved": 0.8621,
+ "auc_unmoved_ctrl": 0.876,
+ "unmoved_ok": true,
+ "auc_all": 0.7998,
+ "auc_ctrl_all": 0.8669,
+ "bands": {
+  "50_120": {
+   "frac_px": 0.0299,
+   "auc": 0.6264,
+   "auc_blank": 0.5194
+  },
+  "120_150": {
+   "frac_px": 0.0433,
+   "auc": 0.6412,
+   "auc_blank": 0.6221
+  },
+  "gt150": {
+   "frac_px": 0.1597,
+   "auc": 0.5527,
+   "auc_blank": 0.4834
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "test": "depth_w",
+ "question": "Around w00's own +0 on the known-text window, do blind humans confirm the agents' depth budget (outward < 12 um), s214732's 'no rows', and the 20 mm field size?",
+ "window": "PHerc0841 known-text window W on w00 (20 x 11.7 mm), canonical 2.4 um reader, fixed clip(0,1) x 255 mapping",
+ "raters": [
+  "sebastien",
+  "chris"
+ ],
+ "sign": "+ = outward (away from the scroll centre: 99.9 % of w00's normals); - = inward, toward s214732",
+ "pictures": {
+  "levels_20mm": {
+   "ctrl": "readable control: w00 at its own +0 (byte copy of partsheet L100)",
+   "out12": "w00 shifted uniformly +5 layers (+12 um, outward = away from the scroll centre)",
+   "out24": "w00 shifted uniformly +10 layers (+24 um outward)",
+   "in12": "w00 shifted uniformly -5 layers (-12 um, inward)",
+   "in24": "w00 shifted uniformly -10 layers (-24 um inward)",
+   "s214732": "the organizers' second auto-grown surface of this region, s214732, about 66 um inward along w00's normal (78 um from w00)"
+  },
+  "blanks_20mm": "one wrong-order blank per 20 mm level (6)",
+  "windows_10mm": "three 10 x 10 mm windows (top / middle / bottom, 50 % overlap) of the w00 control map and of s214732's map, plus one blank each (middle, wrong order); 12.5 um per tile pixel vs 25 um at 20 mm (sampled 2x finer)",
+  "calib": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+  "calib_blank": "the calibration map in the wrong layer order (wrong-order blank)",
+  "n_pictures": 22
+ },
+ "depth_offsets": {
+  "out12": {
+   "layers": 5,
+   "um": 12.0
+  },
+  "out24": {
+   "layers": 10,
+   "um": 24.0
+  },
+  "in12": {
+   "layers": -5,
+   "um": -12.0
+  },
+  "in24": {
+   "layers": -10,
+   "um": -24.0
+  },
+  "s214732": {
+   "um_along_normal": -66,
+   "um_from_w00": 78
+  }
+ },
+ "page_order": "hardest first, shuffled inside blocks (numpy default_rng 20261007): A = the 4 shifted levels + s214732 + their blanks; B = the six 10 mm windows + 2 blanks; C = ctrl + blank, calibration, calibration blank",
+ "rule": {
+  "valid_rater": "all 22 answered; calibration rows; at most 1 of the 8 surface blanks (6 at 20 mm, 2 at 10 mm) rows; the calibration blank reported, not gating",
+  "countable": "a level counts only if its own blank is not rows for that rater (else uncountable)",
+  "per_rater_20mm": {
+   "VOID": "ctrl not rows, or ctrl's blank rows, or invalid rater",
+   "WIDE-OUT": "out12 or out24 reads rows (outward line = furthest outward tile with rows)",
+   "INCOMPLETE": "else, out12 or out24 uncountable (or an inward tile needed for the call uncountable)",
+   "ASYMMETRIC": "else in24 rows -> 'outward < 12 um, inward >= 24 um'",
+   "ASYMMETRIC-SHORT": "else in12 rows, in24 not -> 'outward < 12, inward 12-24 um'",
+   "NARROW": "else +-12 both not rows -> '< 12 um both sides'",
+   "non-monotone flag": "out24 rows with out12 not (or in24 rows with in12 not): keep the furthest tile, flag it"
+  },
+  "two_raters": "per side the stricter (narrower) line, both printed; the outcome name follows the combined lines; a rater whose call is INCOMPLETE is reported tile by tile and the combined call uses the other rater ('one rater')",
+  "s214732": "rows / not rows per rater (uncountable if its blank reads rows); all countable valid raters not rows -> confirmed 'does not read'; all rows -> the agent-only 'does not read' line is removed; otherwise SPLIT",
+  "unit_10mm": "per rater k_P / k_S = w00's / s214732's windows read rows (0-3): '1 cm2 USABLE' if k_P >= 2 and k_S = 0; '20 mm ONLY' if k_P = 0 or k_S >= k_P; otherwise DESCRIPTIVE; uncountable if either 10 mm blank reads rows; two raters: a named unit only if both agree (else DESCRIPTIVE / SPLIT)"
+ },
+ "outcome_labels": [
+  "WIDE-OUT",
+  "ASYMMETRIC",
+  "ASYMMETRIC-SHORT",
+  "NARROW",
+  "INCOMPLETE",
+  "VOID"
+ ],
+ "scope": "one 20 x 12 mm window, one tile per arm, depth measured from w00's own +0 (not from the inked layer); the 10 mm block is sampled 2x finer and is descriptive only",
+ "stage0": {
+  "passed": true
+ }
+}

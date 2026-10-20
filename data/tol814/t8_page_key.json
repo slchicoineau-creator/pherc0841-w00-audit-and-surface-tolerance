@@ -1,0 +1,95 @@
+{
+ "q01": {
+  "item": "shared",
+  "kind": "calib",
+  "file": "work/fl/format20/tiles/f_05.png"
+ },
+ "q02": {
+  "item": "TOL-814",
+  "surface": "L70_814",
+  "kind": "level",
+  "order": "rev",
+  "offset_layers": 1,
+  "floor_um": 170,
+  "frame": "LINE-FIELD-READ common mask",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/L70_814_level.png"
+ },
+ "q03": {
+  "item": "TOL-814",
+  "surface": "ctrl814",
+  "kind": "level",
+  "order": "rev",
+  "offset_layers": 1,
+  "floor_um": null,
+  "frame": "LINE-FIELD-READ common mask",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/ctrl814_level.png"
+ },
+ "q04": {
+  "item": "TOL-814",
+  "surface": "L85_814",
+  "kind": "level",
+  "order": "rev",
+  "offset_layers": 1,
+  "floor_um": 170,
+  "frame": "LINE-FIELD-READ common mask",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/L85_814_level.png"
+ },
+ "q05": {
+  "item": "TOL-814",
+  "surface": "L55_814",
+  "kind": "level",
+  "order": "rev",
+  "offset_layers": 1,
+  "floor_um": 170,
+  "frame": "LINE-FIELD-READ common mask",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/L55_814_level.png"
+ },
+ "q06": {
+  "item": "TOL-814",
+  "surface": "H50_814",
+  "kind": "level",
+  "order": "rev",
+  "offset_layers": 1,
+  "floor_um": null,
+  "frame": "LINE-FIELD-READ common mask",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/H50_814_level.png"
+ },
+ "q07": {
+  "item": "TOL-814",
+  "surface": "ctrl814",
+  "kind": "blank",
+  "order": "fwd",
+  "offset_layers": 1,
+  "floor_um": null,
+  "frame": "LINE-FIELD-READ common mask",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/ctrl814_blank.png"
+ },
+ "q08": {
+  "item": "LINE-FIELD-READ",
+  "surface": "O45",
+  "kind": "level",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/O45_level.png",
+  "adjacency_swap": "O45 swapped from position 11 to 8"
+ },
+ "q09": {
+  "item": "TOL-814",
+  "surface": "L70_814",
+  "kind": "blank",
+  "order": "fwd",
+  "offset_layers": 1,
+  "floor_um": 170,
+  "frame": "LINE-FIELD-READ common mask",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/L70_814_blank.png"
+ },
+ "q10": {
+  "item": "LINE-FIELD-READ",
+  "surface": "O2",
+  "kind": "level",
+  "file": "work/fl/loop/20261011-14-line-field-read-on-s0228/tiles/O2_level.png"
+ },
+ "q11": {
+  "item": "shared",
+  "kind": "blank09",
+  "file": "work/fl/format20/tiles/f_06.png"
+ }
+}

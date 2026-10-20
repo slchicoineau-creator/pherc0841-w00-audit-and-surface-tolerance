@@ -1,0 +1,149 @@
+{
+ "what": "AI agent readers (Claude, screening only) on the exact tile files of the partsheet_tolerance page: for each picture, the calls of the valid agent readers who read that tile (levels: the level answer; blanks: the blank answer). The calibration pair's calls come from the 3 agent readers of the earlier field-size screen that made it. Not human data.",
+ "pictures": {
+  "C70": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "C70_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "C85": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "rows",
+    "rows",
+    "rows"
+   ]
+  },
+  "C85_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "H50": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ]
+  },
+  "H50_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "H70": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ]
+  },
+  "H70_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "L100": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "rows",
+    "rows",
+    "rows"
+   ]
+  },
+  "L100_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "L55": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ]
+  },
+  "L55_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "L70": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ]
+  },
+  "L70_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "L85": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ]
+  },
+  "L85_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  },
+  "calib": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "rows",
+    "rows",
+    "rows"
+   ]
+  },
+  "calib_blank": {
+   "n_readers": 3,
+   "valid_reader_calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ]
+  }
+ }
+}

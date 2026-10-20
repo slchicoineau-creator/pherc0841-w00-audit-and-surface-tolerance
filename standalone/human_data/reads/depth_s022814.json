@@ -1,0 +1,311 @@
+{
+ "test": "depth_s022814",
+ "title": "Uniform depth shifts on fresh text (s022814)",
+ "gated": "human data: per-picture blind calls; release only with both raters' OK",
+ "answers": [
+  "rows",
+  "strokes",
+  "nothing"
+ ],
+ "pages": [
+  {
+   "page": "depth_s022814_page_sebastien",
+   "rater": "sebastien",
+   "n_pictures": 14,
+   "n_guards": 1,
+   "freshness_answer": "no (had not opened any map, label image or render of s022814)",
+   "rated_at_utc": "2026-10-07T16:20:00.892Z"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "rater": "chris",
+   "n_pictures": 16,
+   "n_guards": 3,
+   "freshness_answer": "no (had not opened any map, label image or render of s022814) - relayed by Sebastien",
+   "rated_at_utc": "2026-10-07T19:14:16.886Z"
+  }
+ ],
+ "calls": [
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 1,
+   "picture": "in24_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of in24)",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 2,
+   "picture": "in48",
+   "kind": "edge",
+   "arm": "edge arm, descriptive: 20 layers (48.1 um) inward (no blank)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 3,
+   "picture": "out24_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of out24)",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 4,
+   "picture": "out48",
+   "kind": "edge",
+   "arm": "edge arm, descriptive: 20 layers (48.1 um) outward (no blank)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 5,
+   "picture": "out24",
+   "kind": "level",
+   "arm": "the whole surface shifted uniformly 10 layers (24.0 um) outward",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 6,
+   "picture": "in24",
+   "kind": "level",
+   "arm": "the whole surface shifted uniformly 10 layers (24.0 um) inward",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 7,
+   "picture": "guard_1",
+   "kind": "guard",
+   "arm": "guard: a partsheet_tolerance surface picture that THIS rater had called not rows blind (another window; seen once before)",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 8,
+   "picture": "w10_top",
+   "kind": "level10",
+   "arm": "top 10 x 10 mm window of the control map (12.5 um per tile pixel; rated after the same text at 20 mm, so primed)",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 9,
+   "picture": "w10_blank",
+   "kind": "blank10",
+   "arm": "wrong-order blank of the control map, middle 10 mm window",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 10,
+   "picture": "w10_bot",
+   "kind": "level10",
+   "arm": "bottom 10 x 10 mm window of the control map (primed)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 11,
+   "picture": "ctrl_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of ctrl)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 12,
+   "picture": "ctrl",
+   "kind": "level",
+   "arm": "readable control: the organizers' s022814 surface at the label-defined ink depth a* (= +0 layers here)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 13,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_s022814_page_sebastien",
+   "shown_position": 14,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 1,
+   "picture": "in24_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of in24)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 2,
+   "picture": "out24",
+   "kind": "level",
+   "arm": "the whole surface shifted uniformly 10 layers (24.0 um) outward",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 3,
+   "picture": "in48",
+   "kind": "edge",
+   "arm": "edge arm, descriptive: 20 layers (48.1 um) inward (no blank)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 4,
+   "picture": "in24",
+   "kind": "level",
+   "arm": "the whole surface shifted uniformly 10 layers (24.0 um) inward",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 5,
+   "picture": "guard_3",
+   "kind": "guard",
+   "arm": "guard: a partsheet_tolerance surface picture that THIS rater had called not rows blind (another window; seen once before)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 6,
+   "picture": "out24_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of out24)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 7,
+   "picture": "guard_1",
+   "kind": "guard",
+   "arm": "guard: a partsheet_tolerance surface picture that THIS rater had called not rows blind (another window; seen once before)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 8,
+   "picture": "out48",
+   "kind": "edge",
+   "arm": "edge arm, descriptive: 20 layers (48.1 um) outward (no blank)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 9,
+   "picture": "guard_2",
+   "kind": "guard",
+   "arm": "guard: a partsheet_tolerance surface picture that THIS rater had called not rows blind (another window; seen once before)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 10,
+   "picture": "w10_top",
+   "kind": "level10",
+   "arm": "top 10 x 10 mm window of the control map (12.5 um per tile pixel; rated after the same text at 20 mm, so primed)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 11,
+   "picture": "w10_bot",
+   "kind": "level10",
+   "arm": "bottom 10 x 10 mm window of the control map (primed)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 12,
+   "picture": "w10_blank",
+   "kind": "blank10",
+   "arm": "wrong-order blank of the control map, middle 10 mm window",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 13,
+   "picture": "ctrl_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of ctrl)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 14,
+   "picture": "ctrl",
+   "kind": "level",
+   "arm": "readable control: the organizers' s022814 surface at the label-defined ink depth a* (= +0 layers here)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 15,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_s022814_page_chris",
+   "shown_position": 16,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "chris",
+   "call": "rows"
+  }
+ ],
+ "judge": {
+  "loop_verdict_for_observed_outcome": {
+   "CONFIRMED (WIDE-HOLDS, two raters)": "PASS"
+  },
+  "claim_wording": "On a second wrap (s022814), read blind by two raters who had never seen that text, a whole surface shifted evenly by 24 um in either direction still reads as rows with the organizers' 2.4 um ink model",
+  "judge_notes": [
+   "both raters split the 10 mm windows the same way (top strokes, bottom rows): 20MM-NEEDED, printed as '1 of 2 windows for both raters (primed, the weaker-text window failed)'",
+   "Chris called out48 strokes, the only fresh depth picture either rater called not rows; Sebastien called rows on 6 of 7 fresh surface pictures, so his discrimination on fresh near-miss pictures is not shown"
+  ],
+  "source": "the independent Judge re-score of this test (its verdict section)"
+ }
+}

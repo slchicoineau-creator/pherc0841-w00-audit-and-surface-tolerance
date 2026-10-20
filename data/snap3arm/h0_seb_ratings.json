@@ -1,0 +1,284 @@
+{
+ "rater": "Sebastien",
+ "items": {
+  "m719": {
+   "time_s": 17.37610000014305,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m805": {
+   "time_s": 14.660799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m442": {
+   "time_s": 13.833700000047683,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m392": {
+   "time_s": 12.613799999952317,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m521": {
+   "time_s": 8.973799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m199": {
+   "time_s": 23.303799999952318,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m985": {
+   "time_s": 11.464,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m740": {
+   "time_s": 7.783700000047684,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m328": {
+   "time_s": 14.364200000047683,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m667": {
+   "time_s": 49.975099999904636,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m757": {
+   "time_s": 7.873700000047684,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m869": {
+   "time_s": 21.683799999952317,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m141": {
+   "time_s": 14.423799999952315,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m873": {
+   "time_s": 6.663900000095367,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m300": {
+   "time_s": 21.11560000014305,
+   "hide_count": 0,
+   "changes": 1,
+   "choice": "No"
+  },
+  "m948": {
+   "time_s": 34.32570000004768,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m256": {
+   "time_s": 6.843900000095368,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m983": {
+   "time_s": 6.217799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m196": {
+   "time_s": 7.703899999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m356": {
+   "time_s": 14.473699999809265,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m761": {
+   "time_s": 11.824300000190735,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m705": {
+   "time_s": 5.973599999904633,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m268": {
+   "time_s": 9.093900000095367,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m673": {
+   "time_s": 8.003900000095367,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m731": {
+   "time_s": 9.463699999809265,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m862": {
+   "time_s": 19.673799999952315,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m876": {
+   "time_s": 5.8046000001430516,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m470": {
+   "time_s": 5.3336000001430515,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m417": {
+   "time_s": 12.023399999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m349": {
+   "time_s": 5.743899999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m154": {
+   "time_s": 8.353900000095367,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m387": {
+   "time_s": 5.733799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m981": {
+   "time_s": 8.584,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m887": {
+   "time_s": 7.954399999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m313": {
+   "time_s": 4.163300000190735,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m152": {
+   "time_s": 7.1342000000476835,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m234": {
+   "time_s": 14.703899999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m560": {
+   "time_s": 8.395600000143052,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m425": {
+   "time_s": 4.243799999952317,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m905": {
+   "time_s": 8.18389999985695,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m913": {
+   "time_s": 7.144300000190735,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m192": {
+   "time_s": 10.723399999856948,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m629": {
+   "time_s": 6.573899999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m178": {
+   "time_s": 4.244,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m419": {
+   "time_s": 12.053700000047684,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m210": {
+   "time_s": 4.263900000095368,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  }
+ },
+ "build": "2026100540_2026-10-05_0812",
+ "started": "2026-10-05T13:15:36.973Z",
+ "finished": "2026-10-05T13:24:29.648Z"
+}

@@ -1,0 +1,165 @@
+{
+ "test": "fullhop_w",
+ "what": "construction numbers (no reading): Stage 0 gates and the Stage 0b dose check at the picked offset, from the saved outputs",
+ "stage0_gates": {
+  "tiles_identical": {
+   "L100_level": true,
+   "L100_blank": true,
+   "L70_level": true,
+   "L70_blank": true,
+   "C70_level": true,
+   "C70_blank": true
+  },
+  "tiles_pass": true,
+  "dark_hops": {
+   "off_sheet": {
+    "L70d": {
+     "off_sheet_moved": 0.3724,
+     "same_vertices_on_P": 0.4551
+    },
+    "C70d": {
+     "off_sheet_moved": 0.4093,
+     "same_vertices_on_P": 0.47
+    }
+   },
+   "bar": "off_sheet_moved <= same vertices on P + 0.1",
+   "pass_": true
+  },
+  "coverage": {
+   "pass_": true,
+   "L100": 1.0,
+   "L70d": {
+    "shape_ok": true,
+    "window_valid": 1.0
+   },
+   "C70d": {
+    "shape_ok": true,
+    "window_valid": 1.0
+   },
+   "L40d": {
+    "shape_ok": true,
+    "window_valid": 1.0
+   },
+   "H50n_window_valid": 0.4967
+  },
+  "stage0b_pass": true
+ },
+ "stage0b_floor_um": 140,
+ "stage0b": {
+  "L70d": {
+   "picked_offset": 0,
+   "n_hop_px": 925356,
+   "auc_hop": 0.5755,
+   "auc_blank_same_offset": 0.5256,
+   "bar_hop": 0.5756,
+   "hop_ok": true,
+   "n_unmoved_px": 1280414,
+   "auc_unmoved": 0.9549,
+   "auc_unmoved_rated_parent": 0.9593,
+   "auc_unmoved_L100_same_offset": 0.9698,
+   "unmoved_ok": true,
+   "auc_all": 0.8212,
+   "bands": {
+    "50_120": {
+     "frac_px": 0.0364,
+     "auc": 0.7991,
+     "auc_blank": 0.5446
+    },
+    "120_150": {
+     "frac_px": 0.0755,
+     "auc": 0.6672,
+     "auc_blank": 0.5832
+    },
+    "gt150": {
+     "frac_px": 0.288,
+     "auc": 0.5287,
+     "auc_blank": 0.5076
+    }
+   }
+  },
+  "C70d": {
+   "picked_offset": -22,
+   "n_hop_px": 900696,
+   "auc_hop": 0.6111,
+   "auc_blank_same_offset": 0.564,
+   "bar_hop": 0.614,
+   "hop_ok": true,
+   "n_unmoved_px": 1370944,
+   "auc_unmoved": 0.8599,
+   "auc_unmoved_rated_parent": 0.8612,
+   "auc_unmoved_L100_same_offset": 0.861,
+   "unmoved_ok": true,
+   "auc_all": 0.7759,
+   "bands": {
+    "50_120": {
+     "frac_px": 0.0145,
+     "auc": 0.6725,
+     "auc_blank": 0.5941
+    },
+    "120_150": {
+     "frac_px": 0.0886,
+     "auc": 0.6381,
+     "auc_blank": 0.5348
+    },
+    "gt150": {
+     "frac_px": 0.2861,
+     "auc": 0.6001,
+     "auc_blank": 0.5733
+    }
+   }
+  }
+ },
+ "hop_law_floor_um": 140,
+ "constant_um": 150.0,
+ "far_um": 250.0,
+ "surfaces": {
+  "L70d": {
+   "hop_frac": 0.3,
+   "moved_gt50_frac": 0.3147,
+   "moved_um_pct": {
+    "p10": 129.1,
+    "p50": 163.8,
+    "p90": 217.9
+   },
+   "share_moved_le130": 0.1019,
+   "law_share_hop": {
+    "m7": 0.658,
+    "const": 0.342
+   },
+   "off_sheet_moved": 0.3724,
+   "off_sheet_same_vertices_on_P": 0.4551
+  },
+  "C70d": {
+   "hop_frac": 0.3,
+   "moved_gt50_frac": 0.3065,
+   "moved_um_pct": {
+    "p10": 149.2,
+    "p50": 163.5,
+    "p90": 217.8
+   },
+   "share_moved_le130": 0.0416,
+   "law_share_hop": {
+    "m7": 0.6006,
+    "const": 0.3994
+   },
+   "off_sheet_moved": 0.4093,
+   "off_sheet_same_vertices_on_P": 0.47
+  },
+  "L40d": {
+   "hop_frac": 0.6,
+   "moved_gt50_frac": 0.6172,
+   "moved_um_pct": {
+    "p10": 147.0,
+    "p50": 166.0,
+    "p90": 219.1
+   },
+   "share_moved_le130": 0.0612,
+   "law_share_hop": {
+    "m7": 0.6319,
+    "const": 0.3681
+   },
+   "off_sheet_moved": 0.3802,
+   "off_sheet_same_vertices_on_P": 0.4543
+  }
+ }
+}

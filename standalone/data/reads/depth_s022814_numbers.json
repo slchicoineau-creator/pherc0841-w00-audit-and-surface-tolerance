@@ -1,0 +1,67 @@
+{
+ "test": "depth_s022814",
+ "what": "descriptive map numbers (no reading): label AUC of each depth arm's ink map vs the organizers' ink labels inside supervision, the wrong-order blanks' AUC, and the pixel correlation of each arm's map with the control map; offsets in layers of 2.403 um on the organizers' surface volume, raw +o = inward",
+ "layers_to_arm": {
+  "-20": "out48",
+  "-10": "out24",
+  "+0": "ctrl",
+  "+10": "in24",
+  "+20": "in48"
+ },
+ "label_auc_inked_order": {
+  "out48": 0.7762,
+  "out24": 0.8369,
+  "ctrl": 0.8682,
+  "in24": 0.8669,
+  "in48": 0.8205
+ },
+ "label_auc_wrong_order_blanks": {
+  "out24_blank": 0.6027,
+  "ctrl_blank": 0.6319,
+  "in24_blank": 0.6514
+ },
+ "r_vs_ctrl_map": {
+  "out48": 0.689,
+  "out24": 0.868,
+  "in24": 0.851,
+  "in48": 0.691,
+  "out24_blank": 0.074,
+  "ctrl_blank": 0.088,
+  "in24_blank": 0.095
+ },
+ "mean_map_level_on_valid": {
+  "out48": 0.2826,
+  "out24": 0.2904,
+  "ctrl": 0.2988,
+  "in24": 0.2901,
+  "in48": 0.2968,
+  "ctrl_blank": 0.3009
+ },
+ "stage0": {
+  "inked_order": "fwd",
+  "order_gap": 0.2364,
+  "order_gap_bar": 0.1,
+  "r_vs_published_map": 0.9666,
+  "r_bar": 0.9,
+  "astar_layers": 0,
+  "edge_arms_fit": {
+   "out48": true,
+   "in48": true
+  },
+  "passed": true
+ },
+ "windows_10mm": {
+  "top": {
+   "valid": 0.93,
+   "sup_cm2": 0.2288,
+   "ink_cm2": 0.0602,
+   "ctrl_auc": 0.7143
+  },
+  "bot": {
+   "valid": 1.0,
+   "sup_cm2": 0.5981,
+   "ink_cm2": 0.1198,
+   "ctrl_auc": 0.9134
+  }
+ }
+}

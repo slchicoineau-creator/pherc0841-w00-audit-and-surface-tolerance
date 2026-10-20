@@ -1,0 +1,39 @@
+{
+ "chris": {
+  "page_storage_key": "rawread9h_chris_v1",
+  "n_pictures": 6,
+  "roles_complete": true,
+  "page_pictures_match_key_and_tiles": true,
+  "n_answered": 6,
+  "answers_valid": true,
+  "when": "2026-10-08T20:37:55.788Z",
+  "cls": "GROWER-READS",
+  "first_picture_is_grown": false
+ },
+ "seb": {
+  "page_storage_key": "rawread9h_seb_v2",
+  "n_pictures": 6,
+  "roles_complete": true,
+  "page_pictures_match_key_and_tiles": true,
+  "n_answered": 6,
+  "answers_valid": true,
+  "when": "2026-10-13T03:32:58.691Z",
+  "cls": "GROWER-READS",
+  "first_picture_is_grown": false
+ },
+ "chris_guard_is_original_guard_png": true,
+ "outcome": "GROWER-READS (two raters)",
+ "matches_runner_outcome": true,
+ "times": {
+  "prereg_commit": "2026-10-07T11:19:07-05:00",
+  "amend1_commit": "2026-10-12T21:55:46-05:00",
+  "first_grow_log": "2026-10-07T13:01:47.825756-05:00",
+  "stage0": "2026-10-07T11:32:07.995151-05:00",
+  "seb_page_built": "2026-10-12T21:54:40.578703-05:00",
+  "chris_when": "2026-10-08T20:37:55.788Z",
+  "seb_when": "2026-10-13T03:32:58.691Z"
+ },
+ "prereg_before_outputs": true,
+ "amend1_commit_before_seb_rating": true,
+ "chris_rated_after_prereg": true
+}

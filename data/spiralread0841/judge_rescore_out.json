@@ -1,0 +1,37 @@
+{
+ "key_check": {
+  "chris": {
+   "n_pictures": 9,
+   "n_key": 9,
+   "all_match": true
+  },
+  "seb": {
+   "n_pictures": 8,
+   "n_key": 8,
+   "all_match": true
+  }
+ },
+ "order_check": {
+  "chris": {
+   "rated_after_build": true
+  },
+  "seb": {
+   "rated_after_build": true
+  }
+ },
+ "rater_class": {
+  "chris": "VALID",
+  "seb": "VALID"
+ },
+ "counts": {
+  "chris": {
+   "empties_called_rows": 0,
+   "arms_called_rows": 0
+  },
+  "seb": {
+   "empties_called_rows": 0,
+   "arms_called_rows": 2
+  }
+ },
+ "outcome": "SPIRAL-NO-ROWS (one rater: chris)"
+}

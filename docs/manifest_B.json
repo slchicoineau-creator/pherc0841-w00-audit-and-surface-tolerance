@@ -1,0 +1,242 @@
+[
+ {
+  "test": "w00native",
+  "data_file": "data/w00native/w00native_rows.csv",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "b0e6d7d8a0e593288b4326d4581107859a829f3b7ca5f319c17cd1061a76d6eb",
+  "kind": "derived",
+  "rater": "none",
+  "note": "lossless CSV conversion of the per-cross A25 rows (source 1.27 MB > 1 MB cap); source sha256 737b1055aac8d76403dc3cc959b36939a5cf7b614a2955080e9698a2b7dd7bf5"
+ },
+ {
+  "test": "w00native",
+  "data_file": "data/w00native/mesh_N94_meta.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "cd1cb9722578a2fa2af59e3e32b0fdf1a6a9dc154d2169211e5884f9a2a43e5a",
+  "kind": "other",
+  "rater": "none",
+  "note": "native mesh tifxyz meta (scale 0.05 -> 187 um grid)"
+ },
+ {
+  "test": "w00native",
+  "data_file": "data/w00native/w00native_result.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "503a806d98b7f05f855d1132035832239bbefe4885723db104106eba891c4ba3",
+  "kind": "derived",
+  "rater": "none",
+  "note": "saved verdict output (not read by the script)"
+ },
+ {
+  "test": "trustedp",
+  "data_file": "data/trustedp/trustedP_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "699c03004125dd62c708c85537a89364d4950e4beee95d9c9635d1dae20aabc0",
+  "kind": "page_key",
+  "rater": "none",
+  "note": "48+4 crosses, third + features A/B"
+ },
+ {
+  "test": "trustedp",
+  "data_file": "data/trustedp/trustedP_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "a2c3cf416cb97e43d2261a8ae91f6ec724d9f5d729a955526d41719cfa624914",
+  "kind": "ratings",
+  "rater": "seb",
+  "note": "Yes/No/Cant per cross"
+ },
+ {
+  "test": "trustedp",
+  "data_file": "data/trustedp/trustedP_fit.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "12726491a33159b080c27cbf6c50400262bc862bda1b1f6a19329e5678c668a3",
+  "kind": "derived",
+  "rater": "none",
+  "note": "saved fit output (not read by the script)"
+ },
+ {
+  "test": "trustedp",
+  "data_file": "data/trustedp/trustedP_ratings_counts.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "dfb7b2a616bea89895be4b04cced926efdcc398160b0fb48f96566dfe38b3646",
+  "kind": "derived",
+  "rater": "none",
+  "note": "saved counts (not read by the script)"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/wa_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "b6742ec4f33a5dc62f0eb8b6707fa431f7d54ab9abfbce41e65c257808f96fb5",
+  "kind": "derived",
+  "rater": "chris",
+  "note": "per-station w00-vs-Chris-mark distances (built from Chris's marks); the script's scoring input"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/of9_chris_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "9b08a193585035fb57848e41fa5e09c0d4ccb922e1562a05b8805d0ab88f0a36",
+  "kind": "marks_2p4um",
+  "rater": "chris",
+  "note": "guide-free; sha matches wa.py pin; cross-check only"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/oc9_chris_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "e349095454e8852a43711e30bf31f13039ba942c1ab019abdf1b2b6128739f83",
+  "kind": "marks_2p4um",
+  "rater": "chris",
+  "note": "guide-free; sha matches wa.py pin; cross-check only"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/cf9_chris_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "41e46c162e1a3cbe46e76f51332d8053a60004abf56915ef2a82482b7a50db92",
+  "kind": "marks_2p4um",
+  "rater": "chris",
+  "note": "guide-free; NOT pinned in wa.py (arrived later); cross-check only"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/of9_pages_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "e01d70721fbd96582695b6b8f8a7b24f531b0cb34dd4a63bbdb0f5949ef2ede6",
+  "kind": "page_key",
+  "rater": "none",
+  "note": "page id -> strip; sha matches wa.py pin"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/oc9_pages_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "c6e181288c5541c341cc18de8a1179fee315164e8d41805fad7a42062d526876",
+  "kind": "page_key",
+  "rater": "none",
+  "note": "page id -> strip; sha matches wa.py pin"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/cf9_pages_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "cdd6cee20c69ea7b927488da00e29886dbd01483b001b29ce7a7f4026e3b419f",
+  "kind": "page_key",
+  "rater": "none",
+  "note": "page id -> strip; sha matches wa.py pin"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/judge_rescore_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "01a92664ce0b2ecf2a3269cd487ae823ddd4a9d0cb6fdad5475a4bf1bfb80226",
+  "kind": "derived",
+  "rater": "none",
+  "note": "Judge's saved counts (not read by the script)"
+ },
+ {
+  "test": "mark2r",
+  "data_file": "data/mark2r/mark2r_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "b273ef5ad95443659c406a6c77c71d9f2afa2229aadf8c32b63af970f3bf0230",
+  "kind": "page_key",
+  "rater": "none",
+  "note": "sites, w00 position + straight extension per site"
+ },
+ {
+  "test": "mark2r",
+  "data_file": "data/mark2r/mark2r_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "a93ae7780436e4417f90c192a3cb19879c49cdfa6fe483cb1f32ca2f18a9ae92",
+  "kind": "ratings",
+  "rater": "seb",
+  "note": "GUIDED 2.4 um marks (w00 line shown to 0.3 mm), so tagged ratings, not marks_2p4um"
+ },
+ {
+  "test": "mark2r",
+  "data_file": "data/mark2r/mark2r_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "949d433acee7c5c969a545b3e5dfed87dd088e0c28be3d4ca0f47f1856281b4c",
+  "kind": "ratings",
+  "rater": "chris",
+  "note": "GUIDED 2.4 um marks (w00 line shown to 0.3 mm), so tagged ratings, not marks_2p4um"
+ },
+ {
+  "test": "mark2r",
+  "data_file": "data/mark2r/mark2r_summary.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "0e8f84c42f0a1ed6e361d304e24850056fb7bad945f01ded9e3265a720d23c99",
+  "kind": "derived",
+  "rater": "none",
+  "note": "saved summary (not read by the script)"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/of9_frames.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "86c98a01507222c92a267b8c59fe5a8c27bbd66ad2cadbf23a1cf12cade2f2a7",
+  "kind": "other",
+  "rater": "none",
+  "note": "strip frames (ring = f.seed[1]); sha matches wa.py pin; station-0 geometry check"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/oc9_frames.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "6e4b9f233439717626bd508ddda968de17dbfb67f214db2487bd98263289adff",
+  "kind": "other",
+  "rater": "none",
+  "note": "strip frames (ring = f.seed[1]); sha matches wa.py pin; station-0 geometry check"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/cf9_frames.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "88635fd2fddf953686e594b263960745cfe1228326c1b7f87e329c007a1cc405",
+  "kind": "other",
+  "rater": "none",
+  "note": "strip frames (ring = f.seed[1]); sha matches wa.py pin; station-0 geometry check"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/judge_station0_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "bd4687f0f625c048e5042ab4b9fb85a804774caacee8bb393acd28e212b68050",
+  "kind": "derived",
+  "rater": "chris",
+  "note": "Judge's per-strip station-0 mark minus ring (um), built from Chris's marks by judge_station0.py; station-0 check"
+ },
+ {
+  "test": "w00auditfresh",
+  "data_file": "data/w00auditfresh/wa_stage0.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "8d2e232db34d10624bdb160938a123d2cceaac33b279f555c6c7e98ff6c78737",
+  "kind": "derived",
+  "rater": "none",
+  "note": "Stage 0 (mark-free): b_ring = w00 vs ring at station 0 per strip; working-tree copy, same as the commit except CRLF line ends"
+ }
+]

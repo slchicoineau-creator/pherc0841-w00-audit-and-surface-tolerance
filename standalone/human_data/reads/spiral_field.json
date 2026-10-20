@@ -1,0 +1,194 @@
+{
+ "test": "spiral_field",
+ "title": "One spiral-fit winding from one anchor over the whole window",
+ "gated": "human data: per-picture blind calls; release only with both raters' OK",
+ "answers": [
+  "rows",
+  "strokes",
+  "nothing"
+ ],
+ "pages": [
+  {
+   "page": "spiral_page_sebastien",
+   "rater": "sebastien",
+   "n_pictures": 8,
+   "has_guard": false,
+   "rated_after_page_built": true,
+   "page_pictures_match_key": true,
+   "rated_at_utc": "2026-10-13T15:40:01.053Z",
+   "page_built_utc": "2026-10-13T14:52:45.122464+00:00"
+  },
+  {
+   "page": "spiral_page_chris",
+   "rater": "chris",
+   "n_pictures": 9,
+   "has_guard": true,
+   "rated_after_page_built": true,
+   "page_pictures_match_key": true,
+   "rated_at_utc": "2026-10-13T16:17:20.466Z",
+   "page_built_utc": "2026-10-13T14:52:44.689689+00:00"
+  }
+ ],
+ "calls": [
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 1,
+   "picture": "C_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 2,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 3,
+   "picture": "C",
+   "kind": "level",
+   "arm": "readable control: w00's own render of the window, masked to the shared frame",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 4,
+   "picture": "A2",
+   "kind": "level",
+   "arm": "arm: the second-nearest winding (w055, 8.52 voxels; the anchor sits between the two)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 5,
+   "picture": "A1_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of A1)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 6,
+   "picture": "A1",
+   "kind": "level",
+   "arm": "arm: the automatic spiral-fit winding nearest the anchor point (one anchor; post-snap; w054 of the fit, 5.73 voxels away)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 7,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "spiral_page_sebastien",
+   "shown_position": 8,
+   "picture": "A2_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of A2)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 1,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 2,
+   "picture": "A1",
+   "kind": "level",
+   "arm": "arm: the automatic spiral-fit winding nearest the anchor point (one anchor; post-snap; w054 of the fit, 5.73 voxels away)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 3,
+   "picture": "guard",
+   "kind": "guard",
+   "arm": "guard: a picture of this window THIS rater had already called not rows blind (one earlier showing)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 4,
+   "picture": "C",
+   "kind": "level",
+   "arm": "readable control: w00's own render of the window, masked to the shared frame",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 5,
+   "picture": "A2_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of A2)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 6,
+   "picture": "A2",
+   "kind": "level",
+   "arm": "arm: the second-nearest winding (w055, 8.52 voxels; the anchor sits between the two)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 7,
+   "picture": "A1_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of A1)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 8,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "spiral_page_chris",
+   "shown_position": 9,
+   "picture": "C_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C)",
+   "rater": "chris",
+   "call": "nothing"
+  }
+ ],
+ "judge": {
+  "loop_verdict_for_observed_outcome": {
+   "SPIRAL-NO-ROWS (one rater: chris)": "FAIL"
+  },
+  "claim_wording": "the spiral fit passes a strip-scale progress bar on one rater's marks but does not read as a whole 20 x 12 mm field from one anchor point (one rater, Chris; Sebastien, with no guard picture, called rows; both raters know the field)",
+  "source": "the independent Judge re-score of this test (its verdict section)"
+ }
+}

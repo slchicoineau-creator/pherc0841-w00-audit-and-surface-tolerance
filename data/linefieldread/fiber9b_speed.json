@@ -1,0 +1,129 @@
+{
+ "n_lines": 7,
+ "end_line": false,
+ "ignored_one_click_lines": [],
+ "minutes": 11.75,
+ "total_len_mm": 77.804,
+ "pace_mm_per_min": 6.623,
+ "cp_spacing_median_mm": 1.072,
+ "share_spans_lt_045": 0.043,
+ "chord_dev_um_median": 59.5,
+ "band_edge_lines": 7,
+ "break_even_mm_per_min": 4.3,
+ "line9_freehand_mm_per_min": 9.6,
+ "min_per_cm2_lower_bound": 26.1,
+ "per_line": [
+  {
+   "name": "anon_20261010T200422990_000001.json",
+   "n_cp": 14,
+   "len_mm": 15.205,
+   "minutes_to_next": 2.68,
+   "cp_spacing_median_mm": 0.938,
+   "share_spans_lt_045": 0.0,
+   "chord_dev_um_median": 45.0,
+   "band_edge": true,
+   "z_climb_mm": 2.0,
+   "first_click_to_start_mm": 2.15,
+   "failure_codes": [
+    "meeting_error_threshold"
+   ],
+   "mode": "native_fiber_trace3d"
+  },
+  {
+   "name": "anon_20261010T200703518_000002.json",
+   "n_cp": 3,
+   "len_mm": 4.626,
+   "minutes_to_next": 1.06,
+   "cp_spacing_median_mm": 1.855,
+   "share_spans_lt_045": 0.0,
+   "chord_dev_um_median": 151.8,
+   "band_edge": true,
+   "z_climb_mm": 4.21,
+   "first_click_to_start_mm": 2.74,
+   "failure_codes": [],
+   "mode": "native_fiber_trace3d"
+  },
+  {
+   "name": "anon_20261010T200807131_000003.json",
+   "n_cp": 10,
+   "len_mm": 11.852,
+   "minutes_to_next": 1.59,
+   "cp_spacing_median_mm": 1.324,
+   "share_spans_lt_045": 0.222,
+   "chord_dev_um_median": 78.4,
+   "band_edge": true,
+   "z_climb_mm": 0.97,
+   "first_click_to_start_mm": 1.82,
+   "failure_codes": [
+    "meeting_error_threshold"
+   ],
+   "mode": "native_fiber_trace3d"
+  },
+  {
+   "name": "anon_20261010T200942415_000004.json",
+   "n_cp": 10,
+   "len_mm": 14.61,
+   "minutes_to_next": 1.83,
+   "cp_spacing_median_mm": 0.948,
+   "share_spans_lt_045": 0.0,
+   "chord_dev_um_median": 74.6,
+   "band_edge": true,
+   "z_climb_mm": 3.48,
+   "first_click_to_start_mm": 2.42,
+   "failure_codes": [
+    "meeting_error_threshold"
+   ],
+   "mode": "native_fiber_trace3d"
+  },
+  {
+   "name": "anon_20261010T201132332_000005.json",
+   "n_cp": 7,
+   "len_mm": 15.283,
+   "minutes_to_next": 1.32,
+   "cp_spacing_median_mm": 2.505,
+   "share_spans_lt_045": 0.0,
+   "chord_dev_um_median": 87.3,
+   "band_edge": true,
+   "z_climb_mm": 1.53,
+   "first_click_to_start_mm": 2.65,
+   "failure_codes": [],
+   "mode": "native_fiber_trace3d"
+  },
+  {
+   "name": "anon_20261010T201251671_000006.json",
+   "n_cp": 8,
+   "len_mm": 8.274,
+   "minutes_to_next": 1.45,
+   "cp_spacing_median_mm": 1.043,
+   "share_spans_lt_045": 0.0,
+   "chord_dev_um_median": 57.3,
+   "band_edge": true,
+   "z_climb_mm": 1.76,
+   "first_click_to_start_mm": 1.89,
+   "failure_codes": [
+    "meeting_error_threshold"
+   ],
+   "mode": "native_fiber_trace3d"
+  },
+  {
+   "name": "anon_20261010T201418890_000007.json",
+   "n_cp": 2,
+   "len_mm": 7.954,
+   "minutes_to_next": 1.82,
+   "cp_spacing_median_mm": 0.97,
+   "share_spans_lt_045": 0.0,
+   "chord_dev_um_median": 41.6,
+   "band_edge": true,
+   "z_climb_mm": 1.18,
+   "first_click_to_start_mm": 0.73,
+   "failure_codes": [],
+   "mode": "native_fiber_trace3d"
+  }
+ ],
+ "flags": [
+  "no END line: the export file's save time is used as the stop (longer, so conservative)"
+ ],
+ "verdict_stage0": "GO",
+ "prereg": "prereg/2026-10-09_seb_fiber9b.md",
+ "file": "work/fl/loop/20261009-07-fiber-9b-as-a-practised/human/fibers_timed.json"
+}

@@ -1,0 +1,194 @@
+{
+ "test": "fullhop_w",
+ "title": "Full-sheet hops on the known-text window",
+ "gated": "human data: per-picture blind calls; release only with both raters' OK",
+ "answers": [
+  "rows",
+  "strokes",
+  "nothing"
+ ],
+ "pages": [
+  {
+   "page": "fullhop_w_page",
+   "rater": "sebastien",
+   "n_pictures": 9,
+   "rated_at_utc": "2026-10-12T01:08:36.528Z"
+  },
+  {
+   "page": "fullhop_w_page",
+   "rater": "chris",
+   "n_pictures": 9,
+   "rated_at_utc": "2026-10-11T23:02:28.671Z"
+  }
+ ],
+ "calls": [
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 1,
+   "picture": "L40d",
+   "kind": "level",
+   "arm": "guard: dispersed 60 % full-sheet hops (contains every L70d hop)",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 2,
+   "picture": "C70d",
+   "kind": "level",
+   "arm": "primary: the clustered 30 % mask of partsheet C70, full-sheet hops (same law), offset picked by the p99 rule (-22 layers, about -52.9 um)",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 3,
+   "picture": "L100",
+   "kind": "level",
+   "arm": "readable control: the undamaged w00 tile (byte copy of partsheet L100)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 4,
+   "picture": "L70d_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L70d)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 5,
+   "picture": "C70d_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C70d)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 6,
+   "picture": "H50n",
+   "kind": "level",
+   "arm": "guard: 50 % holes on a new clustered mask, +0",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 7,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 8,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 9,
+   "picture": "L70d",
+   "kind": "level",
+   "arm": "primary: the dispersed 30 % mask of partsheet L70, every hop moved a full sheet outward along w00's normal (to the centre of the nearest public m7 run 140-250 um out, else a constant 150 um), render offset picked by the p99 rule (+0; p99 rule = of -22 / 0 / +22 layers, the one whose map has the highest 99th percentile inside the valid mask)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 1,
+   "picture": "L40d",
+   "kind": "level",
+   "arm": "guard: dispersed 60 % full-sheet hops (contains every L70d hop)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 2,
+   "picture": "C70d",
+   "kind": "level",
+   "arm": "primary: the clustered 30 % mask of partsheet C70, full-sheet hops (same law), offset picked by the p99 rule (-22 layers, about -52.9 um)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 3,
+   "picture": "L100",
+   "kind": "level",
+   "arm": "readable control: the undamaged w00 tile (byte copy of partsheet L100)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 4,
+   "picture": "L70d_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L70d)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 5,
+   "picture": "C70d_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C70d)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 6,
+   "picture": "H50n",
+   "kind": "level",
+   "arm": "guard: 50 % holes on a new clustered mask, +0",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 7,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 8,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "fullhop_w_page",
+   "shown_position": 9,
+   "picture": "L70d",
+   "kind": "level",
+   "arm": "primary: the dispersed 30 % mask of partsheet L70, every hop moved a full sheet outward along w00's normal (to the centre of the nearest public m7 run 140-250 um out, else a constant 150 um), render offset picked by the p99 rule (+0; p99 rule = of -22 / 0 / +22 layers, the one whose map has the highest 99th percentile inside the valid mask)",
+   "rater": "chris",
+   "call": "strokes"
+  }
+ ],
+ "judge": {
+  "loop_verdict_for_observed_outcome": {
+   "FULL-HOP-FAILS": "FAIL"
+  },
+  "source": "the independent Judge re-score of this test (its verdict section)"
+ }
+}

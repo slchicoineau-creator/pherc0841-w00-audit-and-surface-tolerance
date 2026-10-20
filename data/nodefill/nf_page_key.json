@@ -1,0 +1,44 @@
+{
+ "q01": {
+  "item": "NODE-FILL-READ",
+  "surface": "H50f",
+  "kind": "level",
+  "file": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/H50f_level.png"
+ },
+ "q02": {
+  "item": "NODE-FILL-READ",
+  "surface": "NF30",
+  "kind": "level",
+  "file": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF30_level.png"
+ },
+ "q03": {
+  "item": "NODE-FILL-READ",
+  "surface": "BL45",
+  "kind": "level",
+  "file": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/BL45_level.png"
+ },
+ "q04": {
+  "item": "NODE-FILL-READ",
+  "surface": "NF45",
+  "kind": "level",
+  "file": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF45_level.png"
+ },
+ "q05": {
+  "item": "NODE-FILL-READ",
+  "surface": "NF45",
+  "kind": "blank",
+  "file": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF45_blank.png"
+ },
+ "q06": {
+  "item": "NODE-FILL-READ",
+  "surface": "NF30",
+  "kind": "blank",
+  "file": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF30_blank.png"
+ },
+ "q07": {
+  "item": "NODE-FILL-READ",
+  "surface": "L100",
+  "kind": "level",
+  "file": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/L100_level.png"
+ }
+}

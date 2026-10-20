@@ -1,0 +1,155 @@
+{
+ "test": "lasagna_fit",
+ "what": "One run of the organizers' shipped lasagna self-map seed fit (init_snap_surf_self_full.json, unchanged), started from their cylinder rings grown inward around a scroll centre clicked by a non-specialist; PHerc0841, 9.366 um, no correction. Did the fitted layer stay on the winding of its own seed point?",
+ "voxel_um": 9.366,
+ "numbers": {
+  "stage3_stop_step": {
+   "value": 2459,
+   "of": 10000,
+   "rule": "rel_improvement_100 < 1e-4 (the tool's own early stop)",
+   "source": "judge verdict text (Runner and Judge sections, from the fit log; no saved json)"
+  },
+  "final_nearest_vertex_to_seed_vx": {
+   "value": 369.3,
+   "source": "judge_patch_check.json"
+  },
+  "final_nearest_vertex_to_seed_mm": {
+   "value": 3.46,
+   "source": "derived: 369.3 vx x 9.366 um"
+  },
+  "seed_radius_vx": {
+   "value": 848.1,
+   "source": "judge_patch_check.json (from the clicked axis)"
+  },
+  "seed_ray_crossings_radius_vx": {
+   "value": [
+    401.2,
+    418.5,
+    434.6,
+    442.2,
+    443.2
+   ],
+   "source": "judge_patch_check.json"
+  },
+  "winding_pitch_vx": {
+   "value": 35.1,
+   "um": 329,
+   "source": "judge_patch_check.json (329 um / 9.366 um)"
+  },
+  "windings_inward_at_seed_ray": {
+   "value": [
+    12.7,
+    12.2,
+    11.8,
+    11.6,
+    11.5
+   ],
+   "source": "judge_patch_check.json"
+  },
+  "coverage_share_within_one_pitch": {
+   "value": 0.0456,
+   "quoted": 0.046,
+   "source": "judge_patch_check.json (inside the coded gate's own patch)"
+  },
+  "coded_gate_share": {
+   "value": 1.0,
+   "note": "the coded gate measured finite vertices, not position (gate defect)",
+   "source": "judge_patch_check.json"
+  },
+  "patch_shape": {
+   "rows": 39,
+   "cols": 27,
+   "source": "judge_patch_check.json"
+  },
+  "self_snap_loss": {
+   "start": 4800.0,
+   "end": 486.5,
+   "stage": 3,
+   "source": "fit log of the run (station_t and sms_los columns): stage-2 row 500/500, stage-3 rows 0 and 2459"
+  },
+  "seed_anchor_loss": {
+   "stage2_end": 7.1656,
+   "start": 0.0,
+   "end": 19.458,
+   "stage": 3,
+   "name": "station_t",
+   "note": "the anchor term restarts at 0 when stage 3 begins (7.17 at the end of stage 2), then rises to 19.46 by the stop at step 2459",
+   "source": "fit log of the run (station_t and sms_los columns): stage-2 row 500/500, stage-3 rows 0 and 2459"
+  },
+  "drift_per_snapshot": {
+   "value": [
+    {
+     "snapshot": "model_stage0_000000.pt",
+     "nearest_vertex_to_seed_vx": 34.7,
+     "radius_median_vx": 546.9
+    },
+    {
+     "snapshot": "model_stage0_000200.pt",
+     "nearest_vertex_to_seed_vx": 33.9,
+     "radius_median_vx": 845.4
+    },
+    {
+     "snapshot": "model_stage1_000000.pt",
+     "nearest_vertex_to_seed_vx": 33.9,
+     "radius_median_vx": 845.4
+    },
+    {
+     "snapshot": "model_stage1_000200.pt",
+     "nearest_vertex_to_seed_vx": 27.8,
+     "radius_median_vx": 851.6
+    },
+    {
+     "snapshot": "model_stage2_000000.pt",
+     "nearest_vertex_to_seed_vx": 27.8,
+     "radius_median_vx": 851.6
+    },
+    {
+     "snapshot": "model_stage2_000500.pt",
+     "nearest_vertex_to_seed_vx": 28.1,
+     "radius_median_vx": 804.1
+    },
+    {
+     "snapshot": "model_stage3_000000.pt",
+     "nearest_vertex_to_seed_vx": 28.1,
+     "radius_median_vx": 804.1
+    },
+    {
+     "snapshot": "model_stage3_001000.pt",
+     "nearest_vertex_to_seed_vx": 177.5,
+     "radius_median_vx": 625.5
+    },
+    {
+     "snapshot": "model_stage3_002000.pt",
+     "nearest_vertex_to_seed_vx": 330.3,
+     "radius_median_vx": 578.5
+    },
+    {
+     "snapshot": "model_stage3_002459.pt",
+     "nearest_vertex_to_seed_vx": 369.3,
+     "radius_median_vx": 571.4
+    },
+    {
+     "snapshot": "EXPORT tifxyz",
+     "nearest_vertex_to_seed_vx": 369.3,
+     "radius_median_vx": 571.4
+    }
+   ],
+   "source": "runner_job2_drift.json (per saved model snapshot + the export)",
+   "note": "Through stages 0-2 the nearest vertex stayed 27.8-34.7 vx from the seed (about the 25-35 vx grid floor, 50 vx cells) and was 28.1 vx at the end of stage 2; the walk happened in stage 3 (178 -> 330 -> 369 vx)."
+  }
+ },
+ "coverage_rule": {
+  "prereg_text": "7. **Own-grid coverage gate:** share of valid, finite vertices in the patch of the cut grid with rows at W's z range and columns within ± 5.85 mm (arc length) of the seed column. **< 0.70 → KILL without a read** (TOL-HOLES: 30 % holes did not read). A fit that crashes is engineering; a fit that runs and returns NaN / leaves the patch counts against coverage.",
+  "threshold": 0.7,
+  "result": "KILL without a read: the seed's patch lies ~12 windings inward of the seed; only 0.046 of its vertices are within one winding pitch of the seed's radius (< 0.70). The Judge applied the written rule ('leaves the patch counts against coverage'), not the coded gate (1.0).",
+  "verdict": "FAIL (KILL by the coverage rule), Judge 2026-10-09",
+  "source": "judge verdict text"
+ },
+ "scope": "One deterministic run, the organizers' shipped settings, inward-ring start, stage 3 stopped by the tool's own rule, centre clicked by a non-specialist. It does not show that lasagna fails on PHerc0841.",
+ "pre_registered_rule_file": "preregs/lasagna_fit.md",
+ "inputs_sha256": {
+  "judge_patch_check.json": "be1a279b73dcd51fd541b600205f5f8673da5db118d04edb31bce8614e6e276e",
+  "runner_job2_drift.json": "c5752f7ead2eda492a2ee14e3582a97fe71695ae597ab2d88532c439e2b1250a",
+  "2026-10-07_seb_lasagnafit9.md": "057cf40d97acf7bb0c920316dde4c2b616311b6bcddff8f41f0d24778ee6b2f7"
+ }
+}

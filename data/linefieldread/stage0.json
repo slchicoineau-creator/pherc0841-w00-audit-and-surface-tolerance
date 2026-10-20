@@ -1,0 +1,53 @@
+{
+ "a0_ring": {
+  "lines": 5,
+  "ends_same": true,
+  "region_same": true,
+  "mean_z_spacing_mm": 4.054,
+  "ok": true
+ },
+ "a0_geometry": {
+  "coverage": 1.0,
+  "fold_share": 0.0,
+  "bars": {
+   "coverage": 0.9,
+   "fold_lt": 0.01
+  },
+  "ok": true,
+  "then": "O45 built"
+ },
+ "c0_build": {
+  "coverage": 0.5661,
+  "fold_share": 0.0,
+  "ok": true
+ },
+ "protect": {
+  "n": 20,
+  "changed": [],
+  "ok": true
+ },
+ "b0_det": {
+  "r": 1.0,
+  "median_abs": 0.0,
+  "max_abs": 0.0,
+  "bars": {
+   "r": 0.999,
+   "median_le": 0.001
+  },
+  "ok": true
+ },
+ "d0_frame": {
+  "arms": [
+   "O2",
+   "O45"
+  ],
+  "black_ok": true,
+  "worst_black_gap_pts": 0.03,
+  "bar_pts": 2.0,
+  "moved_ok": true,
+  "bar_moved": 0.02,
+  "mask_share_of_window": 0.8458,
+  "tiles": 9,
+  "ok": true
+ }
+}

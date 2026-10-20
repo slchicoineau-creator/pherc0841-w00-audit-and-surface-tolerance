@@ -1,0 +1,38 @@
+{
+ "test": "human_vs_agent",
+ "question": "On the 18 partsheet_tolerance pictures, are the AI agent readers the odd one out (rows vs not rows), or do two people disagree as much?",
+ "pictures": "the same 18 pictures, page and calls as partsheet_tolerance (8 levels, 8 level blanks, calibration + its blank)",
+ "readers": [
+  "sebastien",
+  "chris",
+  "agent majority (binary majority of the 3 valid agent readers of each exact tile; the calibration pair: the 3 agent readers of the field-size screen)"
+ ],
+ "rule": {
+  "calls": "every call binary: rows vs not rows (strokes and nothing are both not rows); the partsheet blank mask is NOT applied",
+  "valid_chris": "calibration rows and at most 1 of the 9 blanks rows; else UNDECIDED (that is the finding)",
+  "discordant": "pictures where Sebastien and the agent majority differ (expected 5 of 18, checked at Stage 0)",
+  "k": "on the discordant pictures, how many times Chris sides with Sebastien",
+  "m": "on the concordant pictures, how many times Chris differs from both",
+  "decision": {
+   "AGENTS-OFF": "k >= 4 of 5 and m <= 1 of 13",
+   "SEB-OFF": "k <= 1 and m <= 1",
+   "HUMANS-NOISY": "every other outcome (including m >= 2 at any k, and k = 2-3)"
+  },
+  "gap_free": "every (k, m) has exactly one verdict; the bars are written for 5 discordant / 13 concordant pictures",
+  "timing": "Chris's rating file must be later than the prereg's first commit; otherwise the numbers are descriptive only",
+  "stage0": "18 pictures; 3 valid agent readers per picture and 0 ties; 5 Sebastien-agent disagreements; Sebastien valid; else INCONCLUSIVE by Stage 0",
+  "descriptive": "exact sign test on k of 5 (cannot fall below 0.031 one-sided / 0.0625 two-sided); Cohen's kappa per pair; raw agreement of 18; the same k / m on levels + calibration only"
+ },
+ "outcome_labels": [
+  "AGENTS-OFF",
+  "SEB-OFF",
+  "HUMANS-NOISY",
+  "UNDECIDED",
+  "DESCRIPTIVE ONLY",
+  "INCONCLUSIVE (Stage 0)"
+ ],
+ "scope": "no outcome makes the agents the reading instrument; HUMANS-NOISY means lines resting on one rater are labelled 'one rater' and a claimed read needs two raters",
+ "stage0": {
+  "passed": true
+ }
+}

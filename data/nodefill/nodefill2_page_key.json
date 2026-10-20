@@ -1,0 +1,58 @@
+{
+ "q01": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "NF30",
+  "kind": "blank",
+  "source": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF30_blank.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/NF30_blank.png"
+ },
+ "q02": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "L100",
+  "kind": "level",
+  "source": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/L100_level.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/L100_level.png"
+ },
+ "q03": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "NF30",
+  "kind": "level",
+  "source": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF30_level.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/NF30_level.png"
+ },
+ "q04": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "BL45",
+  "kind": "level",
+  "source": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/BL45_level.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/BL45_level.png"
+ },
+ "q05": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "H50f",
+  "kind": "level",
+  "source": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/H50f_level.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/H50f_level.png"
+ },
+ "q06": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "NF45",
+  "kind": "level",
+  "source": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF45_level.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/NF45_level.png"
+ },
+ "q07": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "NF45",
+  "kind": "blank",
+  "source": "work/fl/loop/20261008-18-node-fill-read-with-the/tiles/NF45_blank.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/NF45_blank.png"
+ },
+ "q08": {
+  "item": "NODE-FILL-REREAD",
+  "surface": "H50",
+  "kind": "level",
+  "source": "work/fl/tolholes/tiles/level_H50.png",
+  "file": "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/H50_level.png"
+ }
+}

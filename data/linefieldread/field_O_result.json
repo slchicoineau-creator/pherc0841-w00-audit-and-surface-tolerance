@@ -1,0 +1,30 @@
+{
+ "arm": "O",
+ "mode": "layout-free",
+ "lines_present": 10,
+ "k_range": [
+  -32,
+  32
+ ],
+ "grid": [
+  109,
+  65
+ ],
+ "area_mm2": 221.71,
+ "coverage": 1.0,
+ "planned_quads": 6720,
+ "fold_share": 0.0003,
+ "seconds": 526,
+ "ring_miss_um": {},
+ "pairs": 569,
+ "pair_fail": 0,
+ "halves": 12518,
+ "failed_halves": 866,
+ "dist_vs_s022814_construction_only": {
+  "label": "vs s022814, local errors (construction only)",
+  "median_um": 33.0,
+  "p90_um": 94.3,
+  "le25": 0.3237,
+  "le50": 0.6955
+ }
+}

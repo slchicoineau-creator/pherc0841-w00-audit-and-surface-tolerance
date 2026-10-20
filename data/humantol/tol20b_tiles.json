@@ -1,0 +1,22 @@
+{
+ "C85": {
+  "level": {
+   "order": "rev",
+   "offset": "+0"
+  },
+  "blank": {
+   "order": "fwd",
+   "offset": "-22"
+  }
+ },
+ "C70": {
+  "level": {
+   "order": "rev",
+   "offset": "-22"
+  },
+  "blank": {
+   "order": "fwd",
+   "offset": "+22"
+  }
+ }
+}

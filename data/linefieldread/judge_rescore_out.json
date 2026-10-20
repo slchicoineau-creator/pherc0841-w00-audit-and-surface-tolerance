@@ -1,0 +1,139 @@
+{
+ "raters": {
+  "seb": {
+   "valid": true,
+   "ctrl_rows": true,
+   "calls": {
+    "calib": "rows",
+    "L70_814_level": "rows",
+    "ctrl814_level": "rows",
+    "L85_814_level": "rows",
+    "L55_814_level": "strokes",
+    "H50_814_level": "rows",
+    "ctrl814_blank": "nothing",
+    "O45_level": "rows",
+    "L70_814_blank": "nothing",
+    "O2_level": "rows",
+    "blank09": "nothing"
+   },
+   "sha256": "eeeae260532b0c1ad5a1d38623f5b586b1f0b589bafeb31ab0b67b902d8418df"
+  },
+  "partner": {
+   "valid": true,
+   "ctrl_rows": true,
+   "calls": {
+    "calib": "rows",
+    "L70_814_level": "strokes",
+    "ctrl814_level": "rows",
+    "L85_814_level": "rows",
+    "L55_814_level": "rows",
+    "H50_814_level": "rows",
+    "ctrl814_blank": "nothing",
+    "O45_level": "strokes",
+    "L70_814_blank": "nothing",
+    "O2_level": "rows",
+    "blank09": "strokes"
+   },
+   "sha256": "bf1847150a030fbe399ce9e5eeebb9717fb25e04cebf2a47c12bed539bb0ecdb"
+  }
+ },
+ "arms": {
+  "O2": {
+   "verdict": "READS",
+   "n_valid_ctrl_rows": 2,
+   "rows": 2,
+   "guard_rejected_by": [
+    "seb"
+   ]
+  },
+  "O45": {
+   "verdict": "FAILS (SPLIT)",
+   "n_valid_ctrl_rows": 2,
+   "rows": 1,
+   "guard_rejected_by": [
+    "seb"
+   ]
+  }
+ },
+ "adjacent_O2_O45": false,
+ "page_black_share": {
+  "calib": {
+   "black_le8": 0.0,
+   "shape": [
+    800,
+    542
+   ]
+  },
+  "L70_814_level": {
+   "black_le8": 0.1461,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "ctrl814_level": {
+   "black_le8": 0.1459,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "L85_814_level": {
+   "black_le8": 0.1458,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "L55_814_level": {
+   "black_le8": 0.1461,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "H50_814_level": {
+   "black_le8": 0.5927,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "ctrl814_blank": {
+   "black_le8": 0.1457,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "O45_level": {
+   "black_le8": 0.1467,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "L70_814_blank": {
+   "black_le8": 0.1459,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "O2_level": {
+   "black_le8": 0.146,
+   "shape": [
+    800,
+    469
+   ]
+  },
+  "blank09": {
+   "black_le8": 0.0,
+   "shape": [
+    800,
+    542
+   ]
+  }
+ },
+ "worst_gap_pts_vs_O": 0.1
+}

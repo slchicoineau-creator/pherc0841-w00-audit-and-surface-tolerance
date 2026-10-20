@@ -1,0 +1,18 @@
+{
+ "verdict": "FAILS-814",
+ "valid_raters": 2,
+ "window_ok": 2,
+ "rows_count_of_2": {
+  "ctrl814_level": 2,
+  "L85_814_level": 2,
+  "L70_814_level": 1,
+  "L55_814_level": 1,
+  "H50_814_level": 2
+ },
+ "raters_rejecting_L70_but_reading_nested_heavier_L55": 1,
+ "raters_rejecting_any_814_guard": 1,
+ "sha12": {
+  "seb": "eeeae260532b",
+  "partner": "bf1847150a03"
+ }
+}

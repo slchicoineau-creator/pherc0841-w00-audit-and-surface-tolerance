@@ -1,0 +1,680 @@
+{
+ "what": "hand-fix page key: crossings (um along each site's view line, from the view centre) of the control (w00, readable), the uncorrected one-step copy, the hand-fix start surface and the hand-fixed surface at the 24 sites; straight extension of the guide line; second session site mapping (a second-session mark t2 is moved to the first-session axis by t2 + delta_um - delta_old_um)",
+ "on_rule": "on = exactly one crossing within 75 um of the mark",
+ "sites": [
+  {
+   "id": "m237",
+   "grid": [
+    0,
+    0
+   ],
+   "crossings_um": {
+    "control": [
+     -104.8
+    ],
+    "copy": [
+     -211.4
+    ],
+    "start": [
+     -116.5
+    ],
+    "handfix": [
+     -97.4
+    ]
+   },
+   "straight_extension_t_um": -93.7
+  },
+  {
+   "id": "m879",
+   "grid": [
+    0,
+    1
+   ],
+   "crossings_um": {
+    "control": [
+     -146.3
+    ],
+    "copy": [
+     -137.7
+    ],
+    "start": [
+     -213.8
+    ],
+    "handfix": [
+     -213.8
+    ]
+   },
+   "straight_extension_t_um": -128.7
+  },
+  {
+   "id": "m513",
+   "grid": [
+    0,
+    2
+   ],
+   "crossings_um": {
+    "control": [
+     -15.1
+    ],
+    "copy": [
+     -59.3
+    ],
+    "start": [
+     -56.0
+    ],
+    "handfix": [
+     -16.1
+    ]
+   },
+   "straight_extension_t_um": -21.9
+  },
+  {
+   "id": "m871",
+   "grid": [
+    0,
+    3
+   ],
+   "crossings_um": {
+    "control": [
+     43.7
+    ],
+    "copy": [
+     41.9
+    ],
+    "start": [
+     -28.3
+    ],
+    "handfix": [
+     118.8
+    ]
+   },
+   "straight_extension_t_um": 58.8
+  },
+  {
+   "id": "m968",
+   "grid": [
+    1,
+    0
+   ],
+   "crossings_um": {
+    "control": [
+     73.2
+    ],
+    "copy": [
+     122.8
+    ],
+    "start": [
+     119.5
+    ],
+    "handfix": [
+     -34.8
+    ]
+   },
+   "straight_extension_t_um": 95.9
+  },
+  {
+   "id": "m660",
+   "grid": [
+    1,
+    1
+   ],
+   "crossings_um": {
+    "control": [
+     70.9
+    ],
+    "copy": [
+     245.5
+    ],
+    "start": [
+     221.0
+    ],
+    "handfix": [
+     190.7
+    ]
+   },
+   "straight_extension_t_um": 95.2
+  },
+  {
+   "id": "m753",
+   "grid": [
+    1,
+    2
+   ],
+   "crossings_um": {
+    "control": [
+     -116.8
+    ],
+    "copy": [
+     -144.6
+    ],
+    "start": [
+     -105.3
+    ],
+    "handfix": [
+     -123.5
+    ]
+   },
+   "straight_extension_t_um": -112.1
+  },
+  {
+   "id": "m613",
+   "grid": [
+    1,
+    3
+   ],
+   "crossings_um": {
+    "control": [
+     140.7
+    ],
+    "copy": [
+     61.5
+    ],
+    "start": [
+     116.5
+    ],
+    "handfix": [
+     104.1
+    ]
+   },
+   "straight_extension_t_um": 145.7
+  },
+  {
+   "id": "m102",
+   "grid": [
+    2,
+    0
+   ],
+   "crossings_um": {
+    "control": [
+     -140.4
+    ],
+    "copy": [
+     -161.3
+    ],
+    "start": [
+     -211.9
+    ],
+    "handfix": [
+     -194.9
+    ]
+   },
+   "straight_extension_t_um": -98.3
+  },
+  {
+   "id": "m126",
+   "grid": [
+    2,
+    1
+   ],
+   "crossings_um": {
+    "control": [
+     -105.5
+    ],
+    "copy": [
+     12.5
+    ],
+    "start": [
+     -11.0
+    ],
+    "handfix": [
+     73.6
+    ]
+   },
+   "straight_extension_t_um": -109.3
+  },
+  {
+   "id": "m708",
+   "grid": [
+    2,
+    2
+   ],
+   "crossings_um": {
+    "control": [
+     -46.3
+    ],
+    "copy": [
+     72.1
+    ],
+    "start": [
+     62.9
+    ],
+    "handfix": [
+     55.6
+    ]
+   },
+   "straight_extension_t_um": -50.0
+  },
+  {
+   "id": "m715",
+   "grid": [
+    2,
+    3
+   ],
+   "crossings_um": {
+    "control": [
+     -151.3
+    ],
+    "copy": [
+     -66.7
+    ],
+    "start": [
+     -119.3
+    ],
+    "handfix": [
+     -46.9
+    ]
+   },
+   "straight_extension_t_um": -90.3
+  },
+  {
+   "id": "m928",
+   "grid": [
+    3,
+    0
+   ],
+   "crossings_um": {
+    "control": [
+     31.1
+    ],
+    "copy": [
+     116.1
+    ],
+    "start": [
+     37.7
+    ],
+    "handfix": [
+     26.1
+    ]
+   },
+   "straight_extension_t_um": 21.6
+  },
+  {
+   "id": "m861",
+   "grid": [
+    3,
+    1
+   ],
+   "crossings_um": {
+    "control": [
+     83.0
+    ],
+    "copy": [
+     37.2
+    ],
+    "start": [
+     48.3
+    ],
+    "handfix": [
+     59.0
+    ]
+   },
+   "straight_extension_t_um": 82.2
+  },
+  {
+   "id": "m116",
+   "grid": [
+    3,
+    2
+   ],
+   "crossings_um": {
+    "control": [
+     106.7
+    ],
+    "copy": [
+     31.1
+    ],
+    "start": [
+     84.1
+    ],
+    "handfix": [
+     116.5
+    ]
+   },
+   "straight_extension_t_um": 128.0
+  },
+  {
+   "id": "m783",
+   "grid": [
+    3,
+    3
+   ],
+   "crossings_um": {
+    "control": [
+     46.0
+    ],
+    "copy": [
+     -18.7
+    ],
+    "start": [
+     -9.0
+    ],
+    "handfix": [
+     13.3
+    ]
+   },
+   "straight_extension_t_um": 65.3
+  },
+  {
+   "id": "m693",
+   "grid": [
+    4,
+    0
+   ],
+   "crossings_um": {
+    "control": [
+     -44.7
+    ],
+    "copy": [
+     -13.0
+    ],
+    "start": [
+     -15.5
+    ],
+    "handfix": [
+     15.2
+    ]
+   },
+   "straight_extension_t_um": -63.9
+  },
+  {
+   "id": "m748",
+   "grid": [
+    4,
+    1
+   ],
+   "crossings_um": {
+    "control": [
+     -21.4
+    ],
+    "copy": [
+     -9.9
+    ],
+    "start": [
+     -25.2
+    ],
+    "handfix": [
+     -25.1
+    ]
+   },
+   "straight_extension_t_um": 4.8
+  },
+  {
+   "id": "m837",
+   "grid": [
+    4,
+    2
+   ],
+   "crossings_um": {
+    "control": [
+     -18.3
+    ],
+    "copy": [
+     -33.8
+    ],
+    "start": [
+     -118.7
+    ],
+    "handfix": [
+     -80.1
+    ]
+   },
+   "straight_extension_t_um": 1.5
+  },
+  {
+   "id": "m720",
+   "grid": [
+    4,
+    3
+   ],
+   "crossings_um": {
+    "control": [
+     131.8
+    ],
+    "copy": [
+     46.9
+    ],
+    "start": [
+     16.1
+    ],
+    "handfix": [
+     74.2
+    ]
+   },
+   "straight_extension_t_um": 146.6
+  },
+  {
+   "id": "m130",
+   "grid": [
+    5,
+    0
+   ],
+   "crossings_um": {
+    "control": [
+     156.5
+    ],
+    "copy": [
+     46.4
+    ],
+    "start": [
+     17.6
+    ],
+    "handfix": [
+     207.0
+    ]
+   },
+   "straight_extension_t_um": 144.9
+  },
+  {
+   "id": "m867",
+   "grid": [
+    5,
+    1
+   ],
+   "crossings_um": {
+    "control": [
+     -143.5
+    ],
+    "copy": [
+     -141.8
+    ],
+    "start": [
+     -182.4
+    ],
+    "handfix": [
+     -194.2
+    ]
+   },
+   "straight_extension_t_um": -152.6
+  },
+  {
+   "id": "m439",
+   "grid": [
+    5,
+    2
+   ],
+   "crossings_um": {
+    "control": [
+     73.2
+    ],
+    "copy": [
+     94.7
+    ],
+    "start": [
+     52.0
+    ],
+    "handfix": [
+     52.1
+    ]
+   },
+   "straight_extension_t_um": 82.3
+  },
+  {
+   "id": "m501",
+   "grid": [
+    5,
+    3
+   ],
+   "crossings_um": {
+    "control": [
+     76.4
+    ],
+    "copy": [
+     26.7
+    ],
+    "start": [
+     9.0
+    ],
+    "handfix": [
+     9.0
+    ]
+   },
+   "straight_extension_t_um": 56.3
+  }
+ ],
+ "session2_map": [
+  {
+   "session2_id": "m569",
+   "site_id": "m237",
+   "delta_um": 131.7,
+   "delta_old_um": 104.8
+  },
+  {
+   "session2_id": "m243",
+   "site_id": "m879",
+   "delta_um": 14.6,
+   "delta_old_um": 146.3
+  },
+  {
+   "session2_id": "m521",
+   "site_id": "m513",
+   "delta_um": -60.9,
+   "delta_old_um": 15.1
+  },
+  {
+   "session2_id": "m889",
+   "site_id": "m871",
+   "delta_um": 25.9,
+   "delta_old_um": -43.6
+  },
+  {
+   "session2_id": "m361",
+   "site_id": "m968",
+   "delta_um": 3.0,
+   "delta_old_um": -73.2
+  },
+  {
+   "session2_id": "m290",
+   "site_id": "m660",
+   "delta_um": -66.0,
+   "delta_old_um": -70.9
+  },
+  {
+   "session2_id": "m228",
+   "site_id": "m753",
+   "delta_um": -47.6,
+   "delta_old_um": 116.8
+  },
+  {
+   "session2_id": "m353",
+   "site_id": "m613",
+   "delta_um": 136.0,
+   "delta_old_um": -140.7
+  },
+  {
+   "session2_id": "m645",
+   "site_id": "m102",
+   "delta_um": 98.0,
+   "delta_old_um": 140.4
+  },
+  {
+   "session2_id": "m409",
+   "site_id": "m126",
+   "delta_um": 17.0,
+   "delta_old_um": 105.5
+  },
+  {
+   "session2_id": "m450",
+   "site_id": "m708",
+   "delta_um": -129.4,
+   "delta_old_um": 46.3
+  },
+  {
+   "session2_id": "m945",
+   "site_id": "m715",
+   "delta_um": -97.5,
+   "delta_old_um": 151.3
+  },
+  {
+   "session2_id": "m566",
+   "site_id": "m928",
+   "delta_um": 93.3,
+   "delta_old_um": -31.2
+  },
+  {
+   "session2_id": "m761",
+   "site_id": "m861",
+   "delta_um": -63.5,
+   "delta_old_um": -83.0
+  },
+  {
+   "session2_id": "m653",
+   "site_id": "m116",
+   "delta_um": -82.1,
+   "delta_old_um": -106.7
+  },
+  {
+   "session2_id": "m624",
+   "site_id": "m783",
+   "delta_um": -77.2,
+   "delta_old_um": -46.0
+  },
+  {
+   "session2_id": "m572",
+   "site_id": "m693",
+   "delta_um": 74.7,
+   "delta_old_um": 44.7
+  },
+  {
+   "session2_id": "m349",
+   "site_id": "m748",
+   "delta_um": -148.3,
+   "delta_old_um": 21.5
+  },
+  {
+   "session2_id": "m960",
+   "site_id": "m837",
+   "delta_um": -133.2,
+   "delta_old_um": 18.2
+  },
+  {
+   "session2_id": "m820",
+   "site_id": "m720",
+   "delta_um": -95.9,
+   "delta_old_um": -131.8
+  },
+  {
+   "session2_id": "m481",
+   "site_id": "m130",
+   "delta_um": -49.3,
+   "delta_old_um": -156.5
+  },
+  {
+   "session2_id": "m113",
+   "site_id": "m867",
+   "delta_um": -100.7,
+   "delta_old_um": 143.4
+  },
+  {
+   "session2_id": "m406",
+   "site_id": "m439",
+   "delta_um": 83.4,
+   "delta_old_um": -73.2
+  },
+  {
+   "session2_id": "m259",
+   "site_id": "m501",
+   "delta_um": -44.8,
+   "delta_old_um": -76.5
+  }
+ ]
+}

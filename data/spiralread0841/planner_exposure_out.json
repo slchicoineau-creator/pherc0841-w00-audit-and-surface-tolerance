@@ -1,0 +1,89 @@
+{
+ "C_sha_prefix": "548bdd6913e5",
+ "guard_sha_prefix": "b650c0871ee7",
+ "pages": [
+  {
+   "page": "COPY-IN read page",
+   "rater": "sebastien",
+   "answered": true,
+   "C_showings": 1,
+   "guard_showings": 0
+  },
+  {
+   "page": "COPY-FIX-9 read page 1",
+   "rater": "chris",
+   "answered": true,
+   "C_showings": 2,
+   "guard_showings": 1
+  },
+  {
+   "page": "COPY-FIX-9 read page 2",
+   "rater": "chris",
+   "answered": true,
+   "C_showings": 1,
+   "guard_showings": 1
+  },
+  {
+   "page": "INSET-NEG",
+   "rater": "chris",
+   "answered": true,
+   "C_showings": 1,
+   "guard_showings": 0
+  },
+  {
+   "page": "RAW-READ-9H (Chris)",
+   "rater": "chris",
+   "answered": true,
+   "C_showings": 1,
+   "guard_showings": 1
+  },
+  {
+   "page": "RAW-READ-9H (Sebastien)",
+   "rater": "sebastien",
+   "answered": false,
+   "C_showings": 0,
+   "guard_showings": 0
+  },
+  {
+   "page": "FIELD-R (R_ovl page)",
+   "rater": "chris",
+   "answered": true,
+   "C_showings": 1,
+   "guard_showings": 0
+  }
+ ],
+ "other_frame": [
+  {
+   "page": "HUMAN-TOL (L100 level, other frame)",
+   "rater": "sebastien",
+   "answered": true
+  },
+  {
+   "page": "HUMAN-TOL (L100 level, other frame)",
+   "rater": "chris",
+   "answered": true
+  },
+  {
+   "page": "FULL-HOP-W (L100 level, other frame)",
+   "rater": "sebastien",
+   "answered": true
+  },
+  {
+   "page": "FULL-HOP-W (L100 level, other frame)",
+   "rater": "chris",
+   "answered": true
+  }
+ ],
+ "totals": {
+  "chris": {
+   "C_byte_identical": 6,
+   "guard_byte_identical": 3,
+   "W_control_other_frame": 2
+  },
+  "sebastien": {
+   "C_byte_identical": 1,
+   "guard_byte_identical": 0,
+   "W_control_other_frame": 2
+  }
+ }
+}

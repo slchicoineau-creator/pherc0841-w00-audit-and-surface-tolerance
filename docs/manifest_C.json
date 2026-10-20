@@ -1,0 +1,262 @@
+[
+ {
+  "test": "snap3arm",
+  "data_file": "data/snap3arm/h0_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "a6b41474b888f30e470a5b66610613672c1405681763a865a3ac18145be78e61",
+  "kind": "page_key",
+  "rater": "none",
+  "bytes": 5519
+ },
+ {
+  "test": "snap3arm",
+  "data_file": "data/snap3arm/h0_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "9293d7067dcc0708e577dd4b247b208e7f5c70f30a0a00c736706570cf0a0335",
+  "kind": "ratings",
+  "rater": "seb",
+  "bytes": 4957
+ },
+ {
+  "test": "snap3arm",
+  "data_file": "data/snap3arm/h2_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "820ce5d3e80a7221ffbceb60af80055a3fab0a578091358f305ea899ce132e35",
+  "kind": "page_key",
+  "rater": "none",
+  "bytes": 5785
+ },
+ {
+  "test": "snap3arm",
+  "data_file": "data/snap3arm/h2_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "cb01af6f1a862abd157898aa9d821eb1832b94c8b752e874b8708c396e9f5adf",
+  "kind": "ratings",
+  "rater": "seb",
+  "bytes": 5207
+ },
+ {
+  "test": "snap3arm",
+  "data_file": "data/snap3arm/h0_result_saved.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "3a568b7d4e36420fe913fc846d8c76077669f0f991b534488e15ea8441cdde4f",
+  "kind": "derived",
+  "rater": "seb",
+  "bytes": 563
+ },
+ {
+  "test": "snap3arm",
+  "data_file": "data/snap3arm/h2_result_saved.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "2d98e0ea1233de027eb9fafbd61621d768f51adf8a71afeaf283136554d3afd3",
+  "kind": "derived",
+  "rater": "seb",
+  "bytes": 568
+ },
+ {
+  "test": "phasesym",
+  "data_file": "data/phasesym/psym_result.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "2d63e4425d6d8738f2800deee0a64a5c66d134d0d4555a6b93a591cbe7bb826d",
+  "kind": "derived",
+  "rater": "none",
+  "bytes": 19262
+ },
+ {
+  "test": "phasesym",
+  "data_file": "data/phasesym/judge_rescore.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "9241a97d45831236b03ed518a0edc605a3708698c8cba1ee66eb54fc4cfae7a2",
+  "kind": "derived",
+  "rater": "none",
+  "bytes": 990
+ },
+ {
+  "test": "phasesym",
+  "data_file": "data/phasesym/sorstrip_stage0a.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "391beb297003d0c3850baca08b6c8afaa40e312376b6757069af806b1b9a02f4",
+  "kind": "derived",
+  "rater": "none",
+  "bytes": 748
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/copyfix_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "ce95fdb107e424d06bacd18b1191008c0ab77fc0698bc4dbc5e02dd0850960d0",
+  "kind": "page_key",
+  "rater": "none",
+  "bytes": 16845
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/copyfix_marks_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "887cb2b629444af64fd89605695f36099b94dc493de5b6978ccec5e88efc390d",
+  "kind": "marks_2p4um",
+  "rater": "chris",
+  "bytes": 3672
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/copyfix_read_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "abf90c0faf02ebe3d3cd20db70682a65800b76f7fb55d2f1fed27504974e2531",
+  "kind": "ratings",
+  "rater": "chris",
+  "bytes": 213
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/copyfix_read2_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "33c67dfc46a2a3ecb61172bd8b1fb59fd556e06316aeb2fe5613a713868c98a8",
+  "kind": "ratings",
+  "rater": "chris",
+  "bytes": 196
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/keyfar_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "81556e6b3d438d2e1f8ce57ef1b2455656256da32d5edcb162e4bdd036a3f283",
+  "kind": "page_key",
+  "rater": "none",
+  "bytes": 20219
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/keyfar_marks_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "79961dd3cd583b68528afd8c4762db0a55e4ec698bf7500f48798fed92b44b86",
+  "kind": "marks_2p4um",
+  "rater": "chris",
+  "bytes": 4107
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/ovlmarks_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "174d628d1a25e3b63dc105ee42f9a3d51d219d0cef683a84bb78e4cbbb8be18f",
+  "kind": "derived",
+  "rater": "chris",
+  "bytes": 6134
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/copyfix_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "030b0ab130d73ad2d885a7ce0b477bf5b45fc6b3f07f4dff4ae925af894171ce",
+  "kind": "derived",
+  "rater": "chris",
+  "bytes": 1309
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/judge_margin_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "9ee92da353891b2f493eb12232170d9b58f38100f56b972c744084b22bfb146f",
+  "kind": "derived",
+  "rater": "chris",
+  "bytes": 1213
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/f_vs_ovl_sites.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "5b9a68a5d548fab7e0daee21b4944e05eeed4fe5086a8293941d23cd4bfec79d",
+  "kind": "derived",
+  "rater": "chris",
+  "bytes": 155
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/key2_judge_rescore_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "25b377c998f9979bb1fc442d1a686cb6a3a803222bbd9ef831fc37e5e50d15a1",
+  "kind": "derived",
+  "rater": "chris",
+  "bytes": 997
+ },
+ {
+  "test": "copyfix9",
+  "data_file": "data/copyfix9/session_times.json",
+  "source_path": "[private path] + items/20261005-16-copy-fix-9-when-a-good-n.md:366 (hand-transcribed timestamps)",
+  "source_commit": "60b819bd",
+  "sha256": "284028fdb576aa2d7847f50341e3b01e06c5699fa4ad5d22b9bc981a410831b6",
+  "kind": "derived",
+  "rater": "none",
+  "bytes": 544
+ },
+ {
+  "test": "lasagnafit9",
+  "data_file": "data/lasagnafit9/fit.log",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "27fd62457a89e6d6880dc316ed9a6758dd7aab0a3e5c452cf61c104a664edb31",
+  "kind": "other",
+  "rater": "none",
+  "bytes": 25053
+ },
+ {
+  "test": "lasagnafit9",
+  "data_file": "data/lasagnafit9/winding_0000_xyz.json",
+  "source_path": "[private path],y,z}.tif (converted to JSON; source tif sha256 inside the file)",
+  "source_commit": "local only",
+  "sha256": "cc33de18c9855029f70d1f47a18f33a5fca3ffe3142d1a533c61c173c9d32fc7",
+  "kind": "derived",
+  "rater": "none",
+  "bytes": 243449
+ },
+ {
+  "test": "lasagnafit9",
+  "data_file": "data/lasagnafit9/umbilicus.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "0c69dbe98b8f747892587e57f7e7a6810b19cb87fbb905d95b6aac5dfbf01d32",
+  "kind": "other",
+  "rater": "seb",
+  "bytes": 372
+ },
+ {
+  "test": "lasagnafit9",
+  "data_file": "data/lasagnafit9/runner_job2_drift.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "e7fcf836dbef76200318b964bc9ec34ab0363ba7c8c519e696ed9ef899a29fa4",
+  "kind": "derived",
+  "rater": "none",
+  "bytes": 2472
+ },
+ {
+  "test": "lasagnafit9",
+  "data_file": "data/lasagnafit9/judge_patch_check.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "a5442afdfae35787b11d8c3116d10ca69dab8ab765131f19db0fbb6be33f99c0",
+  "kind": "derived",
+  "rater": "none",
+  "bytes": 725
+ }
+]

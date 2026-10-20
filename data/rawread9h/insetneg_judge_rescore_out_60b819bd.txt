@@ -1,0 +1,5 @@
+outcome (judge re-score): INSET-SEEN
+N1 tile sha matches its key entry: True
+page has 5 tile ids: True | N1 first on page: False
+prereg first commit: 2026-10-07T09:45:54-05:00 | copyfix read when: 2026-10-07T19:12:08.020Z | insetneg when: 2026-10-07T19:12:46.592Z
+insetneg rated after copyfix read: True | gap s: 38.572

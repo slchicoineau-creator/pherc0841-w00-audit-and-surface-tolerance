@@ -1,0 +1,70 @@
+{
+ "verdict": "FULL-HOP-FAILS",
+ "valid": [
+  "seb",
+  "partner"
+ ],
+ "fails_carried_by": {
+  "seb": [
+   "C70d_level"
+  ],
+  "partner": [
+   "L70d_level",
+   "C70d_level"
+  ]
+ },
+ "raters": {
+  "seb": {
+   "valid": true,
+   "calls": {
+    "L40d_level": "strokes",
+    "C70d_level": "strokes",
+    "L100_level": "rows",
+    "L70d_blank": "nothing",
+    "C70d_blank": "nothing",
+    "H50n_level": "rows",
+    "blank09": "nothing",
+    "calib": "rows",
+    "L70d_level": "rows"
+   },
+   "sha256": "fc6cf6fff25c6a33c24d8f5de5692b4f9ee45cf50304f15370454acf8b62734d",
+   "keys_in_file": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09"
+   ]
+  },
+  "partner": {
+   "valid": true,
+   "calls": {
+    "L40d_level": "strokes",
+    "C70d_level": "strokes",
+    "L100_level": "rows",
+    "L70d_blank": "nothing",
+    "C70d_blank": "nothing",
+    "H50n_level": "rows",
+    "blank09": "strokes",
+    "calib": "rows",
+    "L70d_level": "strokes"
+   },
+   "sha256": "998355afebd8b040086432302fb31e19b57befd930f3d5599d8d2e2a7f2334dd",
+   "keys_in_file": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09"
+   ]
+  }
+ }
+}

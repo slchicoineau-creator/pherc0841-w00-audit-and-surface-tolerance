@@ -1,0 +1,133 @@
+{
+ "seed": 2026100821,
+ "created": "2026-10-08 20:54",
+ "build": "2026100821_2026-10-08_2054",
+ "repeat_seb": [
+  "XF+05-15",
+  "XF+10+15"
+ ],
+ "repeat_chris": [
+  "XF+05-15",
+  "XF+10+15",
+  "XF+10-05"
+ ],
+ "seb": [
+  {
+   "id": "V244",
+   "strip": "XF+10-05",
+   "tag": "test"
+  },
+  {
+   "id": "V797",
+   "strip": "XF+15-20",
+   "tag": "test"
+  },
+  {
+   "id": "V371",
+   "strip": "XF+10-15",
+   "tag": "test"
+  },
+  {
+   "id": "V230",
+   "strip": "XF+15-05",
+   "tag": "test"
+  },
+  {
+   "id": "V243",
+   "strip": "XF+05-15",
+   "tag": "test"
+  },
+  {
+   "id": "V572",
+   "strip": "XF-05+05",
+   "tag": "test"
+  },
+  {
+   "id": "V299",
+   "strip": "XF+15+15",
+   "tag": "test"
+  },
+  {
+   "id": "V995",
+   "strip": "XF+10+15",
+   "tag": "test"
+  },
+  {
+   "id": "V768",
+   "strip": "XF+20-15",
+   "tag": "test"
+  },
+  {
+   "id": "V555",
+   "strip": "XF+10+15",
+   "tag": "repeat"
+  },
+  {
+   "id": "V313",
+   "strip": "XF+05-15",
+   "tag": "repeat"
+  }
+ ],
+ "chris": [
+  {
+   "id": "Y558",
+   "strip": "XF+20-15",
+   "tag": "test"
+  },
+  {
+   "id": "Y498",
+   "strip": "XF-05+05",
+   "tag": "test"
+  },
+  {
+   "id": "Y550",
+   "strip": "XF+10-15",
+   "tag": "test"
+  },
+  {
+   "id": "Y726",
+   "strip": "XF+15-20",
+   "tag": "test"
+  },
+  {
+   "id": "Y455",
+   "strip": "XF+05-15",
+   "tag": "test"
+  },
+  {
+   "id": "Y359",
+   "strip": "XF+15+15",
+   "tag": "test"
+  },
+  {
+   "id": "Y292",
+   "strip": "XF+15-05",
+   "tag": "test"
+  },
+  {
+   "id": "Y144",
+   "strip": "XF+10+15",
+   "tag": "test"
+  },
+  {
+   "id": "Y921",
+   "strip": "XF+10-05",
+   "tag": "test"
+  },
+  {
+   "id": "Y497",
+   "strip": "XF+10-05",
+   "tag": "repeat"
+  },
+  {
+   "id": "Y738",
+   "strip": "XF+05-15",
+   "tag": "repeat"
+  },
+  {
+   "id": "Y306",
+   "strip": "XF+10+15",
+   "tag": "repeat"
+  }
+ ]
+}

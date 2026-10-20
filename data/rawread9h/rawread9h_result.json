@@ -1,0 +1,31 @@
+{
+ "outcome": "GROWER-READS (two raters)",
+ "chris_class": "GROWER-READS",
+ "seb_class": "GROWER-READS",
+ "chris_calls": {
+  "grown_blank": "nothing",
+  "ctrl": "rows",
+  "grown": "rows",
+  "calib": "rows",
+  "guard": "strokes",
+  "blank09": "strokes"
+ },
+ "seb_calls": {
+  "grown_blank": "nothing",
+  "ctrl": "rows",
+  "calib": "rows",
+  "grown": "rows",
+  "blank09": "nothing",
+  "guard": "strokes"
+ },
+ "labels": [
+  "one window, known text (both raters know it)",
+  "one grow per seed: 'this grow pair', not 'the grower'",
+  "Chris's guard (H50) was rated before by both raters and was called rows by both on 10-10 (NODE-FILL-REREAD), after Chris's read: it checks a 'rows to everything' rater only loosely",
+  "Sebastien's guard (amendment 1) is a picture he already called not rows once before on this window (chosen by a frozen rule)",
+  "reads rows; the read does not show the sheet (a field on a neighbouring winding would read that winding's text)"
+ ],
+ "chris_when": "2026-10-08T20:37:55.788Z",
+ "seb_when": "2026-10-13T03:32:58.691Z",
+ "prereg_commit": "2026-10-07T11:19:07-05:00"
+}

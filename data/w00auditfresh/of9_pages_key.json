@@ -1,0 +1,76 @@
+{
+ "seed": 2026100811,
+ "created": "2026-10-08 12:55",
+ "repeat": [
+  "F+10-20",
+  "F+15-05"
+ ],
+ "pages": [
+  {
+   "id": "Q669",
+   "strip": "P15",
+   "tag": "practice"
+  },
+  {
+   "id": "Q321",
+   "strip": "F+10-05",
+   "tag": "test"
+  },
+  {
+   "id": "Q217",
+   "strip": "F+15-20",
+   "tag": "test"
+  },
+  {
+   "id": "Q691",
+   "strip": "F+10+15",
+   "tag": "test"
+  },
+  {
+   "id": "Q880",
+   "strip": "F+10-20",
+   "tag": "test"
+  },
+  {
+   "id": "Q253",
+   "strip": "F+20-15",
+   "tag": "test"
+  },
+  {
+   "id": "Q292",
+   "strip": "F+15+15",
+   "tag": "test"
+  },
+  {
+   "id": "Q685",
+   "strip": "F+15-05",
+   "tag": "test"
+  },
+  {
+   "id": "Q358",
+   "strip": "F+05-15",
+   "tag": "test"
+  },
+  {
+   "id": "Q485",
+   "strip": "F-05+05",
+   "tag": "test"
+  },
+  {
+   "id": "Q663",
+   "strip": "F+10-15",
+   "tag": "test"
+  },
+  {
+   "id": "Q664",
+   "strip": "F+15-05",
+   "tag": "repeat"
+  },
+  {
+   "id": "Q247",
+   "strip": "F+10-20",
+   "tag": "repeat"
+  }
+ ],
+ "build": "2026100811_2026-10-08_1255"
+}

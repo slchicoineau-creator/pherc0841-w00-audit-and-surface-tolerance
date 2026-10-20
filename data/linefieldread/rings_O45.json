@@ -1,0 +1,122 @@
+{
+ "rule": "rings on s022814's native grid rows linspace(first full-width row, 106, 10) at the window's centre column (first valid of 0, +-1 .. +-5 columns); line = s022814's z = z(ring) contour inside the window's columns (+- 1 column); arc-length samples every 0.18732 mm from the ring",
+ "first_row": 9.0,
+ "rings": [
+  {
+   "i": 0,
+   "xyz": [
+    4112.543,
+    3324.651,
+    13266.24
+   ],
+   "grid_rc": [
+    9.0,
+    129.305
+   ],
+   "col_shift": 0,
+   "u_lo_mm": -5.8611,
+   "u_hi_mm": 6.1323,
+   "n_samples": 64,
+   "dir": [
+    674.09,
+    983.26,
+    0.0
+   ]
+  },
+  {
+   "i": 1,
+   "xyz": [
+    4069.448,
+    3334.695,
+    13696.843
+   ],
+   "grid_rc": [
+    33.25,
+    129.305
+   ],
+   "col_shift": 0,
+   "u_lo_mm": -5.9766,
+   "u_hi_mm": 5.8822,
+   "n_samples": 63,
+   "dir": [
+    682.63,
+    898.96,
+    0.0
+   ]
+  },
+  {
+   "i": 2,
+   "xyz": [
+    3963.958,
+    3406.971,
+    14143.994
+   ],
+   "grid_rc": [
+    57.5,
+    129.305
+   ],
+   "col_shift": 0,
+   "u_lo_mm": -5.9347,
+   "u_hi_mm": 6.0553,
+   "n_samples": 64,
+   "dir": [
+    502.43,
+    913.17,
+    0.0
+   ]
+  },
+  {
+   "i": 3,
+   "xyz": [
+    3935.576,
+    3344.204,
+    14589.382
+   ],
+   "grid_rc": [
+    81.75,
+    129.305
+   ],
+   "col_shift": 0,
+   "u_lo_mm": -6.1812,
+   "u_hi_mm": 6.1473,
+   "n_samples": 65,
+   "dir": [
+    419.95,
+    998.32,
+    0.0
+   ]
+  },
+  {
+   "i": 4,
+   "xyz": [
+    3747.521,
+    3427.463,
+    14997.654
+   ],
+   "grid_rc": [
+    106.0,
+    129.305
+   ],
+   "col_shift": 0,
+   "u_lo_mm": -5.8799,
+   "u_hi_mm": 6.114,
+   "n_samples": 64,
+   "dir": [
+    286.68,
+    979.08,
+    0.0
+   ]
+  }
+ ],
+ "z_spacing_vx": [
+  430.6,
+  447.2,
+  445.4,
+  408.3
+ ],
+ "grid_window": {
+  "c_lo": 98.032722513089,
+  "c_hi": 160.57827225130887,
+  "r_hi": 106.66435879945429
+ }
+}

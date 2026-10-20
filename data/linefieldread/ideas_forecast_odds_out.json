@@ -1,0 +1,44 @@
+{
+ "line_len_mm_mean": 11.8,
+ "area_cm2": 2.1018,
+ "pace": {
+  "saved_length": 6.623,
+  "clicked_span_low": 5.22,
+  "clicked_span_high": 6.17
+ },
+ "O1": {
+  "n_lines": 19,
+  "spacing_mm": 1.01,
+  "min_per_cm2": {
+   "saved_length": 16.1,
+   "clicked_span_low": 20.4,
+   "clicked_span_high": 17.3
+  }
+ },
+ "O2": {
+  "n_lines": 10,
+  "spacing_mm": 2.02,
+  "min_per_cm2": {
+   "saved_length": 8.5,
+   "clicked_span_low": 10.8,
+   "clicked_span_high": 9.1
+  }
+ },
+ "O4.5": {
+  "n_lines": 5,
+  "spacing_mm": 4.54,
+  "min_per_cm2": {
+   "saved_length": 4.2,
+   "clicked_span_low": 5.4,
+   "clicked_span_high": 4.6
+  }
+ },
+ "odds_O2": {
+  "READS": 0.397,
+  "NO": 0.155,
+  "SPLIT": 0.209,
+  "LENIENT": 0.099,
+  "VOID": 0.139
+ },
+ "label": "forecast = perfect lines, starts given, no fixing; pace from FIBER-9B (one tracer, one band); odds = model, not data"
+}

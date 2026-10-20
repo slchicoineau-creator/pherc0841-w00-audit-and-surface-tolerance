@@ -1,0 +1,146 @@
+{
+ "prereg": "prereg/2026-10-06_seb_mark2r.md",
+ "random": {
+  "sites": 25,
+  "can_t_tell": {
+   "seb": 4,
+   "chris": 3
+  },
+  "human_human": {
+   "shared": 20,
+   "within_75um": 18,
+   "share": 0.9,
+   "ci95": [
+    0.683,
+    0.988
+   ],
+   "median_um": 14.4
+  },
+  "w00_per_rater": {
+   "seb": {
+    "marked": 21,
+    "within_75um": 19,
+    "share": 0.905,
+    "ci95": [
+     0.696,
+     0.988
+    ],
+    "median_um": 25.3
+   },
+   "chris": {
+    "marked": 22,
+    "within_75um": 15,
+    "share": 0.682,
+    "ci95": [
+     0.451,
+     0.861
+    ],
+    "median_um": 53.0
+   }
+  },
+  "agreed_subset_descriptive": {
+   "agreed": 18,
+   "w00_within_75um_of_mean_mark": 16,
+   "dropped_for_disagreement": 2,
+   "w00_um_to_mean_mark_at_dropped": [
+    20.1,
+    63.3
+   ]
+  }
+ },
+ "suspect": {
+  "sites": 10,
+  "can_t_tell": {
+   "seb": 1,
+   "chris": 1
+  },
+  "human_human": {
+   "shared": 9,
+   "within_75um": 9,
+   "share": 1.0,
+   "ci95": [
+    0.664,
+    1.0
+   ],
+   "median_um": 10.4
+  },
+  "w00_per_rater": {
+   "seb": {
+    "marked": 9,
+    "within_75um": 6,
+    "share": 0.667,
+    "ci95": [
+     0.299,
+     0.925
+    ],
+    "median_um": 68.2
+   },
+   "chris": {
+    "marked": 9,
+    "within_75um": 6,
+    "share": 0.667,
+    "ci95": [
+     0.299,
+     0.925
+    ],
+    "median_um": 62.1
+   }
+  },
+  "agreed_subset_descriptive": {
+   "agreed": 9,
+   "w00_within_75um_of_mean_mark": 6,
+   "dropped_for_disagreement": 0,
+   "w00_um_to_mean_mark_at_dropped": []
+  }
+ },
+ "centre_bias": {
+  "seb": {
+   "marks": 30,
+   "within_20um_of_centre": 5,
+   "flag": false
+  },
+  "chris": {
+   "marks": 31,
+   "within_20um_of_centre": 2,
+   "flag": false
+  }
+ },
+ "straight_line": {
+  "sites": 25,
+  "w00_within_75um_of_extension": 23,
+  "per_rater_within_75um_of_extension": {
+   "seb": "18/21",
+   "chris": "13/22"
+  },
+  "raters_agree_both_off_extension": 2,
+  "baseline_ge_w00_rate": true
+ },
+ "centre_click_baseline_random": 15,
+ "repeats": {
+  "seb": {
+   "pairs_marked": 1,
+   "within_75um": 1,
+   "reliable": null,
+   "diffs_um": [
+    2.4
+   ]
+  },
+  "chris": {
+   "pairs_marked": 2,
+   "within_75um": 0,
+   "reliable": false,
+   "diffs_um": [
+    137.8,
+    243.5
+   ]
+  }
+ },
+ "verdict": {
+  "human_floor": "KEY OK",
+  "w00_row5": "MEASURED (per-rater rates printed)",
+  "flags": [
+   "chris repeats unreliable",
+   "consistent with following the guide line"
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "prereg": "prereg/2026-10-09_seb_w00auditfresh.md",
+ "started": "2026-10-09 07:59",
+ "e_pins": {
+  "n": 16,
+  "changed": [],
+  "ok": true
+ },
+ "a_presence": {
+  "fresh_along": 46,
+  "design_cross": 36,
+  "names_ok": true,
+  "ok": true
+ },
+ "b_ring": {
+  "primary_um": {
+   "F+05-15": 0.007,
+   "F+10+15": 0.036,
+   "F+10-05": 0.019,
+   "F+10-15": 0.026,
+   "F+10-20": 0.025,
+   "F+15+15": 0.035,
+   "F+15-05": 0.033,
+   "F+15-20": 0.038,
+   "F+20-15": 0.02,
+   "F-05+05": 0.039,
+   "XT00": 0.008,
+   "XT01": 0.021,
+   "XT11": 0.026,
+   "XT20": 0.028,
+   "XT30": 0.001,
+   "XT31": 0.005
+  },
+  "primary_max_um": 0.039,
+  "ok": true,
+  "line2_um": {
+   "XF+05-15": 0.045,
+   "XF+10+15": 0.039,
+   "XF+10-05": 0.003,
+   "XF+10-15": 0.035,
+   "XF+15+15": 0.044,
+   "XF+15-05": 0.01,
+   "XF+15-20": 0.018,
+   "XF+20-15": 0.024,
+   "XF-05+05": 0.03
+  },
+  "line2_ok_strips": [
+   "XF+05-15",
+   "XF+10+15",
+   "XF+10-05",
+   "XF+10-15",
+   "XF+15+15",
+   "XF+15-05",
+   "XF+15-20",
+   "XF+20-15",
+   "XF-05+05"
+  ]
+ },
+ "d_dev": {
+  "n": 36,
+  "off": 9,
+  "r43_n": 36,
+  "r43_off": 9,
+  "no_w00": 0,
+  "same_flags": true,
+  "ok": true
+ },
+ "go": true,
+ "failed": [],
+ "d_note": "0d mismatch is reported side by side and does not stop the run (prereg)",
+ "seconds": 16
+}

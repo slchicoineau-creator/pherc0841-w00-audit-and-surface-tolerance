@@ -1,0 +1,65 @@
+{
+ "note": "counts only; inputs are git-ignored keys/ratings",
+ "R": {
+  "key1": {
+   "valid": 24,
+   "on_C": 23,
+   "on_X": 14,
+   "cls": "KILL-marks"
+  },
+  "key2": {
+   "valid": 23,
+   "on_C": 19,
+   "on_X": 14,
+   "cls": "KILL-marks"
+  },
+  "key1_on_23_both_valid": {
+   "valid": 23,
+   "on_C": 22,
+   "on_X": 13,
+   "cls": "KILL-marks"
+  },
+  "key2_on_23_both_valid": {
+   "valid": 23,
+   "on_C": 19,
+   "on_X": 14,
+   "cls": "KILL-marks"
+  }
+ },
+ "F": {
+  "key1": {
+   "valid": 24,
+   "on_C": 23,
+   "on_X": 17,
+   "cls": "KILL-marks"
+  },
+  "key2": {
+   "valid": 23,
+   "on_C": 19,
+   "on_X": 16,
+   "cls": "MIDDLE"
+  },
+  "key1_on_23_both_valid": {
+   "valid": 23,
+   "on_C": 22,
+   "on_X": 17,
+   "cls": "KILL-marks"
+  },
+  "key2_on_23_both_valid": {
+   "valid": 23,
+   "on_C": 19,
+   "on_X": 16,
+   "cls": "MIDDLE"
+  }
+ },
+ "F_key2_margins": {
+  "kill_line": 14,
+  "pass_needs": 18,
+  "sites_to_kill": 2,
+  "sites_to_pass": 2
+ },
+ "F_onoff_same_both_keys": {
+  "n": 23,
+  "same": 16
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "q01": {
+  "item": "FULL-HOP-W",
+  "surface": "L40d",
+  "kind": "level",
+  "file": "work/fl/loop/20261007-25-full-hop-w-does-w-s-30-h/tiles/L40d_level.png"
+ },
+ "q02": {
+  "item": "FULL-HOP-W",
+  "surface": "C70d",
+  "kind": "level",
+  "file": "work/fl/loop/20261007-25-full-hop-w-does-w-s-30-h/tiles/C70d_level.png"
+ },
+ "q03": {
+  "item": "FULL-HOP-W",
+  "surface": "L100",
+  "kind": "level",
+  "file": "work/fl/loop/20261007-25-full-hop-w-does-w-s-30-h/tiles/L100_level.png"
+ },
+ "q04": {
+  "item": "FULL-HOP-W",
+  "surface": "L70d",
+  "kind": "blank",
+  "file": "work/fl/loop/20261007-25-full-hop-w-does-w-s-30-h/tiles/L70d_blank.png"
+ },
+ "q05": {
+  "item": "FULL-HOP-W",
+  "surface": "C70d",
+  "kind": "blank",
+  "file": "work/fl/loop/20261007-25-full-hop-w-does-w-s-30-h/tiles/C70d_blank.png"
+ },
+ "q06": {
+  "item": "FULL-HOP-W",
+  "surface": "H50n",
+  "kind": "level",
+  "file": "work/fl/loop/20261007-25-full-hop-w-does-w-s-30-h/tiles/H50n_level.png"
+ },
+ "q07": {
+  "item": "shared",
+  "kind": "blank09",
+  "file": "work/fl/format20/tiles/f_06.png"
+ },
+ "q08": {
+  "item": "shared",
+  "kind": "calib",
+  "file": "work/fl/format20/tiles/f_05.png"
+ },
+ "q09": {
+  "item": "FULL-HOP-W",
+  "surface": "L70d",
+  "kind": "level",
+  "file": "work/fl/loop/20261007-25-full-hop-w-does-w-s-30-h/tiles/L70d_level.png"
+ }
+}

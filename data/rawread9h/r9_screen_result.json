@@ -1,0 +1,90 @@
+{
+ "ctrl": {
+  "set": "ctrl",
+  "readers": [
+   {
+    "slot": 1,
+    "reader": "R01",
+    "valid": true,
+    "level": "rows",
+    "malformed": false
+   },
+   {
+    "slot": 2,
+    "reader": "R02",
+    "valid": true,
+    "level": "rows",
+    "malformed": false
+   },
+   {
+    "slot": 3,
+    "reader": "R03",
+    "valid": true,
+    "level": "rows",
+    "malformed": false
+   },
+   {
+    "slot": 4,
+    "reader": "R04",
+    "valid": true,
+    "level": "rows",
+    "malformed": false
+   },
+   {
+    "slot": 5,
+    "reader": "R05",
+    "valid": true,
+    "level": "rows",
+    "malformed": false
+   }
+  ],
+  "valid": 5,
+  "rows": 5,
+  "replace": [],
+  "missing": []
+ },
+ "raw": {
+  "set": "raw",
+  "readers": [
+   {
+    "slot": 1,
+    "reader": "R06",
+    "valid": true,
+    "level": "strokes",
+    "malformed": false
+   },
+   {
+    "slot": 2,
+    "reader": "R07",
+    "valid": true,
+    "level": "nothing",
+    "malformed": false
+   },
+   {
+    "slot": 3,
+    "reader": "R08",
+    "valid": true,
+    "level": "nothing",
+    "malformed": false
+   },
+   {
+    "slot": 4,
+    "reader": "R09",
+    "valid": true,
+    "level": "nothing",
+    "malformed": false
+   },
+   {
+    "slot": 5,
+    "reader": "R10",
+    "valid": true,
+    "level": "strokes",
+    "malformed": false
+   }
+  ],
+  "valid": 5,
+  "rows": 0,
+  "replace": [],
+  "missing": []
+ }
+}

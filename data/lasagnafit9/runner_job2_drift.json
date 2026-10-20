@@ -1,0 +1,134 @@
+[
+ {
+  "tag": "model_stage0_000000.pt",
+  "nearest_vertex_to_seed_vx": 34.7,
+  "vertex_rc": [
+   23,
+   50
+  ],
+  "radius_median_vx": 546.9,
+  "radius_at_nearest_vx": 852.6,
+  "seed_radius_vx": 848.1,
+  "z_median": 14356.3
+ },
+ {
+  "tag": "model_stage0_000200.pt",
+  "nearest_vertex_to_seed_vx": 33.9,
+  "vertex_rc": [
+   23,
+   50
+  ],
+  "radius_median_vx": 845.4,
+  "radius_at_nearest_vx": 848.5,
+  "seed_radius_vx": 848.1,
+  "z_median": 14376.5
+ },
+ {
+  "tag": "model_stage1_000000.pt",
+  "nearest_vertex_to_seed_vx": 33.9,
+  "vertex_rc": [
+   23,
+   50
+  ],
+  "radius_median_vx": 845.4,
+  "radius_at_nearest_vx": 848.5,
+  "seed_radius_vx": 848.1,
+  "z_median": 14376.5
+ },
+ {
+  "tag": "model_stage1_000200.pt",
+  "nearest_vertex_to_seed_vx": 27.8,
+  "vertex_rc": [
+   22,
+   49
+  ],
+  "radius_median_vx": 851.6,
+  "radius_at_nearest_vx": 847.5,
+  "seed_radius_vx": 848.1,
+  "z_median": 14375.4
+ },
+ {
+  "tag": "model_stage2_000000.pt",
+  "nearest_vertex_to_seed_vx": 27.8,
+  "vertex_rc": [
+   22,
+   49
+  ],
+  "radius_median_vx": 851.6,
+  "radius_at_nearest_vx": 847.5,
+  "seed_radius_vx": 848.1,
+  "z_median": 14375.4
+ },
+ {
+  "tag": "model_stage2_000500.pt",
+  "nearest_vertex_to_seed_vx": 28.1,
+  "vertex_rc": [
+   23,
+   50
+  ],
+  "radius_median_vx": 804.1,
+  "radius_at_nearest_vx": 872.4,
+  "seed_radius_vx": 848.1,
+  "z_median": 14374.7
+ },
+ {
+  "tag": "model_stage3_000000.pt",
+  "nearest_vertex_to_seed_vx": 28.1,
+  "vertex_rc": [
+   23,
+   50
+  ],
+  "radius_median_vx": 804.1,
+  "radius_at_nearest_vx": 872.4,
+  "seed_radius_vx": 848.1,
+  "z_median": 14374.7
+ },
+ {
+  "tag": "model_stage3_001000.pt",
+  "nearest_vertex_to_seed_vx": 177.5,
+  "vertex_rc": [
+   26,
+   47
+  ],
+  "radius_median_vx": 625.5,
+  "radius_at_nearest_vx": 669.1,
+  "seed_radius_vx": 848.1,
+  "z_median": 14231.7
+ },
+ {
+  "tag": "model_stage3_002000.pt",
+  "nearest_vertex_to_seed_vx": 330.3,
+  "vertex_rc": [
+   24,
+   47
+  ],
+  "radius_median_vx": 578.5,
+  "radius_at_nearest_vx": 504.8,
+  "seed_radius_vx": 848.1,
+  "z_median": 14251.2
+ },
+ {
+  "tag": "model_stage3_002459.pt",
+  "nearest_vertex_to_seed_vx": 369.3,
+  "vertex_rc": [
+   23,
+   48
+  ],
+  "radius_median_vx": 571.4,
+  "radius_at_nearest_vx": 481.4,
+  "seed_radius_vx": 848.1,
+  "z_median": 14246.5
+ },
+ {
+  "tag": "EXPORT tifxyz",
+  "nearest_vertex_to_seed_vx": 369.3,
+  "vertex_rc": [
+   23,
+   48
+  ],
+  "radius_median_vx": 571.4,
+  "radius_at_nearest_vx": 481.4,
+  "seed_radius_vx": 848.1,
+  "z_median": 14246.5
+ }
+]

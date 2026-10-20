@@ -1,0 +1,12 @@
+{
+ "note": "Derived by hand from the COPY-FIX-9 timed-session evidence; the session clock was never started (no timer file).",
+ "sources": [
+  "work/fl/loop/20261005-16-copy-fix-9-when-a-good-n/timed/SESSION_TIMES.md (tracked at 60b819bd): evidence timeline",
+  "lanes/A_geometry/loop/items/20261005-16-copy-fix-9-when-a-good-n.md:366 (60b819bd): minutes rule and readings"
+ ],
+ "date": "2026-10-10",
+ "vc3d_in_use_first_record": "12:58:49",
+ "sebastien_reported_start": "13:08",
+ "f_state_save": "14:28:03",
+ "vc3d_closed_reported": "14:32"
+}

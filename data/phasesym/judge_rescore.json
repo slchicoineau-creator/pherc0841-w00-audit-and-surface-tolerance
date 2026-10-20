@@ -1,0 +1,62 @@
+{
+ "R2 T0,96|H40,40": {
+  "ink": 423,
+  "good": 20,
+  "median_ratio": 0.625,
+  "job": 0.625
+ },
+ "R2 T32,64|H56,64": {
+  "ink": 423,
+  "good": 31,
+  "median_ratio": 0.268,
+  "job": 0.268
+ },
+ "R2 T0,0|H40,40": {
+  "ink": 423,
+  "good": 26,
+  "median_ratio": 0.551,
+  "job": 0.551
+ },
+ "R T0,0|H64,64": {
+  "ink": 123,
+  "good": 20,
+  "median_ratio": 0.646,
+  "job": 0.646
+ },
+ "R T96,32|H48,56": {
+  "ink": 123,
+  "good": 25,
+  "median_ratio": 0.576,
+  "job": 0.576
+ },
+ "R_class_count": {
+  "n": 256,
+  "reader_limited": 142,
+  "mixed": 114,
+  "surface": 0,
+  "median": 0.588,
+  "min": 0.452,
+  "max": 0.827
+ },
+ "R2_class_count": {
+  "n": 256,
+  "reader_limited": 253,
+  "mixed": 3,
+  "surface": 0,
+  "median": 0.426,
+  "min": 0.268,
+  "max": 0.625
+ },
+ "R_phase_effects": {
+  "T_phase_effect": 0.149,
+  "H9_phase_effect": 0.215,
+  "job_T": 0.149,
+  "job_H9": 0.215
+ },
+ "R2_phase_effects": {
+  "T_phase_effect": 0.176,
+  "H9_phase_effect": 0.176,
+  "job_T": 0.176,
+  "job_H9": 0.175
+ }
+}

@@ -1,0 +1,4 @@
+^KEY-FILE\|(?:data|standalone/human_data)/  # page keys, rating files and marks released with both authors' OK, file by file (MANIFEST.md)
+^INTERNAL-PATH\|data/  # original file paths recorded inside saved keys, results and logs; the scripts pin each file's sha256, so these files ship byte-for-byte and the paths point into the authors' private repository
+^SCRUB\|[^|]*\|\[[Ee]ligib\]  # the ordinary word "eligible" (pictures or stations that qualify), as written in the pre-registrations
+^SCRUB\|[^|]*\|\[[Ss]ealed\]  # the ordinary word "sealed" (a call or key kept closed until scoring), as written in the pre-registrations

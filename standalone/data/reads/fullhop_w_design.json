@@ -1,0 +1,72 @@
+{
+ "test": "fullhop_w",
+ "question": "Does the ~30 % damage dose of the partsheet_tolerance pictures L70 and C70 read rows for both when every damaged patch is moved a full sheet onto the real neighbouring sheet, out of the 2.4 um reader's reach?",
+ "window": "the same PHerc0841 known-text window W on w00 as partsheet_tolerance",
+ "raters": [
+  "chris (rated first)",
+  "sebastien"
+ ],
+ "pictures": {
+  "levels": {
+   "L70d": "primary: the dispersed 30 % mask of partsheet L70, every hop moved a full sheet outward along w00's normal (to the centre of the nearest public m7 run 140-250 um out, else a constant 150 um), render offset picked by the p99 rule (+0; p99 rule = of -22 / 0 / +22 layers, the one whose map has the highest 99th percentile inside the valid mask)",
+   "C70d": "primary: the clustered 30 % mask of partsheet C70, full-sheet hops (same law), offset picked by the p99 rule (-22 layers, about -52.9 um)",
+   "L40d": "guard: dispersed 60 % full-sheet hops (contains every L70d hop)",
+   "H50n": "guard: 50 % holes on a new clustered mask, +0",
+   "L100": "readable control: the undamaged w00 tile (byte copy of partsheet L100)"
+  },
+  "blanks": {
+   "L70d_blank": "wrong-order blank of L70d",
+   "C70d_blank": "wrong-order blank of C70d"
+  },
+  "calib": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+  "calib_blank": "the calibration map in the wrong layer order (wrong-order blank)",
+  "n_pictures": 9
+ },
+ "hop_law": "each hop vertex moves outward along w00's normal to the centre of the nearest public m7 run lying 140-250 um outward (floor 140 um); if none, a constant 150 um; then Gaussian smoothing sigma 1 vertex. Masks unchanged from the rated partsheet pictures",
+ "depth_offsets": {
+  "C70d": {
+   "layers": -22,
+   "um": -52.9
+  },
+  "L70d": {
+   "layers": 0,
+   "um": 0.0
+  },
+  "L40d": "picked by the p99 rule",
+  "H50n": {
+   "layers": 0,
+   "um": 0.0
+  }
+ },
+ "sitting": "rated in one sitting with the fullhop_s022814 / line_spacing page (two pages: the pre-written fallback when the shared page was over 1 MB); each test is scored only on its own pictures",
+ "rule": {
+  "valid_rater": "every own picture answered; calibration rows; the calibration blank, L70d blank and C70d blank each not rows; L100 rows",
+  "outcomes": {
+   "UNDECIDED": "fewer than 2 valid raters",
+   "FULL-HOP-FAILS": ">= 1 valid rater calls L70d or C70d not rows",
+   "FULL-HOP-HOLDS": "both valid raters call rows on both L70d and C70d, AND >= 1 valid rater calls L40d or H50n not rows",
+   "UNDECIDED (lenient page)": "both say rows on both primaries and nobody calls a guard not rows"
+  },
+  "stage0": {
+   "DARK-HOPS": "Stage 0d: off-sheet share of moved vertices > the same vertices on w00 + 0.10 (no page)",
+   "INCONCLUSIVE (reader still reaches)": "Stage 0b fails at floor 140 and again at the 170 fallback (no page)",
+   "VOID": "tile plumbing / mask / coverage checks fail (no page)"
+  },
+  "stage0b_bar": "hop pixels (moved > 50 um): label AUC <= min(blank + 0.05, 0.62), blank = the same deep surface's wrong-order map at the same offset on the same pixels; unmoved pixels: AUC >= the rated parent's AUC - 0.01"
+ },
+ "outcome_labels": [
+  "FULL-HOP-FAILS",
+  "FULL-HOP-HOLDS",
+  "UNDECIDED",
+  "UNDECIDED (lenient page)",
+  "DARK-HOPS",
+  "INCONCLUSIVE (reader still reaches)",
+  "VOID"
+ ],
+ "wording_if_fails": "rows with ~30 % part-sheet displacement (as built from w00); with ~30 % full one-sheet hops, not rows for >= 1 of 2 blind raters",
+ "scope": "one text window, one picture per level, two raters, one sitting; C70d sat at -22 layers where even the control scores lower",
+ "stage0": {
+  "passed": true,
+  "note": "0c 6/6 tiles pixel-identical, 0m masks, 0d DARK-HOPS pass, coverage 1.0, 0b pass at floor 140 (no fallback)"
+ }
+}

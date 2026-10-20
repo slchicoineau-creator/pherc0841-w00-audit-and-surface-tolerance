@@ -1,0 +1,12 @@
+{
+ "n_yes": 13,
+ "n_no": 33,
+ "n_cant": 2,
+ "thetaA": 0.1,
+ "thetaB": 15,
+ "balanced_accuracy": 0.696,
+ "tpr": 0.545,
+ "tnr": 0.846,
+ "repeats_agree": "3/4",
+ "gate": "FAIL"
+}

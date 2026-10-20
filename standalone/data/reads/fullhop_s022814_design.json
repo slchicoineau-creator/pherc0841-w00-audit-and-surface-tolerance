@@ -1,0 +1,67 @@
+{
+ "test": "fullhop_s022814",
+ "question": "Does the ~70 % right-sheet line hold on s022814's own labelled window, with full-sheet hops built on the organizers' surface (nothing from w00)?",
+ "window": "the organizers' labelled next-turn surface s022814 of PHerc0841, its labelled-text window (20 x 11.7 mm), canonical 2.4 um ink model at a fixed +1 layer offset; tiles cut to the common frame shared with line_spacing's pictures",
+ "raters": [
+  "chris (rated first)",
+  "sebastien"
+ ],
+ "pictures": {
+  "levels": {
+   "ctrl814": "readable control: the organizers' undamaged s022814 surface over its labelled text window, fixed offset +1 layer (~2.4 um)",
+   "L85_814": "descriptive: top 15 % of a dispersed mask hopped a full sheet (s022814 normal; nearest public m7 run 170-250 um out, else a constant 200 um), +1 layer",
+   "L70_814": "primary: top 30 % hopped a full sheet (same law), +1 layer",
+   "L55_814": "guard: top 45 % hopped a full sheet, nested (contains every L70_814 hop plus 15 % more), +1 layer",
+   "H50_814": "guard: 50 % holes, +1 layer"
+  },
+  "blanks": {
+   "ctrl814_blank": "wrong-order blank of ctrl814",
+   "L70_814_blank": "wrong-order blank of L70_814"
+  },
+  "calib": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+  "calib_blank": "the calibration map in the wrong layer order (wrong-order blank)",
+  "other_test_on_page": {
+   "O2": "line_spacing primary: 10 constant-height lines cut from s022814 itself, 2.02 mm apart, joined by the frozen sheet-direction fill (12 fill rows per gap), depth picked by the window's own labels (best of 7)",
+   "O45": "line_spacing secondary: the same builder with 5 lines 4.54 mm apart (24 fill rows per gap), own label-picked depth"
+  },
+  "n_pictures": 11
+ },
+ "hop_law": "nearest public m7 run 170-250 um outward along s022814's normal, else a constant 200 um (the pre-written 170 fallback: at floor 140 a moved patch still showed the true text)",
+ "depth_offsets": {
+  "all pictures": {
+   "layers": 1,
+   "um": 2.4,
+   "note": "fixed offset; no direction claimed"
+  }
+ },
+ "sitting": "same sitting as fullhop_w (Chris then Sebastien); the line_spacing pictures never count here",
+ "rule": {
+  "valid_rater": "every own picture of this test and the calibration pair answered; calibration rows; the calibration blank, ctrl814 blank and L70_814 blank each not rows. A valid rater who does not call ctrl814 rows is undecided for this window",
+  "outcomes": {
+   "UNDECIDED (fewer than 2 valid raters)": "< 2 valid raters",
+   "FAILS-814": ">= 1 valid rater with ctrl814 rows calls L70_814 not rows",
+   "HOLDS-814": "both valid raters call ctrl814 and L70_814 rows, AND >= 1 of them calls H50_814 or L55_814 not rows",
+   "UNDECIDED": "a rater's ctrl814 not rows (and no FAILS from the other); or no 814 guard called not rows (lenient)"
+  },
+  "descriptive_L85": "if FAILS-814 and both valid raters read L85_814 rows, write 'this window read with ~15 % deep hops, not ~30 %'; the Judge requires the follow-on: 'the same raters read the heavier 45 % picture rows for 1 of 2'",
+  "stage0": {
+   "INCONCLUSIVE (reader still reaches)": "Stage 0b fails at floor 140 and again at the 170 fallback (no page)",
+   "DARK-HOPS": "Stage 0d fails",
+   "VOID": "plumbing"
+  }
+ },
+ "outcome_labels": [
+  "FAILS-814",
+  "HOLDS-814",
+  "UNDECIDED",
+  "UNDECIDED (fewer than 2 valid raters)",
+  "DARK-HOPS",
+  "INCONCLUSIVE (reader still reaches)",
+  "VOID"
+ ],
+ "scope": "one window, one picture per level, the same two raters and sitting as fullhop_w (not an independent replication)",
+ "stage0": {
+  "passed": true,
+  "note": "0b failed at floor 140 (reader still reached the true text); the pre-written 170 fallback ran once and passed"
+ }
+}

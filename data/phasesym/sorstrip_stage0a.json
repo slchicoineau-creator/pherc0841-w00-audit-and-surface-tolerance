@@ -1,0 +1,34 @@
+{
+ "primary": {
+  "ink_windows": 123,
+  "good_windows": 21,
+  "top_third_cut_rT": 0.423,
+  "median_ratio": 0.508,
+  "median_rT_good": 0.573,
+  "median_rH9_good": 0.291,
+  "verdict": "READER-LIMITED",
+  "description": {
+   "all_ink_median_rT": 0.359,
+   "all_ink_median_rH9": 0.204,
+   "all_ink_median_rT_rev": 0.022,
+   "all_ink_median_rH9_rev": 0.007
+  }
+ },
+ "robust": {
+  "dog_1.5_12": {
+   "good_windows": 19,
+   "median_ratio": 0.505,
+   "median_ratio_H9_best_shift": 0.624,
+   "verdict_strict": "READER-LIMITED",
+   "verdict_best_shift": "MIXED"
+  },
+  "dog_3_24": {
+   "good_windows": 42,
+   "median_ratio": 0.696,
+   "median_ratio_H9_best_shift": 0.727,
+   "verdict_strict": "MIXED",
+   "verdict_best_shift": "MIXED"
+  }
+ },
+ "pass": true
+}

@@ -1,0 +1,187 @@
+{
+ "per_level": {
+  "L100": {
+   "valid_readers": 3,
+   "rows": 3,
+   "calls": [
+    "rows",
+    "rows",
+    "rows"
+   ],
+   "reads": true,
+   "readers": [
+    {
+     "reader": "L100_r1",
+     "valid": true,
+     "level_tile": "rows",
+     "answers": {
+      "level": "rows",
+      "blank09": "nothing",
+      "blank": "nothing",
+      "calib": "rows"
+     }
+    },
+    {
+     "reader": "L100_r2",
+     "valid": true,
+     "level_tile": "rows",
+     "answers": {
+      "blank09": "nothing",
+      "calib": "rows",
+      "blank": "nothing",
+      "level": "rows"
+     }
+    },
+    {
+     "reader": "L100_r3",
+     "valid": true,
+     "level_tile": "rows",
+     "answers": {
+      "blank": "nothing",
+      "level": "rows",
+      "calib": "rows",
+      "blank09": "nothing"
+     }
+    }
+   ]
+  },
+  "L85": {
+   "valid_readers": 3,
+   "rows": 0,
+   "calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ],
+   "reads": false,
+   "readers": [
+    {
+     "reader": "L85_r1",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "blank09": "nothing",
+      "level": "strokes",
+      "calib": "rows",
+      "blank": "nothing"
+     }
+    },
+    {
+     "reader": "L85_r2",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "blank09": "nothing",
+      "level": "strokes",
+      "calib": "rows",
+      "blank": "nothing"
+     }
+    },
+    {
+     "reader": "L85_r3",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "calib": "rows",
+      "blank09": "nothing",
+      "level": "strokes",
+      "blank": "nothing"
+     }
+    }
+   ]
+  },
+  "L70": {
+   "valid_readers": 3,
+   "rows": 0,
+   "calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ],
+   "reads": false,
+   "readers": [
+    {
+     "reader": "L70_r1",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "calib": "rows",
+      "blank": "nothing",
+      "level": "strokes",
+      "blank09": "nothing"
+     }
+    },
+    {
+     "reader": "L70_r2",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "blank": "nothing",
+      "calib": "rows",
+      "level": "strokes",
+      "blank09": "nothing"
+     }
+    },
+    {
+     "reader": "L70_r3",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "level": "strokes",
+      "blank": "nothing",
+      "blank09": "nothing",
+      "calib": "rows"
+     }
+    }
+   ]
+  },
+  "L55": {
+   "valid_readers": 3,
+   "rows": 0,
+   "calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ],
+   "reads": false,
+   "readers": [
+    {
+     "reader": "L55_r1",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "level": "strokes",
+      "calib": "rows",
+      "blank": "nothing",
+      "blank09": "nothing"
+     }
+    },
+    {
+     "reader": "L55_r2",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "level": "strokes",
+      "blank": "nothing",
+      "calib": "rows",
+      "blank09": "nothing"
+     }
+    },
+    {
+     "reader": "L55_r3",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "calib": "rows",
+      "level": "strokes",
+      "blank": "nothing",
+      "blank09": "nothing"
+     }
+    }
+   ]
+  }
+ },
+ "tolerance": "L100",
+ "monotone": true,
+ "verdict": "tolerance L100"
+}

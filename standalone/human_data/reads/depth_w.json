@@ -1,0 +1,477 @@
+{
+ "test": "depth_w",
+ "title": "Uniform depth shifts and the second surface, known-text window",
+ "gated": "human data: per-picture blind calls; release only with both raters' OK",
+ "answers": [
+  "rows",
+  "strokes",
+  "nothing"
+ ],
+ "pages": [
+  {
+   "page": "depth_w_page",
+   "rater": "sebastien",
+   "n_pictures": 22,
+   "rated_at_utc": "2026-10-06T02:48:04.049Z"
+  },
+  {
+   "page": "depth_w_page",
+   "rater": "chris",
+   "n_pictures": 22,
+   "rated_at_utc": "2026-10-06T16:28:34.435Z"
+  }
+ ],
+ "calls": [
+  {
+   "page": "depth_w_page",
+   "shown_position": 1,
+   "picture": "out12_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of out12)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 2,
+   "picture": "out24",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly +10 layers (+24 um outward)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 3,
+   "picture": "s214732",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "the organizers' second auto-grown surface of this region, s214732, about 66 um inward along w00's normal (78 um from w00)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 4,
+   "picture": "in24_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of in24)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 5,
+   "picture": "in12",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly -5 layers (-12 um, inward)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 6,
+   "picture": "out12",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly +5 layers (+12 um, outward = away from the scroll centre)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 7,
+   "picture": "in24",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly -10 layers (-24 um inward)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 8,
+   "picture": "out24_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of out24)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 9,
+   "picture": "s214732_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of s214732)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 10,
+   "picture": "in12_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of in12)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 11,
+   "picture": "w10_P_top",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (top) of the w00 control map at full resolution (12.5 um per tile pixel)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 12,
+   "picture": "w10_S_bot",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (bot) of the s214732 map at full resolution (12.5 um per tile pixel)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 13,
+   "picture": "w10_S_mid",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (mid) of the s214732 map at full resolution (12.5 um per tile pixel)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 14,
+   "picture": "w10_P_mid",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (mid) of the w00 control map at full resolution (12.5 um per tile pixel)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 15,
+   "picture": "w10_S_blank",
+   "kind": "blank10",
+   "size": "10mm",
+   "arm": "wrong-order blank of the s214732 map, middle 10 mm window",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 16,
+   "picture": "w10_P_blank",
+   "kind": "blank10",
+   "size": "10mm",
+   "arm": "wrong-order blank of the w00 control map, middle 10 mm window",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 17,
+   "picture": "w10_S_top",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (top) of the s214732 map at full resolution (12.5 um per tile pixel)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 18,
+   "picture": "w10_P_bot",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (bot) of the w00 control map at full resolution (12.5 um per tile pixel)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 19,
+   "picture": "calib",
+   "kind": "calib",
+   "size": "20mm",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 20,
+   "picture": "ctrl",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "readable control: w00 at its own +0 (byte copy of partsheet L100)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 21,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "size": "20mm",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 22,
+   "picture": "ctrl_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of ctrl)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 1,
+   "picture": "out12_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of out12)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 2,
+   "picture": "out24",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly +10 layers (+24 um outward)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 3,
+   "picture": "s214732",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "the organizers' second auto-grown surface of this region, s214732, about 66 um inward along w00's normal (78 um from w00)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 4,
+   "picture": "in24_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of in24)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 5,
+   "picture": "in12",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly -5 layers (-12 um, inward)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 6,
+   "picture": "out12",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly +5 layers (+12 um, outward = away from the scroll centre)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 7,
+   "picture": "in24",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "w00 shifted uniformly -10 layers (-24 um inward)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 8,
+   "picture": "out24_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of out24)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 9,
+   "picture": "s214732_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of s214732)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 10,
+   "picture": "in12_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of in12)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 11,
+   "picture": "w10_P_top",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (top) of the w00 control map at full resolution (12.5 um per tile pixel)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 12,
+   "picture": "w10_S_bot",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (bot) of the s214732 map at full resolution (12.5 um per tile pixel)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 13,
+   "picture": "w10_S_mid",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (mid) of the s214732 map at full resolution (12.5 um per tile pixel)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 14,
+   "picture": "w10_P_mid",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (mid) of the w00 control map at full resolution (12.5 um per tile pixel)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 15,
+   "picture": "w10_S_blank",
+   "kind": "blank10",
+   "size": "10mm",
+   "arm": "wrong-order blank of the s214732 map, middle 10 mm window",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 16,
+   "picture": "w10_P_blank",
+   "kind": "blank10",
+   "size": "10mm",
+   "arm": "wrong-order blank of the w00 control map, middle 10 mm window",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 17,
+   "picture": "w10_S_top",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (top) of the s214732 map at full resolution (12.5 um per tile pixel)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 18,
+   "picture": "w10_P_bot",
+   "kind": "level10",
+   "size": "10mm",
+   "arm": "10 x 10 mm window (bot) of the w00 control map at full resolution (12.5 um per tile pixel)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 19,
+   "picture": "calib",
+   "kind": "calib",
+   "size": "20mm",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 20,
+   "picture": "ctrl",
+   "kind": "level",
+   "size": "20mm",
+   "arm": "readable control: w00 at its own +0 (byte copy of partsheet L100)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 21,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "size": "20mm",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "depth_w_page",
+   "shown_position": 22,
+   "picture": "ctrl_blank",
+   "kind": "blank",
+   "size": "20mm",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of ctrl)",
+   "rater": "chris",
+   "call": "nothing"
+  }
+ ],
+ "judge": {
+  "loop_verdict_for_observed_outcome": {
+   "WIDE-OUT": "FAIL (the agents' depth budget and s214732's no-rows are not confirmed by humans)"
+  },
+  "claim_wording": ">= 24 um on both sides of w00's own +0; no human edge found in the tested range (vs w00, not point-precise; one tile per arm); 24 um is the furthest arm tested (a censored bound, not an edge)",
+  "judge_notes": [
+   "the 10 mm block had no valid negative arm: s214732 read rows at 20 mm for both raters",
+   "every 20 mm surface picture read rows for both raters, so 24 um is a lower bound on each side"
+  ],
+  "source": "the independent Judge re-score of this test (its verdict section)"
+ }
+}

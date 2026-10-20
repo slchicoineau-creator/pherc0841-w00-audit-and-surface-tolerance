@@ -1,0 +1,55 @@
+{
+ "test": "grown_field",
+ "what": "descriptive only (decides nothing): the frozen row-periodicity score of each tile (a ranking score, never a surface bar) and the AI agent screen (5 fresh agent readers per tile, screening only)",
+ "row_score": {
+  "grown": {
+   "RP": 0.399,
+   "RP_jpeg90": 0.389,
+   "peak_mm": 4.57,
+   "nonblack": 0.9785
+  },
+  "grown_blank": {
+   "RP": 1.27,
+   "RP_jpeg90": 1.265,
+   "peak_mm": 4.57,
+   "nonblack": 0.9784
+  },
+  "ctrl": {
+   "RP": 23.338,
+   "RP_jpeg90": 23.342,
+   "peak_mm": 5.52,
+   "nonblack": 1.0
+  },
+  "ctrl_blank": {
+   "RP": 0.864,
+   "RP_jpeg90": 0.863,
+   "peak_mm": 6.96,
+   "nonblack": 1.0
+  }
+ },
+ "grown_over_ctrl_RP": 0.017,
+ "agent_screen": {
+  "ctrl": {
+   "valid": 5,
+   "rows": 5,
+   "calls": [
+    "rows",
+    "rows",
+    "rows",
+    "rows",
+    "rows"
+   ]
+  },
+  "grown": {
+   "valid": 5,
+   "rows": 0,
+   "calls": [
+    "strokes",
+    "nothing",
+    "nothing",
+    "nothing",
+    "strokes"
+   ]
+  }
+ }
+}

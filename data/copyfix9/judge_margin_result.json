@@ -1,0 +1,81 @@
+{
+ "N2": {
+  "single_crossing_sites": 24,
+  "on_at": {
+   "50": 20,
+   "75": 23,
+   "100": 24,
+   "125": 24,
+   "150": 24,
+   "200": 24
+  },
+  "off75_n": 1,
+  "off75_dist_um_min_med_max": [
+   86.2,
+   86.2,
+   86.2
+  ],
+  "off75_within_half_pitch_165um": 1,
+  "signed_med_um": -4.5,
+  "signed_pos_neg": [
+   10,
+   14
+  ],
+  "abs_med_um": 20.4
+ },
+ "R": {
+  "single_crossing_sites": 24,
+  "on_at": {
+   "50": 8,
+   "75": 14,
+   "100": 18,
+   "125": 22,
+   "150": 24,
+   "200": 24
+  },
+  "off75_n": 10,
+  "off75_dist_um_min_med_max": [
+   76.7,
+   111.3,
+   138.3
+  ],
+  "off75_within_half_pitch_165um": 10,
+  "signed_med_um": -23.1,
+  "signed_pos_neg": [
+   10,
+   14
+  ],
+  "abs_med_um": 62.9
+ },
+ "F": {
+  "single_crossing_sites": 24,
+  "on_at": {
+   "50": 13,
+   "75": 17,
+   "100": 20,
+   "125": 21,
+   "150": 23,
+   "200": 24
+  },
+  "off75_n": 7,
+  "off75_dist_um_min_med_max": [
+   79.3,
+   100.0,
+   198.1
+  ],
+  "off75_within_half_pitch_165um": 6,
+  "signed_med_um": -6.2,
+  "signed_pos_neg": [
+   11,
+   13
+  ],
+  "abs_med_um": 43.3
+ },
+ "straight_line_guide": {
+  "on_at": {
+   "50": 20,
+   "75": 22,
+   "100": 24
+  }
+ }
+}

@@ -1,0 +1,326 @@
+[
+ {
+  "test": "fullhop",
+  "data_file": "data/fullhop/fh_page_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "1e62fc770a4ec5cb584a9c6cabd8ee9c01f1783c53a6747f2bd20905710a8eab",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "fullhop",
+  "data_file": "data/fullhop/seb_fullhop_ratings.json",
+  "source_path": "ratings/seb/fullhop_ratings.json",
+  "source_commit": "local only",
+  "sha256": "fc6cf6fff25c6a33c24d8f5de5692b4f9ee45cf50304f15370454acf8b62734d",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "fullhop",
+  "data_file": "data/fullhop/chris_fullhop_ratings.json",
+  "source_path": "ratings/partner/fullhop_ratings.json",
+  "source_commit": "local only",
+  "sha256": "998355afebd8b040086432302fb31e19b57befd930f3d5599d8d2e2a7f2334dd",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "fullhop",
+  "data_file": "data/fullhop/fh_s0b_f140_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "78ab322aab0ca415f4e87661c903c790d2e02bbe064a254a0121d6e819f6d1c6",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "fullhop",
+  "data_file": "data/fullhop/f140_surf.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "d46e29a901051d5c364869359c5fbe8881a4efae6ec0c0a43c612a0afb64591b",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "fullhop",
+  "data_file": "data/fullhop/fh_score_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "1def0089e76bfd3894097ea1bf6cc26052ac7a147b9547c3423a20b0e85b2be7",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "fullhop",
+  "data_file": "data/fullhop/judge_rescore_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "600eb54593c561fd64f98af309632e675aa4ce20b8fae02594bd3197e4f0a981",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/t8_page_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "26e7cf1537d3bbca6f436e9ce4abd953c0b6b4e097d94974a13884ff3ea3a437",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/seb_tol814_ratings.json",
+  "source_path": "ratings/seb/tol814_ratings.json",
+  "source_commit": "local only",
+  "sha256": "eeeae260532b0c1ad5a1d38623f5b586b1f0b589bafeb31ab0b67b902d8418df",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/chris_tol814_ratings.json",
+  "source_path": "ratings/partner/tol814_ratings.json",
+  "source_commit": "local only",
+  "sha256": "bf1847150a030fbe399ce9e5eeebb9717fb25e04cebf2a47c12bed539bb0ecdb",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/f170_surf.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "1a1c3f4bc7021f02f99cfb3364f93b2a3a141b1113721e9054cc7420f52a8376",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/t8_s0b_f140_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "4459ad8afd4383f1717136c0057ff3ce668f315f32eae0379c9eb0e6ba3cdd61",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/t8_s0b_f170_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "6a1fd4c2db7e1df5458aa46194ab4416ae7bef1a90b0120b11e04e26d77aca46",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/t8_score_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "77916a210d0a9cbec2057e10e519b2689fa85308cc3471b3c3c6d3da1f098b13",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "tol814",
+  "data_file": "data/tol814/judge_rescore_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "5297255ac055dafa4de1e81854b10de4f8b4267e13eb2233bb23eec1c0a50447",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/t8_page_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "26e7cf1537d3bbca6f436e9ce4abd953c0b6b4e097d94974a13884ff3ea3a437",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/seb_tol814_ratings.json",
+  "source_path": "ratings/seb/tol814_ratings.json",
+  "source_commit": "local only",
+  "sha256": "eeeae260532b0c1ad5a1d38623f5b586b1f0b589bafeb31ab0b67b902d8418df",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/chris_tol814_ratings.json",
+  "source_path": "ratings/partner/tol814_ratings.json",
+  "source_commit": "local only",
+  "sha256": "bf1847150a030fbe399ce9e5eeebb9717fb25e04cebf2a47c12bed539bb0ecdb",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/lines_O.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "5671cda7b0c5c9ecf90c7bce9c52612dc249a22ff093bd8ede4dd34f0ab23ee3",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/region.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "7f00d6e457c8f7598196df8ec9ea2df86d93d923f3acf238f9a0dc10908d4e8f",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/fiber9b_speed.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "6862e0119ce32461376e221da0e51e791e5db00ba7e2a67797615a9f87633bf5",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/field_O_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "accc1c28abeacaa1fe028acdd3ac3f7f1d79e28dde1d53337be6e2472cdba5db",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/stage0.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "c6c086bc3451c1b3d676067908f9373377482645775ff6234e96d7a2dccc1ce9",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/ideas_forecast_odds_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "0444e8121a5faa7843832b4f5b4c015f077dfd779e18e2f790239c19782750d3",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/judge_rescore_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "3b401e82ce893d81ed89abce4a42404c69dcb978edd7a140d5223a4552aabe23",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/spiralread_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "88db38b619e575a90d502142c19be17e6f5ede9d516b5d7797331882431abc71",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/spiralread_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "35d6ce5855cf4b37fb41ee6109eaba4d5ccf99c5f4e084eb5984b68de1c8d12e",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/spiralread_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "9085638c295466aea7d25b7dec0c38741510044acdf0bc0d5421ac9da8dd15ac",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/spiralread_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "e1be4928d51e42c02b77df3b9f26715aa4a775f3c6062ceb6adced18ca8cadb0",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/judge_rescore_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "886d66d795f9b391736e23986f8e80252f2b5ff039e8330701ad56368b89dbfe",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/stage0.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "1d2c0c34432131246f7414de93cc50ff52db3d4500113a748af6e4dfa8f8fb67",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/judge_rescore_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "7e66be55436360550127fe1306e0e5aa51acc10698c28cd7be2559e2f4c2f35b",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "spiralread0841",
+  "data_file": "data/spiralread0841/planner_exposure_out.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "2d1cd091fd54bd65e1aa46eb1189f276beb601c574a1bc1ad6b6662c24af7087",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/lines_O45.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "3413672ca67925d290d60a27b7869a550832587d4ecd47a98714a93d05239570",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/rings_O2.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "726a7f00ebef269d71aab6ea8af705e90d1c3ffb80aa424b93f0aa73718bff89",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "linefieldread",
+  "data_file": "data/linefieldread/rings_O45.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "fc85e9426c1f22927444f2bb36ab87db8511eba2425850be82e9ef2c25ddbc17",
+  "kind": "other",
+  "rater": "none"
+ }
+]

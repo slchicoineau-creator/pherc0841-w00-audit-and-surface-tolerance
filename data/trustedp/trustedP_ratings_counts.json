@@ -1,0 +1,23 @@
+{
+ "per_third": {
+  "clean third": {
+   "Yes": 8,
+   "Cant": 1,
+   "No": 7
+  },
+  "middle third": {
+   "No": 12,
+   "Yes": 4
+  },
+  "suspect third": {
+   "No": 14,
+   "Cant": 1,
+   "Yes": 1
+  }
+ },
+ "all": {
+  "Yes": 13,
+  "No": 33,
+  "Cant": 2
+ }
+}

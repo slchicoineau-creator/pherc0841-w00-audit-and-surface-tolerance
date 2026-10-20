@@ -1,0 +1,97 @@
+{
+ "per_level": {
+  "C85": {
+   "valid_readers": 3,
+   "rows": 3,
+   "calls": [
+    "rows",
+    "rows",
+    "rows"
+   ],
+   "reads": true,
+   "readers": [
+    {
+     "reader": "C85_r1",
+     "valid": true,
+     "level_tile": "rows",
+     "answers": {
+      "level": "rows",
+      "blank09": "nothing",
+      "blank": "nothing",
+      "calib": "rows"
+     }
+    },
+    {
+     "reader": "C85_r2",
+     "valid": true,
+     "level_tile": "rows",
+     "answers": {
+      "blank09": "nothing",
+      "calib": "rows",
+      "blank": "nothing",
+      "level": "rows"
+     }
+    },
+    {
+     "reader": "C85_r3",
+     "valid": true,
+     "level_tile": "rows",
+     "answers": {
+      "blank": "nothing",
+      "level": "rows",
+      "calib": "rows",
+      "blank09": "nothing"
+     }
+    }
+   ]
+  },
+  "C70": {
+   "valid_readers": 3,
+   "rows": 0,
+   "calls": [
+    "nothing",
+    "nothing",
+    "nothing"
+   ],
+   "reads": false,
+   "readers": [
+    {
+     "reader": "C70_r1",
+     "valid": true,
+     "level_tile": "nothing",
+     "answers": {
+      "blank09": "nothing",
+      "level": "nothing",
+      "calib": "rows",
+      "blank": "nothing"
+     }
+    },
+    {
+     "reader": "C70_r2",
+     "valid": true,
+     "level_tile": "nothing",
+     "answers": {
+      "blank09": "nothing",
+      "level": "nothing",
+      "calib": "rows",
+      "blank": "nothing"
+     }
+    },
+    {
+     "reader": "C70_r3",
+     "valid": true,
+     "level_tile": "nothing",
+     "answers": {
+      "calib": "rows",
+      "blank09": "nothing",
+      "level": "nothing",
+      "blank": "nothing"
+     }
+    }
+   ]
+  }
+ },
+ "tolerance": "C85",
+ "monotone": true,
+ "verdict": "tolerance C85"
+}

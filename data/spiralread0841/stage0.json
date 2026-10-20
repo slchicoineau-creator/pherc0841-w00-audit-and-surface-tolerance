@@ -1,0 +1,95 @@
+{
+ "h_secrecy": {
+  "not_ignored": [],
+  "ok": true
+ },
+ "c_arms": {
+  "n_windings": 120,
+  "nearest3": [
+   [
+    "w054",
+    5.73
+   ],
+   [
+    "w055",
+    8.52
+   ],
+   [
+    "w057",
+    14.78
+   ]
+  ],
+  "picked": {
+   "A1": "w054",
+   "A2": "w055"
+  },
+  "x_tif_sha_ok": {
+   "w055": true,
+   "w054": true
+  },
+  "ok": true
+ },
+ "d_separation": {
+  "median_sep_um": 127.0,
+  "p10_sep_um": 53.6,
+  "bar_um": 24.0,
+  "ok": true
+ },
+ "e_seam": {
+  "A1_edge_share": 0.0,
+  "A2_edge_share": 0.0,
+  "bar": 0.01,
+  "A1_ok": true,
+  "A2_ok": true
+ },
+ "protect": {
+  "n": 18,
+  "changed": [],
+  "ok": true
+ },
+ "g_control_rebuild": {
+  "max_abs_diff": 0,
+  "ok": true
+ },
+ "a_coverage": {
+  "cover_A1": 0.9626,
+  "cover_A2": 0.9766,
+  "shared": 0.9583,
+  "bar": 0.8,
+  "ok": true
+ },
+ "b_blanks": {
+  "r_C_Cblank": 0.0953,
+  "n": 2431257,
+  "bar": 0.1953,
+  "r_A1_blank": 0.0878,
+  "A1_ok": true,
+  "r_A2_blank": 0.1761,
+  "A2_ok": true,
+  "ok": true
+ },
+ "guard_counts": {
+  "chris": {
+   "eligible": 2,
+   "drawn_from": 2,
+   "guard_found": true,
+   "guard_waived": false,
+   "guard_earlier_showings": 1,
+   "C_byte_identical_showings": 6
+  },
+  "seb": {
+   "eligible": 0,
+   "drawn_from": 0,
+   "guard_found": false,
+   "guard_waived": true,
+   "guard_earlier_showings": null,
+   "C_byte_identical_showings": null
+  }
+ },
+ "f_frame": {
+  "worst_gap_pts": 0.07,
+  "bar_pts": 2.0,
+  "same_shape": true,
+  "ok": true
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "per_level": {
+  "H70": {
+   "valid_readers": 3,
+   "rows": 0,
+   "calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ],
+   "reads": false,
+   "readers": [
+    {
+     "reader": "H70_r1",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "level": "strokes",
+      "blank09": "nothing",
+      "blank": "nothing",
+      "calib": "rows"
+     }
+    },
+    {
+     "reader": "H70_r2",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "blank09": "nothing",
+      "calib": "rows",
+      "blank": "nothing",
+      "level": "strokes"
+     }
+    },
+    {
+     "reader": "H70_r3",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "blank": "nothing",
+      "level": "strokes",
+      "calib": "rows",
+      "blank09": "nothing"
+     }
+    }
+   ]
+  },
+  "H50": {
+   "valid_readers": 3,
+   "rows": 0,
+   "calls": [
+    "strokes",
+    "strokes",
+    "strokes"
+   ],
+   "reads": false,
+   "readers": [
+    {
+     "reader": "H50_r1",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "blank09": "nothing",
+      "level": "strokes",
+      "calib": "rows",
+      "blank": "nothing"
+     }
+    },
+    {
+     "reader": "H50_r2",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "blank09": "nothing",
+      "level": "strokes",
+      "calib": "rows",
+      "blank": "nothing"
+     }
+    },
+    {
+     "reader": "H50_r3",
+     "valid": true,
+     "level_tile": "strokes",
+     "answers": {
+      "calib": "rows",
+      "blank09": "nothing",
+      "level": "strokes",
+      "blank": "nothing"
+     }
+    }
+   ]
+  }
+ },
+ "tolerance": null,
+ "monotone": null,
+ "verdict": "tolerance None (non-monotone: a lower level reads again)"
+}

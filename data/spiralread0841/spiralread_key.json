@@ -1,0 +1,84 @@
+{
+ "chris": {
+  "images": {
+   "s01": {
+    "role": "calib",
+    "sha": "353749a1f0bebe7265321cd22dbcbec554637508c37e0a4f5fe73d01a549ecbd"
+   },
+   "s02": {
+    "role": "A1",
+    "sha": "7f2aab5331c6567422348a610061937070f9df06dddda9466170d2bc0ea66563"
+   },
+   "s03": {
+    "role": "guard",
+    "sha": "416c9b28c3fc2891112eb3abe13ef1e601a163c2c5e081d341701e29312bf816"
+   },
+   "s04": {
+    "role": "C_level",
+    "sha": "c7448388baebc12e155c536b10c6582b133a3ca29d8622a74fcea1480341ea55"
+   },
+   "s05": {
+    "role": "A2_blank",
+    "sha": "08f54bd8c6394f85083f516c03dcbc1d2a87b6aacbc92904857ad2373898d6f7"
+   },
+   "s06": {
+    "role": "A2",
+    "sha": "3635bd3125b99c36bc43d56674e4697f157ea2cda5316774882f80fd0ad758f0"
+   },
+   "s07": {
+    "role": "A1_blank",
+    "sha": "1b5089a3a2880da4abdce0a2e290988b7c7bc492e8f5f091a83f7b1498fc77b4"
+   },
+   "s08": {
+    "role": "blank09",
+    "sha": "68bdf585fd71184f4a182e5e5a50588ee9974381895639e56d4497fa8f6654d1"
+   },
+   "s09": {
+    "role": "C_blank",
+    "sha": "16ca83a0faef782572f96ae80f941c2903e1172541b24d2cc62134e62bf57fce"
+   }
+  },
+  "jpeg_quality": 90,
+  "seed": 20261041,
+  "built": "2026-10-13T14:52:44.689689+00:00"
+ },
+ "seb": {
+  "images": {
+   "s01": {
+    "role": "C_blank",
+    "sha": "16ca83a0faef782572f96ae80f941c2903e1172541b24d2cc62134e62bf57fce"
+   },
+   "s02": {
+    "role": "blank09",
+    "sha": "68bdf585fd71184f4a182e5e5a50588ee9974381895639e56d4497fa8f6654d1"
+   },
+   "s03": {
+    "role": "C_level",
+    "sha": "c7448388baebc12e155c536b10c6582b133a3ca29d8622a74fcea1480341ea55"
+   },
+   "s04": {
+    "role": "A2",
+    "sha": "3635bd3125b99c36bc43d56674e4697f157ea2cda5316774882f80fd0ad758f0"
+   },
+   "s05": {
+    "role": "A1_blank",
+    "sha": "1b5089a3a2880da4abdce0a2e290988b7c7bc492e8f5f091a83f7b1498fc77b4"
+   },
+   "s06": {
+    "role": "A1",
+    "sha": "7f2aab5331c6567422348a610061937070f9df06dddda9466170d2bc0ea66563"
+   },
+   "s07": {
+    "role": "calib",
+    "sha": "353749a1f0bebe7265321cd22dbcbec554637508c37e0a4f5fe73d01a549ecbd"
+   },
+   "s08": {
+    "role": "A2_blank",
+    "sha": "08f54bd8c6394f85083f516c03dcbc1d2a87b6aacbc92904857ad2373898d6f7"
+   }
+  },
+  "jpeg_quality": 90,
+  "seed": 20261042,
+  "built": "2026-10-13T14:52:45.122464+00:00"
+ }
+}

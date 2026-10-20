@@ -1,0 +1,49 @@
+{
+ "raters": {
+  "seb": {
+   "missing": [],
+   "blank_rows": 0,
+   "n_blanks": 4,
+   "calib": "rows",
+   "blank09": "nothing",
+   "guard_rows": 0,
+   "n_guard": 1,
+   "lenient": false,
+   "valid": true,
+   "edge": {
+    "in48": "rows",
+    "out48": "rows"
+   },
+   "window": "WINDOW-YES",
+   "depth": "WIDE-HOLDS",
+   "reader": "H9 DROPPED",
+   "cm2": "20MM-NEEDED"
+  },
+  "chris": {
+   "missing": [],
+   "blank_rows": 0,
+   "n_blanks": 4,
+   "calib": "rows",
+   "blank09": "strokes",
+   "guard_rows": 1,
+   "n_guard": 3,
+   "lenient": false,
+   "valid": true,
+   "edge": {
+    "in48": "rows",
+    "out48": "strokes"
+   },
+   "window": "WINDOW-YES",
+   "depth": "WIDE-HOLDS",
+   "reader": "H9 DROPPED",
+   "cm2": "20MM-NEEDED"
+  }
+ },
+ "combined": {
+  "n_valid": 2,
+  "label": "two raters",
+  "verdict": "CONFIRMED (WIDE-HOLDS, two raters)",
+  "reader": "H9 DROPPED (two raters)",
+  "cm2": "20MM-NEEDED (two raters)"
+ }
+}

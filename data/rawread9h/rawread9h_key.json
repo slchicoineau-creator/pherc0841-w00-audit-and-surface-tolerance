@@ -1,0 +1,62 @@
+{
+ "chris": {
+  "images": {
+   "r01": {
+    "role": "grown_blank",
+    "sha": "a2465f473b408af17833a9b1c849a8f4b9fa511d984846e009678d97d62f436c"
+   },
+   "r02": {
+    "role": "ctrl",
+    "sha": "548bdd6913e5f6cfa1e8ea50320a3e335a756a3f6c280f9509f8562f934a7125"
+   },
+   "r03": {
+    "role": "grown",
+    "sha": "b6c59275c9bcbcf29b112c06e5acdf1d7631e2baedb90feab5ed5c510c09570c"
+   },
+   "r04": {
+    "role": "calib",
+    "sha": "353749a1f0bebe7265321cd22dbcbec554637508c37e0a4f5fe73d01a549ecbd"
+   },
+   "r05": {
+    "role": "guard",
+    "sha": "b650c0871ee77f22fbb9336fca1fb4e1d9c26c9eabed373fea5d9948e9bddd17"
+   },
+   "r06": {
+    "role": "blank09",
+    "sha": "68bdf585fd71184f4a182e5e5a50588ee9974381895639e56d4497fa8f6654d1"
+   }
+  },
+  "jpeg_quality": 90,
+  "seed": 20261077
+ },
+ "seb": {
+  "images": {
+   "r01": {
+    "role": "grown_blank",
+    "sha": "a2465f473b408af17833a9b1c849a8f4b9fa511d984846e009678d97d62f436c"
+   },
+   "r02": {
+    "role": "ctrl",
+    "sha": "548bdd6913e5f6cfa1e8ea50320a3e335a756a3f6c280f9509f8562f934a7125"
+   },
+   "r03": {
+    "role": "calib",
+    "sha": "353749a1f0bebe7265321cd22dbcbec554637508c37e0a4f5fe73d01a549ecbd"
+   },
+   "r04": {
+    "role": "grown",
+    "sha": "b6c59275c9bcbcf29b112c06e5acdf1d7631e2baedb90feab5ed5c510c09570c"
+   },
+   "r05": {
+    "role": "blank09",
+    "sha": "68bdf585fd71184f4a182e5e5a50588ee9974381895639e56d4497fa8f6654d1"
+   },
+   "r06": {
+    "role": "guard",
+    "sha": "c134a68cda9b8f057a686f3db9f6dde6f0d89891223349ef12dfcac2c41567d2"
+   }
+  },
+  "jpeg_quality": 90,
+  "seed": 20261078
+ }
+}

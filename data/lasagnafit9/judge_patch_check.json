@@ -1,0 +1,42 @@
+{
+ "seed_radius_vx": 848.1,
+ "nearest_vertex_dist_vx": 369.3,
+ "nearest_vertex_rc": [
+  23,
+  48
+ ],
+ "nearest_vertex_radius_vx": 481.4,
+ "valid_share_whole_grid": 1.0,
+ "radius_all_vertices_vx": {
+  "min": 220.6,
+  "median": 571.4,
+  "max": 1124.5
+ },
+ "seed_ray_crossings_radius_vx": [
+  401.2,
+  418.5,
+  434.6,
+  442.2,
+  443.2
+ ],
+ "winding_pitch_vx": 35.1,
+ "windings_inward_at_seed_ray": [
+  12.7,
+  12.2,
+  11.8,
+  11.6,
+  11.5
+ ],
+ "share_vertices_within_1_pitch_of_seed_radius": 0.0483,
+ "patch": {
+  "patch_rows": 39,
+  "patch_cols": 27,
+  "coded_coverage_valid_share": 1.0,
+  "patch_radius_vx": {
+   "min": 220.6,
+   "median": 444.6,
+   "max": 921.9
+  },
+  "patch_share_within_1_pitch_of_seed_radius": 0.0456
+ }
+}

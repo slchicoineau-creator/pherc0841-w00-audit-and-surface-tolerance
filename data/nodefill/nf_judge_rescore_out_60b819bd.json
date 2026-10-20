@@ -1,0 +1,20 @@
+{
+ "seb": {
+  "valid": false,
+  "checks_failed": [
+   "guard_not_rows"
+  ],
+  "n_answers": 7,
+  "first_to_download_s": 20.384,
+  "sha256_prefix": "d42c180f"
+ },
+ "partner": {
+  "valid": true,
+  "checks_failed": [],
+  "n_answers": 7,
+  "first_to_download_s": 13.534,
+  "sha256_prefix": "1ea995fd"
+ },
+ "verdict": "VOID (fewer than 2 valid raters)",
+ "scorer_file_verdict": "VOID"
+}

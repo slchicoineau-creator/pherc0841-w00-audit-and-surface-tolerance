@@ -1,0 +1,9 @@
+{
+ "verdict": "VOID",
+ "valid_raters": 0,
+ "stability_same_call_of_6": {
+  "seb": 6,
+  "partner": 4
+ },
+ "note": "stability = same call on the first page's 6 scored pictures (BL45 excluded); never enters the verdict"
+}

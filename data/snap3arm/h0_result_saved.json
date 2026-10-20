@@ -1,0 +1,36 @@
+{
+ "prereg": "prereg/2026-10-05_seb_midline3arm.md",
+ "crosses": 14,
+ "yes_rate": {
+  "w00": 0.786,
+  "refine": 0.643,
+  "midline": 0.571
+ },
+ "n_rated": {
+  "w00": 14,
+  "refine": 14,
+  "midline": 14
+ },
+ "midline_vs_w00": {
+  "pairs": 14,
+  "a_yes_b_no": 0,
+  "a_no_b_yes": 3,
+  "p": 0.25,
+  "a_better": false
+ },
+ "refine_vs_w00": {
+  "pairs": 14,
+  "a_yes_b_no": 0,
+  "a_no_b_yes": 2,
+  "p": 0.5,
+  "a_better": false
+ },
+ "midline_vs_refine": {
+  "pairs": 14,
+  "a_yes_b_no": 0,
+  "a_no_b_yes": 1,
+  "p": 1.0,
+  "a_better": false
+ },
+ "repeats_agree": "4/4"
+}

@@ -1,0 +1,184 @@
+{
+ "images": {
+  "c01": {
+   "kind": "blank",
+   "arm": "p5",
+   "size": "20mm",
+   "file": "p5_blank",
+   "block": "A"
+  },
+  "c02": {
+   "kind": "level",
+   "arm": "p10",
+   "size": "20mm",
+   "file": "p10_level",
+   "block": "A"
+  },
+  "c03": {
+   "kind": "level",
+   "arm": "s214732",
+   "size": "20mm",
+   "file": "s214732_level",
+   "block": "A"
+  },
+  "c04": {
+   "kind": "blank",
+   "arm": "m10",
+   "size": "20mm",
+   "file": "m10_blank",
+   "block": "A"
+  },
+  "c05": {
+   "kind": "level",
+   "arm": "m5",
+   "size": "20mm",
+   "file": "m5_level",
+   "block": "A"
+  },
+  "c06": {
+   "kind": "level",
+   "arm": "p5",
+   "size": "20mm",
+   "file": "p5_level",
+   "block": "A"
+  },
+  "c07": {
+   "kind": "level",
+   "arm": "m10",
+   "size": "20mm",
+   "file": "m10_level",
+   "block": "A"
+  },
+  "c08": {
+   "kind": "blank",
+   "arm": "p10",
+   "size": "20mm",
+   "file": "p10_blank",
+   "block": "A"
+  },
+  "c09": {
+   "kind": "blank",
+   "arm": "s214732",
+   "size": "20mm",
+   "file": "s214732_blank",
+   "block": "A"
+  },
+  "c10": {
+   "kind": "blank",
+   "arm": "m5",
+   "size": "20mm",
+   "file": "m5_blank",
+   "block": "A"
+  },
+  "c11": {
+   "kind": "level",
+   "arm": "w10_P",
+   "pos": "top",
+   "size": "10mm",
+   "file": "w10_P_top",
+   "block": "B"
+  },
+  "c12": {
+   "kind": "level",
+   "arm": "w10_S",
+   "pos": "bot",
+   "size": "10mm",
+   "file": "w10_S_bot",
+   "block": "B"
+  },
+  "c13": {
+   "kind": "level",
+   "arm": "w10_S",
+   "pos": "mid",
+   "size": "10mm",
+   "file": "w10_S_mid",
+   "block": "B"
+  },
+  "c14": {
+   "kind": "level",
+   "arm": "w10_P",
+   "pos": "mid",
+   "size": "10mm",
+   "file": "w10_P_mid",
+   "block": "B"
+  },
+  "c15": {
+   "kind": "blank",
+   "arm": "w10_S",
+   "pos": "mid",
+   "size": "10mm",
+   "file": "w10_S_blank",
+   "block": "B"
+  },
+  "c16": {
+   "kind": "blank",
+   "arm": "w10_P",
+   "pos": "mid",
+   "size": "10mm",
+   "file": "w10_P_blank",
+   "block": "B"
+  },
+  "c17": {
+   "kind": "level",
+   "arm": "w10_S",
+   "pos": "top",
+   "size": "10mm",
+   "file": "w10_S_top",
+   "block": "B"
+  },
+  "c18": {
+   "kind": "level",
+   "arm": "w10_P",
+   "pos": "bot",
+   "size": "10mm",
+   "file": "w10_P_bot",
+   "block": "B"
+  },
+  "c19": {
+   "kind": "calib",
+   "arm": "calib",
+   "size": "20mm",
+   "file": "calib",
+   "block": "C"
+  },
+  "c20": {
+   "kind": "level",
+   "arm": "ctrl",
+   "size": "20mm",
+   "file": "ctrl_level",
+   "block": "C"
+  },
+  "c21": {
+   "kind": "blank09",
+   "arm": "calib",
+   "size": "20mm",
+   "file": "blank09",
+   "block": "C"
+  },
+  "c22": {
+   "kind": "blank",
+   "arm": "ctrl",
+   "size": "20mm",
+   "file": "ctrl_blank",
+   "block": "C"
+  }
+ },
+ "jpeg_quality": 80,
+ "page_bytes": 875135,
+ "sources": {
+  "ctrl_level": "DEPTH-READ bytes",
+  "ctrl_blank": "DEPTH-READ bytes",
+  "m5_level": "DEPTH-READ bytes",
+  "m5_blank": "DEPTH-READ bytes",
+  "p5_level": "DEPTH-READ bytes",
+  "p5_blank": "DEPTH-READ bytes",
+  "m10_level": "DEPTH-READ bytes",
+  "m10_blank": "DEPTH-READ bytes",
+  "p10_level": "DEPTH-READ bytes",
+  "p10_blank": "DEPTH-READ bytes",
+  "s214732_level": "READ-S214732 bytes",
+  "s214732_blank": "READ-S214732 bytes"
+ },
+ "drop10": false,
+ "seed": 20261007
+}

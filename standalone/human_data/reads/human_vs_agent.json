@@ -1,0 +1,392 @@
+{
+ "test": "human_vs_agent",
+ "title": "Two humans vs the AI agent readers on the partsheet pictures",
+ "gated": "human data: per-picture blind calls; release only with both raters' OK",
+ "answers": [
+  "rows",
+  "strokes",
+  "nothing"
+ ],
+ "pages": [
+  {
+   "page": "partsheet_page",
+   "rater": "chris",
+   "chris_rated_after_prereg_first_commit": true,
+   "prereg_first_commit": "2026-10-05",
+   "rated_at_utc": "2026-10-06T16:29:40.299Z"
+  },
+  {
+   "page": "partsheet_page",
+   "rater": "sebastien",
+   "rated_at_utc": "2026-10-03T14:00:34.261Z"
+  }
+ ],
+ "calls": [
+  {
+   "page": "partsheet_page",
+   "shown_position": 1,
+   "picture": "L70_blank",
+   "kind": "blank",
+   "level": "L70",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L70)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 2,
+   "picture": "H50",
+   "kind": "level",
+   "level": "H50",
+   "arm": "50 % of the field cut out as clustered holes (black), +0",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 3,
+   "picture": "H70_blank",
+   "kind": "blank",
+   "level": "H70",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of H70)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 4,
+   "picture": "L55",
+   "kind": "level",
+   "level": "L55",
+   "arm": "45 % of the field hopped, dispersed ~1 mm patches (same hop law), +0",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 5,
+   "picture": "H70",
+   "kind": "level",
+   "level": "H70",
+   "arm": "30 % of the field cut out as clustered holes (black), +0",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 6,
+   "picture": "L70",
+   "kind": "level",
+   "level": "L70",
+   "arm": "30 % of the field hopped, dispersed ~1 mm patches (same hop law as L85), +0",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 7,
+   "picture": "H50_blank",
+   "kind": "blank",
+   "level": "H50",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of H50)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 8,
+   "picture": "C70",
+   "kind": "level",
+   "level": "C70",
+   "arm": "30 % of the field hopped in clustered clumps, read at a -22-layer render offset (about -52.9 um; the depth an earlier max-99th-percentile pick chose)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 9,
+   "picture": "C70_blank",
+   "kind": "blank",
+   "level": "C70",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C70)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 10,
+   "picture": "L55_blank",
+   "kind": "blank",
+   "level": "L55",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L55)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 11,
+   "picture": "L85",
+   "kind": "level",
+   "level": "L85",
+   "arm": "15 % of the field hopped (dispersed ~1 mm patches moved off w00 onto the nearest public m7 sheet-prediction run; mostly less than one sheet deep), +0",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 12,
+   "picture": "C85_blank",
+   "kind": "blank",
+   "level": "C85",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C85)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 13,
+   "picture": "L85_blank",
+   "kind": "blank",
+   "level": "L85",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L85)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 14,
+   "picture": "C85",
+   "kind": "level",
+   "level": "C85",
+   "arm": "15 % of the field hopped in clustered clumps (~17 mm2), +0",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 15,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "level": null,
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 16,
+   "picture": "calib",
+   "kind": "calib",
+   "level": null,
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 17,
+   "picture": "L100_blank",
+   "kind": "blank",
+   "level": "L100",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L100)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 18,
+   "picture": "L100",
+   "kind": "level",
+   "level": "L100",
+   "arm": "undamaged w00 surface over the window (readable control), render offset +0",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 1,
+   "picture": "L70_blank",
+   "kind": "blank",
+   "level": "L70",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L70)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 2,
+   "picture": "H50",
+   "kind": "level",
+   "level": "H50",
+   "arm": "50 % of the field cut out as clustered holes (black), +0",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 3,
+   "picture": "H70_blank",
+   "kind": "blank",
+   "level": "H70",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of H70)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 4,
+   "picture": "L55",
+   "kind": "level",
+   "level": "L55",
+   "arm": "45 % of the field hopped, dispersed ~1 mm patches (same hop law), +0",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 5,
+   "picture": "H70",
+   "kind": "level",
+   "level": "H70",
+   "arm": "30 % of the field cut out as clustered holes (black), +0",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 6,
+   "picture": "L70",
+   "kind": "level",
+   "level": "L70",
+   "arm": "30 % of the field hopped, dispersed ~1 mm patches (same hop law as L85), +0",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 7,
+   "picture": "H50_blank",
+   "kind": "blank",
+   "level": "H50",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of H50)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 8,
+   "picture": "C70",
+   "kind": "level",
+   "level": "C70",
+   "arm": "30 % of the field hopped in clustered clumps, read at a -22-layer render offset (about -52.9 um; the depth an earlier max-99th-percentile pick chose)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 9,
+   "picture": "C70_blank",
+   "kind": "blank",
+   "level": "C70",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C70)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 10,
+   "picture": "L55_blank",
+   "kind": "blank",
+   "level": "L55",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L55)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 11,
+   "picture": "L85",
+   "kind": "level",
+   "level": "L85",
+   "arm": "15 % of the field hopped (dispersed ~1 mm patches moved off w00 onto the nearest public m7 sheet-prediction run; mostly less than one sheet deep), +0",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 12,
+   "picture": "C85_blank",
+   "kind": "blank",
+   "level": "C85",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of C85)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 13,
+   "picture": "L85_blank",
+   "kind": "blank",
+   "level": "L85",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L85)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 14,
+   "picture": "C85",
+   "kind": "level",
+   "level": "C85",
+   "arm": "15 % of the field hopped in clustered clumps (~17 mm2), +0",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 15,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "level": null,
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 16,
+   "picture": "calib",
+   "kind": "calib",
+   "level": null,
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 17,
+   "picture": "L100_blank",
+   "kind": "blank",
+   "level": "L100",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L100)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "partsheet_page",
+   "shown_position": 18,
+   "picture": "L100",
+   "kind": "level",
+   "level": "L100",
+   "arm": "undamaged w00 surface over the window (readable control), render offset +0",
+   "rater": "chris",
+   "call": "rows"
+  }
+ ],
+ "judge": {
+  "loop_verdict_for_observed_outcome": {
+   "HUMANS-NOISY": "FAIL (the yes answer AGENTS-OFF was not reached)"
+  },
+  "source": "the independent Judge re-score of this test (its verdict section)"
+ }
+}

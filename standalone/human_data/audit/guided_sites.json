@@ -1,0 +1,311 @@
+{
+ "what": "guided test page key: w00's crossing of each site's view line and the straight extension of the guide line shown up to 0.3 mm before the site",
+ "units": "t in um along the site's view line, from the view centre (both raters' marks use the same axis)",
+ "strata": "random = scored; suspect = description only; repeat = a second presentation of original_id",
+ "sites": [
+  {
+   "id": "m991",
+   "stratum": "random",
+   "crop": "h0",
+   "original_id": null,
+   "w00_t_um": -113.41,
+   "straight_extension_t_um": -145.66
+  },
+  {
+   "id": "m296",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": 131.41,
+   "straight_extension_t_um": 230.58
+  },
+  {
+   "id": "m878",
+   "stratum": "suspect",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": 66.12,
+   "straight_extension_t_um": 63.23
+  },
+  {
+   "id": "m920",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -59.16,
+   "straight_extension_t_um": -47.03
+  },
+  {
+   "id": "m887",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -10.09,
+   "straight_extension_t_um": -57.09
+  },
+  {
+   "id": "m460",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -47.66,
+   "straight_extension_t_um": -49.33
+  },
+  {
+   "id": "m838",
+   "stratum": "random",
+   "crop": "h3",
+   "original_id": null,
+   "w00_t_um": -53.08,
+   "straight_extension_t_um": -54.25
+  },
+  {
+   "id": "m429",
+   "stratum": "random",
+   "crop": "c2",
+   "original_id": null,
+   "w00_t_um": 85.82,
+   "straight_extension_t_um": 111.22
+  },
+  {
+   "id": "m635",
+   "stratum": "suspect",
+   "crop": "c1",
+   "original_id": null,
+   "w00_t_um": -41.95,
+   "straight_extension_t_um": 9.45
+  },
+  {
+   "id": "m537",
+   "stratum": "random",
+   "crop": "c0",
+   "original_id": null,
+   "w00_t_um": -132.62,
+   "straight_extension_t_um": -128.78
+  },
+  {
+   "id": "m978",
+   "stratum": "suspect",
+   "crop": "h0",
+   "original_id": null,
+   "w00_t_um": 124.27,
+   "straight_extension_t_um": 85.16
+  },
+  {
+   "id": "m947",
+   "stratum": "random",
+   "crop": "h0",
+   "original_id": null,
+   "w00_t_um": 52.8,
+   "straight_extension_t_um": 35.58
+  },
+  {
+   "id": "m954",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": 67.5,
+   "straight_extension_t_um": 66.39
+  },
+  {
+   "id": "m645",
+   "stratum": "random",
+   "crop": "h2",
+   "original_id": null,
+   "w00_t_um": -148.19,
+   "straight_extension_t_um": -197.27
+  },
+  {
+   "id": "m900",
+   "stratum": "suspect",
+   "crop": "h2",
+   "original_id": null,
+   "w00_t_um": -44.04,
+   "straight_extension_t_um": -38.84
+  },
+  {
+   "id": "m996",
+   "stratum": "random",
+   "crop": "c2",
+   "original_id": null,
+   "w00_t_um": -12.76,
+   "straight_extension_t_um": 6.8
+  },
+  {
+   "id": "m203",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -141.57,
+   "straight_extension_t_um": -174.27
+  },
+  {
+   "id": "m347",
+   "stratum": "repeat",
+   "crop": "h3",
+   "original_id": "m838",
+   "w00_t_um": -53.08,
+   "straight_extension_t_um": -54.25
+  },
+  {
+   "id": "m450",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -70.93,
+   "straight_extension_t_um": -58.18
+  },
+  {
+   "id": "m442",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -52.37,
+   "straight_extension_t_um": -80.75
+  },
+  {
+   "id": "m468",
+   "stratum": "suspect",
+   "crop": "c1",
+   "original_id": null,
+   "w00_t_um": -106.98,
+   "straight_extension_t_um": -58.79
+  },
+  {
+   "id": "m817",
+   "stratum": "random",
+   "crop": "h2",
+   "original_id": null,
+   "w00_t_um": -147.95,
+   "straight_extension_t_um": -198.38
+  },
+  {
+   "id": "m309",
+   "stratum": "suspect",
+   "crop": "c1",
+   "original_id": null,
+   "w00_t_um": 32.89,
+   "straight_extension_t_um": 64.9
+  },
+  {
+   "id": "m295",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -89.74,
+   "straight_extension_t_um": -118.63
+  },
+  {
+   "id": "m190",
+   "stratum": "random",
+   "crop": "c0",
+   "original_id": null,
+   "w00_t_um": -9.93,
+   "straight_extension_t_um": 0.78
+  },
+  {
+   "id": "m279",
+   "stratum": "random",
+   "crop": "h3",
+   "original_id": null,
+   "w00_t_um": 13.84,
+   "straight_extension_t_um": -54.57
+  },
+  {
+   "id": "m314",
+   "stratum": "random",
+   "crop": "h2",
+   "original_id": null,
+   "w00_t_um": -119.22,
+   "straight_extension_t_um": 51.08
+  },
+  {
+   "id": "m872",
+   "stratum": "suspect",
+   "crop": "c2",
+   "original_id": null,
+   "w00_t_um": -5.4,
+   "straight_extension_t_um": -68.02
+  },
+  {
+   "id": "m611",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": -12.24,
+   "straight_extension_t_um": -10.45
+  },
+  {
+   "id": "m226",
+   "stratum": "suspect",
+   "crop": "c0",
+   "original_id": null,
+   "w00_t_um": -46.66,
+   "straight_extension_t_um": -150.15
+  },
+  {
+   "id": "m554",
+   "stratum": "repeat",
+   "crop": "h1",
+   "original_id": "m920",
+   "w00_t_um": -59.16,
+   "straight_extension_t_um": -47.03
+  },
+  {
+   "id": "m269",
+   "stratum": "suspect",
+   "crop": "h3",
+   "original_id": null,
+   "w00_t_um": 132.04,
+   "straight_extension_t_um": 134.86
+  },
+  {
+   "id": "m258",
+   "stratum": "random",
+   "crop": "h2",
+   "original_id": null,
+   "w00_t_um": -65.02,
+   "straight_extension_t_um": -67.4
+  },
+  {
+   "id": "m737",
+   "stratum": "suspect",
+   "crop": "c0",
+   "original_id": null,
+   "w00_t_um": -156.36,
+   "straight_extension_t_um": -150.86
+  },
+  {
+   "id": "m411",
+   "stratum": "random",
+   "crop": "c1",
+   "original_id": null,
+   "w00_t_um": -35.43,
+   "straight_extension_t_um": -43.49
+  },
+  {
+   "id": "m441",
+   "stratum": "random",
+   "crop": "h1",
+   "original_id": null,
+   "w00_t_um": 1.86,
+   "straight_extension_t_um": 44.04
+  },
+  {
+   "id": "m378",
+   "stratum": "random",
+   "crop": "c1",
+   "original_id": null,
+   "w00_t_um": -135.68,
+   "straight_extension_t_um": -125.4
+  },
+  {
+   "id": "m185",
+   "stratum": "repeat",
+   "crop": "c0",
+   "original_id": "m190",
+   "w00_t_um": -9.93,
+   "straight_extension_t_um": 0.78
+  }
+ ]
+}

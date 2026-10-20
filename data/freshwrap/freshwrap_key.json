@@ -1,0 +1,46 @@
+{
+ "pages": {
+  "seb": {
+   "x01": "in24_blank",
+   "x02": "in48_level",
+   "x03": "out24_blank",
+   "x04": "out48_level",
+   "x05": "out24_level",
+   "x06": "in24_level",
+   "x07": "guard_seb_0",
+   "x08": "w10_top",
+   "x09": "w10_blank",
+   "x10": "w10_bot",
+   "x11": "ctrl_blank",
+   "x12": "ctrl_level",
+   "x13": "blank09",
+   "x14": "calib"
+  },
+  "chris": {
+   "x01": "in24_blank",
+   "x02": "out24_level",
+   "x03": "in48_level",
+   "x04": "in24_level",
+   "x05": "guard_chris_2",
+   "x06": "out24_blank",
+   "x07": "guard_chris_0",
+   "x08": "out48_level",
+   "x09": "guard_chris_1",
+   "x10": "w10_top",
+   "x11": "w10_bot",
+   "x12": "w10_blank",
+   "x13": "ctrl_blank",
+   "x14": "ctrl_level",
+   "x15": "blank09",
+   "x16": "calib"
+  }
+ },
+ "seed": 20261006,
+ "arms": {
+  "ctrl": 0,
+  "in24": 10,
+  "out24": -10,
+  "in48": 20,
+  "out48": -20
+ }
+}

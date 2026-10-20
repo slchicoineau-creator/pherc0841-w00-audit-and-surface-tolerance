@@ -1,0 +1,82 @@
+{
+ "test": "depth_s022814",
+ "question": "On s022814's labelled text, which neither human had seen, do blind humans still read rows 24 um inward and 24 um outward of the ink depth?",
+ "window": "the organizers' s022814 surface volumes of PHerc0841 (2.403 um), SV rows 0-8320 x cols 7644-12521 (20.0 x 11.7 mm); labelled ink 0.205 cm2; its labels overlap w00's at Dice 0.028 (different writing); labels define the depth origin only",
+ "reader": "canonical 2.4 um ink model, 62-layer input window (~149 um), inked order forward; a* = argmax label AUC = +0",
+ "sign": "on the organizers' surface volumes raw +o (layers) = inward; in24 = a* + 10, out24 = a* - 10, in48 = a* + 20, out48 = a* - 20",
+ "raters": [
+  "sebastien",
+  "chris"
+ ],
+ "pictures": {
+  "arms": {
+   "ctrl": "readable control: the organizers' s022814 surface at the label-defined ink depth a* (= +0 layers here)",
+   "in24": "the whole surface shifted uniformly 10 layers (24.0 um) inward",
+   "out24": "the whole surface shifted uniformly 10 layers (24.0 um) outward",
+   "in48": "edge arm, descriptive: 20 layers (48.1 um) inward (no blank)",
+   "out48": "edge arm, descriptive: 20 layers (48.1 um) outward (no blank)",
+   "w10_top": "top 10 x 10 mm window of the control map (12.5 um per tile pixel; rated after the same text at 20 mm, so primed)",
+   "w10_bot": "bottom 10 x 10 mm window of the control map (primed)"
+  },
+  "blanks": {
+   "ctrl_blank": "wrong-order blank of ctrl",
+   "in24_blank": "wrong-order blank of in24",
+   "out24_blank": "wrong-order blank of out24",
+   "w10_blank": "wrong-order blank, 10 mm"
+  },
+  "guards": "every partsheet_tolerance surface picture that this rater had called not rows blind (count per rater: see the page facts)",
+  "calib": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+  "calib_blank": "the calibration map in the wrong layer order (wrong-order blank)"
+ },
+ "depth_offsets": {
+  "in24": {
+   "layers": 10,
+   "um": 24.0,
+   "direction": "inward"
+  },
+  "out24": {
+   "layers": -10,
+   "um": 24.0,
+   "direction": "outward"
+  },
+  "in48": {
+   "layers": 20,
+   "um": 48.1,
+   "direction": "inward"
+  },
+  "out48": {
+   "layers": -20,
+   "um": 48.1,
+   "direction": "outward"
+  }
+ },
+ "dropped": "the 9.6 um reader pair (H9) was dropped by the pre-written alignment rule (cross-correlation peak shift [-8, -10] 4-px blocks, about 77 / 96 um, against a 3-block / 29 um bar): reader line unanswered",
+ "rule": {
+  "valid_rater": "every picture answered; calibration rows; <= 1 of the surface blanks (ctrl, in24, out24, 10 mm) rows; >= 1 guard on the page; else VOID. A level counts only if its own blank is not rows",
+  "window": "ctrl blank rows -> VOID; WINDOW-YES = ctrl rows; WINDOW-NO = ctrl not rows",
+  "depth": "an arm whose blank is rows is uncountable -> INCOMPLETE; else WIDE-HOLDS = in24 and out24 rows; NARROW-OUT = in24 rows, out24 not; NARROW-IN = out24 rows, in24 not; NARROW-BOTH = neither",
+  "guard": "lenient if more than half of the rater's guard pictures are called rows; a lenient WIDE-HOLDS becomes ALL-ROWS",
+  "one_cm2": "1CM-READS-PRIMED = both 10 mm windows rows; 20MM-NEEDED = fewer; UNCOUNTABLE if the 10 mm blank is rows (descriptive)",
+  "edge": "+-48 um: descriptive calls only",
+  "item_verdict": {
+   "CONFIRMED": "WIDE-HOLDS from two valid raters (neither lenient)",
+   "NARROWED: NARROW-X": "the same NARROW label from two valid raters",
+   "WINDOW-NO": "both valid raters WINDOW-NO",
+   "ONE RATER / SPLIT / ALL-ROWS / INCOMPLETE": "reported per rater, no rewording",
+   "VOID": "no valid rater"
+  }
+ },
+ "outcome_labels": [
+  "CONFIRMED (WIDE-HOLDS, two raters)",
+  "NARROWED: NARROW-OUT / NARROW-IN / NARROW-BOTH",
+  "WINDOW-NO",
+  "ONE RATER",
+  "SPLIT / NOT DECIDED",
+  "SPLIT (window)",
+  "VOID (no valid rater)"
+ ],
+ "scope": "uniform shifts of the organizers' surface with this reader only (the +-24 um maps correlate with the unshifted map at r 0.85-0.87); local or dispersed depth error is not covered; the 1 cm2 label is descriptive and primed, never '1 cm2 does not read' (the top 10 mm window holds half the labelled ink and a weaker map); rated after the depth_w results were known",
+ "stage0": {
+  "passed": true
+ }
+}

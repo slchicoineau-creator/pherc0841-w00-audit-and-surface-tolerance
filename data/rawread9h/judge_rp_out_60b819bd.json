@@ -1,0 +1,52 @@
+{
+ "raw_level": {
+  "shape": [
+   800,
+   469
+  ],
+  "nonblack": 0.9785,
+  "RP": 0.399,
+  "RP_jpeg90": 0.389,
+  "peak_mm": 4.57,
+  "E": 0.3373
+ },
+ "raw_blank": {
+  "shape": [
+   800,
+   469
+  ],
+  "nonblack": 0.9784,
+  "RP": 1.27,
+  "RP_jpeg90": 1.265,
+  "peak_mm": 4.57,
+  "E": 0.1521
+ },
+ "ctrl_level": {
+  "shape": [
+   800,
+   469
+  ],
+  "nonblack": 1.0,
+  "RP": 23.338,
+  "RP_jpeg90": 23.342,
+  "peak_mm": 5.52,
+  "E": 0.376
+ },
+ "ctrl_blank": {
+  "shape": [
+   800,
+   469
+  ],
+  "nonblack": 1.0,
+  "RP": 0.864,
+  "RP_jpeg90": 0.863,
+  "peak_mm": 6.96,
+  "E": 0.1578
+ },
+ "grown_over_ctrl_RP": 0.017,
+ "grown_over_ctrl_RP_jpeg90": 0.017,
+ "ctrl_matches_humantol_L100_shape": [
+  800,
+  469
+ ]
+}

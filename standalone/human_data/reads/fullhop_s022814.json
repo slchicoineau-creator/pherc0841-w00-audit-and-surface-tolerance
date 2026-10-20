@@ -1,0 +1,256 @@
+{
+ "test": "fullhop_s022814",
+ "title": "Full-sheet hops on the organizers' s022814 window",
+ "gated": "human data: per-picture blind calls; release only with both raters' OK",
+ "answers": [
+  "rows",
+  "strokes",
+  "nothing"
+ ],
+ "pages": [
+  {
+   "page": "s022814_page",
+   "rater": "sebastien",
+   "n_pictures": 11,
+   "rated_at_utc": "2026-10-12T01:10:03.805Z"
+  },
+  {
+   "page": "s022814_page",
+   "rater": "chris",
+   "n_pictures": 11,
+   "rated_at_utc": "2026-10-11T23:03:51.389Z"
+  }
+ ],
+ "calls": [
+  {
+   "page": "s022814_page",
+   "shown_position": 1,
+   "picture": "calib",
+   "kind": "calib",
+   "scored_by": "shared",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 2,
+   "picture": "L70_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "primary: top 30 % hopped a full sheet (same law), +1 layer",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 3,
+   "picture": "ctrl814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "readable control: the organizers' undamaged s022814 surface over its labelled text window, fixed offset +1 layer (~2.4 um)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 4,
+   "picture": "L85_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "descriptive: top 15 % of a dispersed mask hopped a full sheet (s022814 normal; nearest public m7 run 170-250 um out, else a constant 200 um), +1 layer",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 5,
+   "picture": "L55_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "guard: top 45 % hopped a full sheet, nested (contains every L70_814 hop plus 15 % more), +1 layer",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 6,
+   "picture": "H50_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "guard: 50 % holes, +1 layer",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 7,
+   "picture": "ctrl814_blank",
+   "kind": "blank",
+   "scored_by": "fullhop_s022814",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of ctrl814)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 8,
+   "picture": "O45",
+   "kind": "level",
+   "scored_by": "line_spacing",
+   "arm": "line_spacing secondary: the same builder with 5 lines 4.54 mm apart (24 fill rows per gap), own label-picked depth",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 9,
+   "picture": "L70_814_blank",
+   "kind": "blank",
+   "scored_by": "fullhop_s022814",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L70_814)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 10,
+   "picture": "O2",
+   "kind": "level",
+   "scored_by": "line_spacing",
+   "arm": "line_spacing primary: 10 constant-height lines cut from s022814 itself, 2.02 mm apart, joined by the frozen sheet-direction fill (12 fill rows per gap), depth picked by the window's own labels (best of 7)",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 11,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "scored_by": "shared",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 1,
+   "picture": "calib",
+   "kind": "calib",
+   "scored_by": "shared",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 2,
+   "picture": "L70_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "primary: top 30 % hopped a full sheet (same law), +1 layer",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 3,
+   "picture": "ctrl814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "readable control: the organizers' undamaged s022814 surface over its labelled text window, fixed offset +1 layer (~2.4 um)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 4,
+   "picture": "L85_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "descriptive: top 15 % of a dispersed mask hopped a full sheet (s022814 normal; nearest public m7 run 170-250 um out, else a constant 200 um), +1 layer",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 5,
+   "picture": "L55_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "guard: top 45 % hopped a full sheet, nested (contains every L70_814 hop plus 15 % more), +1 layer",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 6,
+   "picture": "H50_814",
+   "kind": "level",
+   "scored_by": "fullhop_s022814",
+   "arm": "guard: 50 % holes, +1 layer",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 7,
+   "picture": "ctrl814_blank",
+   "kind": "blank",
+   "scored_by": "fullhop_s022814",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of ctrl814)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 8,
+   "picture": "O45",
+   "kind": "level",
+   "scored_by": "line_spacing",
+   "arm": "line_spacing secondary: the same builder with 5 lines 4.54 mm apart (24 fill rows per gap), own label-picked depth",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 9,
+   "picture": "L70_814_blank",
+   "kind": "blank",
+   "scored_by": "fullhop_s022814",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of L70_814)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 10,
+   "picture": "O2",
+   "kind": "level",
+   "scored_by": "line_spacing",
+   "arm": "line_spacing primary: 10 constant-height lines cut from s022814 itself, 2.02 mm apart, joined by the frozen sheet-direction fill (12 fill rows per gap), depth picked by the window's own labels (best of 7)",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "s022814_page",
+   "shown_position": 11,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "scored_by": "shared",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "chris",
+   "call": "strokes"
+  }
+ ],
+ "judge": {
+  "loop_verdict_for_observed_outcome": {
+   "FAILS-814": "FAIL"
+  },
+  "judge_notes": [
+   "the calls on L70_814 and the nested L55_814 crossed between the raters (Chris 30 % strokes and 45 % rows, Sebastien the reverse), so this window places no threshold between ~15 % and ~45 % full hops"
+  ],
+  "source": "the independent Judge re-score of this test (its verdict section)"
+ },
+ "shared_page": "this 11-picture page is scored by two tests: fullhop_s022814 (its own pictures + calibration pair) and line_spacing (O2, O45, with ctrl814 and the 814 guards); the other test's pictures never count"
+}

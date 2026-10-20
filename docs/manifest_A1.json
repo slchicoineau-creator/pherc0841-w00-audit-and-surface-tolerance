@@ -1,0 +1,434 @@
+[
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/humantol_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "c0eedded47bee1ca7d2d1d76618f3bc305ede2306d121e2e18b46b8b04423d13",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/humantol_seb_ratings.json",
+  "source_path": "ratings/seb/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "f81d3a3cbc05fde7ee448f872551587246383f90df9cfd422da299d9e4971ed9",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/humantol_chris_ratings.json",
+  "source_path": "ratings/partner/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "b647c0aa40c701f7d8313459b66fb2c7bff41f43a478c6a35a0f131f1ce1049e",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/tol20_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "51a32e834160fd2c8d13364b1d5a7050a29e692c9e769b99b08c94a0db6aad66",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/tol20b_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "3033a18f1e2f650dd652b6a7f245bbbe49216faa7919afd599822d1056cc228a",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/tolholes_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "369b4aa2b7b5e12509aaeac4319d849eb33c0def63e469a09379b201fccae4d8",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/tol20b_tiles.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "b17279d169f637f64a55780310e198f97fc64f6f9c2530177e1d995a60de207e",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "humantol",
+  "data_file": "data/humantol/seb_ratings_sha256.txt",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "35462cdf5cedf5e6151a41ef24ea7d6fc942948ed0ff0c3c3fa7d69c8d224e85",
+  "kind": "other",
+  "rater": "seb"
+ },
+ {
+  "test": "humanfloor",
+  "data_file": "data/humanfloor/humantol_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "c0eedded47bee1ca7d2d1d76618f3bc305ede2306d121e2e18b46b8b04423d13",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "humanfloor",
+  "data_file": "data/humanfloor/humantol_seb_ratings.json",
+  "source_path": "ratings/seb/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "f81d3a3cbc05fde7ee448f872551587246383f90df9cfd422da299d9e4971ed9",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "humanfloor",
+  "data_file": "data/humanfloor/humantol_chris_ratings.json",
+  "source_path": "ratings/partner/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "b647c0aa40c701f7d8313459b66fb2c7bff41f43a478c6a35a0f131f1ce1049e",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "humanfloor",
+  "data_file": "data/humanfloor/tol20_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "51a32e834160fd2c8d13364b1d5a7050a29e692c9e769b99b08c94a0db6aad66",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "humanfloor",
+  "data_file": "data/humanfloor/tol20b_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "3033a18f1e2f650dd652b6a7f245bbbe49216faa7919afd599822d1056cc228a",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "humanfloor",
+  "data_file": "data/humanfloor/tolholes_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "369b4aa2b7b5e12509aaeac4319d849eb33c0def63e469a09379b201fccae4d8",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "humanfloor",
+  "data_file": "data/humanfloor/format20_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "f4254e9d725c798ff586dbf39c4e6ea4ca99991a48678ded21d48a0e107625a5",
+  "kind": "other",
+  "rater": "none"
+ },
+ {
+  "test": "cm2read",
+  "data_file": "data/cm2read/humantol_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "c0eedded47bee1ca7d2d1d76618f3bc305ede2306d121e2e18b46b8b04423d13",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "cm2read",
+  "data_file": "data/cm2read/humantol_seb_ratings.json",
+  "source_path": "ratings/seb/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "f81d3a3cbc05fde7ee448f872551587246383f90df9cfd422da299d9e4971ed9",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "cm2read",
+  "data_file": "data/cm2read/humantol_chris_ratings.json",
+  "source_path": "ratings/partner/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "b647c0aa40c701f7d8313459b66fb2c7bff41f43a478c6a35a0f131f1ce1049e",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "cm2read",
+  "data_file": "data/cm2read/cm2read_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "6bddefe2ec8a30663f8c5503efbc10a479476caa37b62735659ddc38d0d8cff1",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "cm2read",
+  "data_file": "data/cm2read/cm2read_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "0c64ec3821d492b5c2602b60585508f14a9faba33d1366339a95ee570d21bf9f",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "cm2read",
+  "data_file": "data/cm2read/cm2read_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "a2049eccdb1b53b33046395c2b72462f69bf00c0ad3d5801599583ca628ce486",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "freshwrap",
+  "data_file": "data/freshwrap/freshwrap_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "f2bc4af7778fef8a05dec75c6607a6c8a3935b26483120b52840f313d89d9b1c",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "freshwrap",
+  "data_file": "data/freshwrap/freshwrap_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "4f1849080217fc77a4ef19d49c07fbbfa3ee7697067e6d41433ed0624f5f5ab4",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "freshwrap",
+  "data_file": "data/freshwrap/freshwrap_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "088b9542f4c8a30de503c4e121f2640efaf27a10e06fd3e129c7916c9f63a999",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "freshwrap",
+  "data_file": "data/freshwrap/freshwrap_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "21b1b1fc05b3fc36cc28d35438909e0eb77fd8ed58faa0f0d51e478873de48c8",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "freshwrap",
+  "data_file": "data/freshwrap/judge_rescore_60b819bd.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "54f74c4e078dc3be30908606bd8ec468271154d594089475647d1201f3910096",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/rawread9h_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "4bb50213aaefb6b916fc49f7e3ed20fdb8be4bb3b41737c14a379db955e76436",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/rawread9h_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "35d83ec9e67de13323bffdd779b2a17186da401cfe66f9730e39eafd8e2e0f46",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/rawread9h_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "1cc7eb0ef1b55b9e39cb80ed6a983bff7a630144855317b384741397c610eeb2",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/rawread9h_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "87f48449af0a563022cf8bb70d0d48ecf6ec8dfa903898b1abd365fedcfd4992",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/r9_screen_result.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "7575c29242744a579b0f7c1d1e615323c5fa39c7485f92ffc841db55c8b51818",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/judge_rp_out_60b819bd.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "40c91a5c06cf622eec5f58b5b607315d20d82f470dbd8201396d6c0495d87b40",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/judge_rescore_out_60b819bd.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "23cc46a502c5facb8d854cb06c81631fce6a55c37dadb94fa63ab59513a6d20a",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/tile_hashes.json",
+  "source_path": "[private path] + [private path] + [private path] (hashes only)",
+  "source_commit": "local only",
+  "sha256": "cc198059f3e3f42eecf990430c53c8ddba212ebe722eb6765375654b95912abf",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/humantol_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "c0eedded47bee1ca7d2d1d76618f3bc305ede2306d121e2e18b46b8b04423d13",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/humantol_seb_ratings.json",
+  "source_path": "ratings/seb/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "f81d3a3cbc05fde7ee448f872551587246383f90df9cfd422da299d9e4971ed9",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/humantol_chris_ratings.json",
+  "source_path": "ratings/partner/humantol_ratings.json",
+  "source_commit": "local only",
+  "sha256": "b647c0aa40c701f7d8313459b66fb2c7bff41f43a478c6a35a0f131f1ce1049e",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nf_page_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "e0eb1730c65c6ccde2b1439f23f87897089e0499d931ddf770361b17e94a26bf",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nodefill_seb_ratings.json",
+  "source_path": "ratings/seb/nodefill_ratings.json",
+  "source_commit": "local only",
+  "sha256": "d42c180fd4db08210c1fddb0230dc69d1de1743dfa0457be1489c5ecff7e912d",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nodefill_chris_ratings.json",
+  "source_path": "ratings/partner/nodefill_ratings.json",
+  "source_commit": "local only",
+  "sha256": "1ea995fded2f0962ef3373657b74a6cdd3fda4b13be42a90c6345436039566d6",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nodefill2_page_key.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "7858958bfee343d4fed89f023c3d4a08a0a762f2a4a8f83c387cce86bdf55806",
+  "kind": "page_key",
+  "rater": "none"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nodefill2_seb_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "3d76bcb8ced829632e8edf65964fdf97c182bb5761e0e5abe9334c627ac4133e",
+  "kind": "ratings",
+  "rater": "seb"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nodefill2_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "01ce291ff8796b7f02543dbcf4b28d0bd0741512594df41012a0c3e6955b3a27",
+  "kind": "ratings",
+  "rater": "chris"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nf_judge_rescore_out_60b819bd.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "9d64a1d2082650ba51666246a7dcd7207dffff5f636c86176f18fca1be5bc4c8",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/nf2_judge_counts_60b819bd.json",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "19d47c7e518b821f955f314cc252e2d987c3139b6fe3d0a5caedaa721d05b8d2",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "nodefill",
+  "data_file": "data/nodefill/tile_hashes.json",
+  "source_path": "[private path] + [private path] + [private path] (hashes only)",
+  "source_commit": "local only",
+  "sha256": "cc198059f3e3f42eecf990430c53c8ddba212ebe722eb6765375654b95912abf",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/insetneg_judge_rescore_out_60b819bd.txt",
+  "source_path": "[private path]",
+  "source_commit": "60b819bd",
+  "sha256": "6bca0a395898f05a8bc35681ca33fc49bd0ddea1a9aa7cd556cd9081990548ad",
+  "kind": "derived",
+  "rater": "none"
+ },
+ {
+  "test": "rawread9h",
+  "data_file": "data/rawread9h/copyfix_read_chris_ratings.json",
+  "source_path": "[private path]",
+  "source_commit": "local only",
+  "sha256": "abf90c0faf02ebe3d3cd20db70682a65800b76f7fb55d2f1fed27504974e2531",
+  "kind": "ratings",
+  "rater": "chris"
+ }
+]

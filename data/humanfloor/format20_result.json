@@ -1,0 +1,54 @@
+{
+ "outcome": "FORMAT-OK",
+ "valid": {
+  "r1": true,
+  "r2": true,
+  "r3": true
+ },
+ "rows": {
+  "S2": true,
+  "TM": true,
+  "blank/S2": false,
+  "S3": true,
+  "blank/S3": false,
+  "calib": true,
+  "blank09/canon09_rev": false
+ },
+ "answers": {
+  "S2//rev": {
+   "r1": "rows",
+   "r2": "rows",
+   "r3": "rows"
+  },
+  "TM//": {
+   "r1": "rows",
+   "r2": "rows",
+   "r3": "rows"
+  },
+  "blank/S2/fwd": {
+   "r1": "nothing",
+   "r2": "nothing",
+   "r3": "nothing"
+  },
+  "S3/S3/rev": {
+   "r1": "rows",
+   "r2": "rows",
+   "r3": "rows"
+  },
+  "blank/S3/fwd": {
+   "r1": "nothing",
+   "r2": "nothing",
+   "r3": "nothing"
+  },
+  "calib/canon09_fwd/": {
+   "r1": "rows",
+   "r2": "rows",
+   "r3": "rows"
+  },
+  "blank09/canon09_rev/": {
+   "r1": "nothing",
+   "r2": "nothing",
+   "r3": "nothing"
+  }
+ }
+}

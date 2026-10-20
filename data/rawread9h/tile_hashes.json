@@ -1,0 +1,17 @@
+{
+ "note": "sha256/md5 of PNG tiles (images not copied), computed 2026-10-18 from the local working tree",
+ "tiles": {
+  "work/fl/tolholes/tiles/level_H50.png": {
+   "sha256": "b650c0871ee77f22fbb9336fca1fb4e1d9c26c9eabed373fea5d9948e9bddd17",
+   "md5": "49968cf29b3d540f27ff9babf6556223"
+  },
+  "work/fl/loop/20261007-07-raw-read-9h-does-the-sta/tiles/guard.png": {
+   "sha256": "b650c0871ee77f22fbb9336fca1fb4e1d9c26c9eabed373fea5d9948e9bddd17",
+   "md5": "49968cf29b3d540f27ff9babf6556223"
+  },
+  "work/fl/loop/20261010-04-node-fill-reread-with-th/tiles/H50_level.png": {
+   "sha256": "b650c0871ee77f22fbb9336fca1fb4e1d9c26c9eabed373fea5d9948e9bddd17",
+   "md5": "49968cf29b3d540f27ff9babf6556223"
+  }
+ }
+}

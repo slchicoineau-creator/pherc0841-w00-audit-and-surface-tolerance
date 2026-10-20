@@ -1,0 +1,74 @@
+{
+ "test": "line_spacing",
+ "question": "On s022814's text window, do fields built from that surface's own lines about 2 mm and 4.5 mm apart, joined by the sheet-direction fill, read rows for both raters, on the same page as fullhop_s022814?",
+ "window": "the same s022814 window and page as fullhop_s022814 (11 pictures, common frame)",
+ "raters": [
+  "chris (rated first)",
+  "sebastien"
+ ],
+ "pictures": {
+  "arms": {
+   "O2": "line_spacing primary: 10 constant-height lines cut from s022814 itself, 2.02 mm apart, joined by the frozen sheet-direction fill (12 fill rows per gap), depth picked by the window's own labels (best of 7)",
+   "O45": "line_spacing secondary: the same builder with 5 lines 4.54 mm apart (24 fill rows per gap), own label-picked depth"
+  },
+  "control": {
+   "ctrl814": "readable control: the organizers' undamaged s022814 surface over its labelled text window, fixed offset +1 layer (~2.4 um)"
+  },
+  "guards": {
+   "H50_814": "guard: 50 % holes, +1 layer",
+   "L55_814": "guard: top 45 % hopped a full sheet, nested (contains every L70_814 hop plus 15 % more), +1 layer"
+  },
+  "validity": {
+   "ctrl814_blank": "must not be rows",
+   "L70_814_blank": "must not be rows",
+   "calib": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "calib_blank": "the calibration map in the wrong layer order (wrong-order blank)"
+  }
+ },
+ "no_line_drawn": "an oracle check of line spacing: the lines are the organizers' surface's own constant-height curves (median 33 um from it by construction); nobody traced a line in the scan",
+ "rule": {
+  "F3_valid_rater": "every fullhop_s022814, calibration and O picture answered; calibration rows; the calibration blank, ctrl814 blank and L70_814 blank each not rows. d = the valid raters who call ctrl814 rows",
+  "F4_per_arm": {
+   "X-READS": "both raters in d call X rows, AND at least one of them calls H50_814 or L55_814 not rows",
+   "X-FAILS": "at least one rater in d calls X not rows (decides whatever the guards say); labels X-NO if both, X-SPLIT if one of two, 'X-FAILS (one valid rater)' if d has one rater",
+   "X-LENIENT": "both rows, but no 814 guard called not rows -> undecided",
+   "X-VOID": "d is empty; with one rater in d, that rater's rows is a one-rater lead (undecided)"
+  },
+  "primary": "O2",
+  "secondary": "O45",
+  "wording_O2_reads": "fields from perfect lines 2.02 mm apart + sheet-direction fill read rows for two blind raters on s022814's window; forecast floor at the measured fibre-tool pace 8.5-10.8 min/cm2 (starts given, perfect lines, depth chosen by this window's own labels, one window). Never 'measured minutes per readable cm2'"
+ },
+ "outcome_labels": [
+  "O2-READS",
+  "O2-FAILS (O2-NO)",
+  "O2-FAILS (O2-SPLIT)",
+  "O2-LENIENT",
+  "O2-VOID",
+  "O45-READS",
+  "O45-FAILS (O45-NO)",
+  "O45-FAILS (O45-SPLIT)",
+  "O45-LENIENT",
+  "O45-VOID"
+ ],
+ "page_checks": {
+  "O2_O45_adjacent": false,
+  "worst_black_share_gap_points_vs_O": 0.1,
+  "black_share_le8_on_page": {
+   "calib": 0.0,
+   "L70_814": 0.1461,
+   "ctrl814": 0.1459,
+   "L85_814": 0.1458,
+   "L55_814": 0.1461,
+   "H50_814": 0.5927,
+   "ctrl814_blank": 0.1457,
+   "O45": 0.1467,
+   "L70_814_blank": 0.1459,
+   "O2": 0.146,
+   "calib_blank": 0.0
+  }
+ },
+ "scope": "O2 is a sparse resampling of the organizers' own surface with a label-picked depth; rated on the same page and sitting as fullhop_s022814 by raters who had seen this window before (depth_s022814)",
+ "stage0": {
+  "passed": true
+ }
+}

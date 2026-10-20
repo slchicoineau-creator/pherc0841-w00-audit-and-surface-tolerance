@@ -1,0 +1,51 @@
+{
+ "test": "grown_field",
+ "question": "Does the standard grower, one seed click and 0 correction minutes on PHerc0841's regular 9.366 um scan, give a 20 x 12 mm surface that reads rows for a blind human?",
+ "window": "PHerc0841 known-text window W (20 x 11.7 mm); the two grows were assembled into W's frame and read with the canonical 2.4 um reader (same chain as the control)",
+ "raters": [
+  "chris (decides the class)",
+  "sebastien (can only upgrade to two raters)"
+ ],
+ "pictures": {
+  "arm": {
+   "grown": "arm: the standard grower on PHerc0841's regular 9.366 um scan, one seed click per half and 0 correction minutes, two growth-sized grows assembled over the window (0.98 coverage), read with the 2.4 um reader"
+  },
+  "control": {
+   "ctrl": "readable control: w00's own render of the window"
+  },
+  "blank": {
+   "grown_blank": "wrong-order blank of grown"
+  },
+  "guard": "one not-rows guard per rater (see the page facts)",
+  "calib": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+  "calib_blank": "the calibration map in the wrong layer order (wrong-order blank)",
+  "n_pictures": 6
+ },
+ "rule": {
+  "per_rater": {
+   "VOID": "a picture unanswered, the calibration or the w00 control not called rows, a wrong-order blank (grown_blank or calibration blank) called rows, or the guard called rows",
+   "GROWER-READS": "else the grown tile called rows",
+   "GROWER-FAILS": "else (strokes or nothing)"
+  },
+  "combine": {
+   "VOID": "Chris VOID",
+   "GROWER-READS (two raters)": "Chris GROWER-READS + Sebastien GROWER-READS",
+   "GROWER-READS (one rater: Chris); split": "Chris GROWER-READS + Sebastien not rows",
+   "GROWER-FAILS (one rater: Chris)": "Chris GROWER-FAILS + Sebastien rows",
+   "GROWER-FAILS (both raters)": "Chris GROWER-FAILS + Sebastien not rows",
+   "<Chris's class> (one rater: Chris)": "Sebastien VOID or not rated"
+  }
+ },
+ "outcome_labels": [
+  "GROWER-READS (two raters)",
+  "GROWER-READS (one rater: Chris); split",
+  "GROWER-FAILS (both raters)",
+  "GROWER-FAILS (one rater: Chris)",
+  "VOID",
+  "UNINFORMATIVE"
+ ],
+ "scope": "both raters know W's text; one seed's half sits a median 200 um from w00 (very likely partly another winding); the frozen row score and the AI agent screen put the field far below the control (numbers file)",
+ "stage0": {
+  "passed": true
+ }
+}

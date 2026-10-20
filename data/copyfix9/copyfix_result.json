@@ -1,0 +1,64 @@
+{
+ "mark2r_link": "apply prereg 'MARK-2R link' to every mark-based part",
+ "step1": {
+  "outcome": "STEP 2: COPY OFF (the read cannot see the inset: F is decided by the marks alone)",
+  "R_read": "rows",
+  "R_marks": "KILL-marks",
+  "split": "step2",
+  "marks_only_for_F": true,
+  "marks": {
+   "valid": 24,
+   "cant": 0,
+   "on_C": 23,
+   "on_X": 14,
+   "multi_X": 0,
+   "hole_X": 0,
+   "discriminating": {
+    "n": 1,
+    "side_arm": 0,
+    "side_C": 1,
+    "neither": 0
+   },
+   "marks_within75_of_straight_line": {
+    "n": 24,
+    "within75": 22
+   }
+  },
+  "guide_label": null
+ },
+ "step2": {
+  "outcome": "KILL (first timed session of a new user with <= 90 min)",
+  "F_read": "rows",
+  "F_marks": "KILL-marks",
+  "guard": "strokes",
+  "marks": {
+   "valid": 24,
+   "cant": 0,
+   "on_C": 23,
+   "on_X": 17,
+   "multi_X": 0,
+   "hole_X": 0,
+   "discriminating": {
+    "n": 1,
+    "side_arm": 0,
+    "side_C": 1,
+    "neither": 0
+   },
+   "marks_within75_of_straight_line": {
+    "n": 24,
+    "within75": 22
+   }
+  },
+  "guide_label": null
+ },
+ "calls_read1": {
+  "C_blank": "nothing",
+  "C_repeat": "rows",
+  "guard": "strokes",
+  "R_level": "rows",
+  "calib": "rows",
+  "C_level": "rows",
+  "R_blank": "nothing",
+  "blank09": "nothing"
+ }
+}

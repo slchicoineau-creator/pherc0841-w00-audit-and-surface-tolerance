@@ -1,0 +1,302 @@
+{
+ "rater": "Sebastien",
+ "items": {
+  "m617": {
+   "time_s": 17.293099999904634,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m517": {
+   "time_s": 6.873700000047684,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m996": {
+   "time_s": 25.033799999952315,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m205": {
+   "time_s": 498.3992999999523,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m593": {
+   "time_s": 17.964,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m388": {
+   "time_s": 7.573599999904633,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m149": {
+   "time_s": 5.183799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m690": {
+   "time_s": 56.96340000009537,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m524": {
+   "time_s": 28.863799999952317,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m642": {
+   "time_s": 23.253600000143052,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m630": {
+   "time_s": 22.793900000095366,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m568": {
+   "time_s": 17.433700000047683,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m218": {
+   "time_s": 5.724399999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m498": {
+   "time_s": 9.224100000143052,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m854": {
+   "time_s": 21.55309999990463,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m758": {
+   "time_s": 16.123800000190734,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m371": {
+   "time_s": 5.664,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m138": {
+   "time_s": 12.953799999952317,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m478": {
+   "time_s": 42.373599999904634,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m971": {
+   "time_s": 16.254,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m961": {
+   "time_s": 11.554400000095367,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m986": {
+   "time_s": 14.083100000143052,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m661": {
+   "time_s": 13.374599999904632,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m103": {
+   "time_s": 12.023099999904632,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m170": {
+   "time_s": 5.964,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m209": {
+   "time_s": 4.033799999952317,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m768": {
+   "time_s": 188.01830000019075,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m364": {
+   "time_s": 6.653799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m326": {
+   "time_s": 4.854299999952317,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m697": {
+   "time_s": 16.313799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m957": {
+   "time_s": 7.6835,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m711": {
+   "time_s": 72.95330000019074,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m904": {
+   "time_s": 10.056099999904633,
+   "hide_count": 0,
+   "changes": 1,
+   "choice": "Yes"
+  },
+  "m594": {
+   "time_s": 8.223599999904632,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m680": {
+   "time_s": 6.103900000095368,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m369": {
+   "time_s": 8.624099999904633,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m440": {
+   "time_s": 6.783700000047684,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m913": {
+   "time_s": 8.984200000047684,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m625": {
+   "time_s": 6.473600000143051,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m607": {
+   "time_s": 4.574,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m995": {
+   "time_s": 4.964399999856949,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m302": {
+   "time_s": 16.413199999809265,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m334": {
+   "time_s": 10.163900000095367,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m664": {
+   "time_s": 15.413799999952316,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m177": {
+   "time_s": 6.513900000095368,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  },
+  "m893": {
+   "time_s": 4.314,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m897": {
+   "time_s": 8.483699999809264,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m972": {
+   "time_s": 5.464,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "No"
+  },
+  "m782": {
+   "time_s": 6.0637000000476835,
+   "hide_count": 0,
+   "changes": 0,
+   "choice": "Yes"
+  }
+ },
+ "build": "2026100600_2026-10-05_1657",
+ "started": "2026-10-05T22:08:12.801Z",
+ "finished": "2026-10-05T22:30:47.706Z"
+}

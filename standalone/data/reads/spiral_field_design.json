@@ -1,0 +1,58 @@
+{
+ "test": "spiral_field",
+ "question": "Does the automatic spiral fit (Nieuwlaar's PHerc. 343 recipe run on PHerc0841, 9.366 um), placed with ONE frozen anchor point, read rows over the whole 20 x 11.7 mm known-text window for both blind raters, as the readable control does?",
+ "window": "PHerc0841 known-text window W; every W picture masked to the shared frame (control mask x coverage of both arms, 0.958)",
+ "raters": [
+  "chris (9 pictures, with guard)",
+  "sebastien (8 pictures, no guard picture: amendment 3, written before any rating)"
+ ],
+ "pictures": {
+  "arms": {
+   "A1": "arm: the automatic spiral-fit winding nearest the anchor point (one anchor; post-snap; w054 of the fit, 5.73 voxels away)",
+   "A2": "arm: the second-nearest winding (w055, 8.52 voxels; the anchor sits between the two)"
+  },
+  "control": {
+   "C": "readable control: w00's own render of the window, masked to the shared frame"
+  },
+  "blanks": {
+   "A1_blank": "wrong-order blank of A1",
+   "A2_blank": "wrong-order blank of A2",
+   "C_blank": "wrong-order blank of C"
+  },
+  "guard": "Chris only: a W picture he had already called not rows blind, drawn by a frozen rule (exactly one earlier showing)",
+  "calib": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+  "calib_blank": "the calibration map in the wrong layer order (wrong-order blank)"
+ },
+ "exposure": "before this page Chris had seen the control C 6 times byte-identical and Sebastien once (+2 re-framed showings each); both raters know the window",
+ "rule": {
+  "per_rater": {
+   "VOID": "a picture unanswered, calibration not rows, or the answers earlier than the page build",
+   "INVALID": "more than 1 of the blanks (C_blank, A1_blank, A2_blank, calibration blank) called rows",
+   "UNINFORMATIVE-C": "C not rows",
+   "VALID / VALID-LENIENT": "VALID-LENIENT when the guard is called rows: a lenient rater's rows calls do not count toward a READS outcome; his not-rows calls still count",
+   "amendment 3 (Sebastien, no guard)": "VALID only if he calls EVERY empty picture not rows; exactly one empty picture called rows = VALID-LENIENT; more than one = INVALID"
+  },
+  "outcome_first_match": {
+   "1 SPIRAL-NO-ROWS": "a valid (or valid-lenient) rater calls every shown arm not rows; one rater suffices; labelled '(one rater)' unless both",
+   "2 SPIRAL-READS": "both raters VALID (not lenient) and both call A1 rows",
+   "3 SPIRAL-READS-WITH-PICK": "both VALID, A1 fails for at least one, both call A2 rows (best of two)",
+   "4 SPLIT": "anything else with two valid raters",
+   "5 INCONCLUSIVE": "exactly one valid rater and no NO-ROWS",
+   "6 UNINFORMATIVE": "no valid rater"
+  }
+ },
+ "outcome_labels": [
+  "SPIRAL-NO-ROWS (one rater: <rater>)",
+  "SPIRAL-NO-ROWS (both raters)",
+  "SPIRAL-READS (raters know the field)",
+  "SPIRAL-READS-WITH-PICK",
+  "SPLIT (no claim)",
+  "INCONCLUSIVE",
+  "UNINFORMATIVE (no valid rater)"
+ ],
+ "description_vs_w00": "over the shared frame (local errors, decides nothing): A1 median 81.5 um from w00, A2 68.0 um; the arms lie a median 127 um apart, about one fit-winding spacing",
+ "stage0": {
+  "passed": true,
+  "note": "arms, separation 127 um (bar 24), seam 0.0, control rebuilt pixel-identical, shared coverage 0.958, blanks gate (A2 0.176 vs 0.195), frame gap 0.07 pt (bar 2.0)"
+ }
+}

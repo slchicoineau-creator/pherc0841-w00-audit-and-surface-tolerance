@@ -1,0 +1,74 @@
+{
+ "floor_um": 140,
+ "c0_um": 150.0,
+ "far_um": 250.0,
+ "block_lo_zyx": [
+  648,
+  3415,
+  2777
+ ],
+ "law_share_all_vertices": {
+  "m7": 0.6242,
+  "const": 0.3758
+ },
+ "off_sheet_P_all": 0.4601,
+ "surfaces": {
+  "L70d": {
+   "hop_frac": 0.3,
+   "moved_gt50_frac": 0.3147,
+   "moved_um_pct": {
+    "p10": 129.1,
+    "p50": 163.8,
+    "p90": 217.9
+   },
+   "share_moved_le130": 0.1019,
+   "law_share_hop": {
+    "m7": 0.658,
+    "const": 0.342
+   },
+   "off_sheet_moved": 0.3724,
+   "off_sheet_same_vertices_on_P": 0.4551,
+   "parent": "L70",
+   "parent_off_sheet_moved": 0.2232,
+   "parent_moved_inside_hop": 1.0
+  },
+  "C70d": {
+   "hop_frac": 0.3,
+   "moved_gt50_frac": 0.3065,
+   "moved_um_pct": {
+    "p10": 149.2,
+    "p50": 163.5,
+    "p90": 217.8
+   },
+   "share_moved_le130": 0.0416,
+   "law_share_hop": {
+    "m7": 0.6006,
+    "const": 0.3994
+   },
+   "off_sheet_moved": 0.4093,
+   "off_sheet_same_vertices_on_P": 0.47,
+   "parent": "C70",
+   "parent_off_sheet_moved": 0.2455,
+   "parent_moved_inside_hop": 1.0
+  },
+  "L40d": {
+   "hop_frac": 0.6,
+   "moved_gt50_frac": 0.6172,
+   "moved_um_pct": {
+    "p10": 147.0,
+    "p50": 166.0,
+    "p90": 219.1
+   },
+   "share_moved_le130": 0.0612,
+   "law_share_hop": {
+    "m7": 0.6319,
+    "const": 0.3681
+   },
+   "off_sheet_moved": 0.3802,
+   "off_sheet_same_vertices_on_P": 0.4543,
+   "parent": "L70",
+   "parent_off_sheet_moved": 0.2232,
+   "parent_moved_inside_hop": 1.0
+  }
+ }
+}

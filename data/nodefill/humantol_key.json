@@ -1,0 +1,90 @@
+{
+ "p01": {
+  "kind": "blank",
+  "level": "L70",
+  "file": "tol20/tiles/blank_L70.png"
+ },
+ "p02": {
+  "kind": "level",
+  "level": "H50",
+  "file": "tolholes/tiles/level_H50.png"
+ },
+ "p03": {
+  "kind": "blank",
+  "level": "H70",
+  "file": "tolholes/tiles/blank_H70.png"
+ },
+ "p04": {
+  "kind": "level",
+  "level": "L55",
+  "file": "tol20/tiles/level_L55.png"
+ },
+ "p05": {
+  "kind": "level",
+  "level": "H70",
+  "file": "tolholes/tiles/level_H70.png"
+ },
+ "p06": {
+  "kind": "level",
+  "level": "L70",
+  "file": "tol20/tiles/level_L70.png"
+ },
+ "p07": {
+  "kind": "blank",
+  "level": "H50",
+  "file": "tolholes/tiles/blank_H50.png"
+ },
+ "p08": {
+  "kind": "level",
+  "level": "C70",
+  "file": "tol20b/tiles/level_C70.png"
+ },
+ "p09": {
+  "kind": "blank",
+  "level": "C70",
+  "file": "tol20b/tiles/blank_C70.png"
+ },
+ "p10": {
+  "kind": "blank",
+  "level": "L55",
+  "file": "tol20/tiles/blank_L55.png"
+ },
+ "p11": {
+  "kind": "level",
+  "level": "L85",
+  "file": "tol20/tiles/level_L85.png"
+ },
+ "p12": {
+  "kind": "blank",
+  "level": "C85",
+  "file": "tol20b/tiles/blank_C85.png"
+ },
+ "p13": {
+  "kind": "blank",
+  "level": "L85",
+  "file": "tol20/tiles/blank_L85.png"
+ },
+ "p14": {
+  "kind": "level",
+  "level": "C85",
+  "file": "tol20b/tiles/level_C85.png"
+ },
+ "p15": {
+  "kind": "blank09",
+  "file": "format20/tiles/f_06.png"
+ },
+ "p16": {
+  "kind": "calib",
+  "file": "format20/tiles/f_05.png"
+ },
+ "p17": {
+  "kind": "blank",
+  "level": "L100",
+  "file": "tol20/tiles/blank_L100.png"
+ },
+ "p18": {
+  "kind": "level",
+  "level": "L100",
+  "file": "tol20/tiles/level_L100.png"
+ }
+}

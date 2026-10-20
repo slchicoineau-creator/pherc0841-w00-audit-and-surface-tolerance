@@ -1,0 +1,148 @@
+{
+ "test": "grown_field",
+ "title": "Uncorrected grown field on the regular scan",
+ "gated": "human data: per-picture blind calls; release only with both raters' OK",
+ "answers": [
+  "rows",
+  "strokes",
+  "nothing"
+ ],
+ "pages": [
+  {
+   "page": "grown_page_sebastien",
+   "rater": "sebastien",
+   "n_pictures": 6,
+   "read": "read 2 (2026-10-12, rebuilt page with his own already-rejected guard, amendment 1)",
+   "page_pictures_match_key": true,
+   "rated_at_utc": "2026-10-13T03:32:58.691Z"
+  },
+  {
+   "page": "grown_page_chris",
+   "rater": "chris",
+   "n_pictures": 6,
+   "read": "read 1 (2026-10-08, sealed; guard = partsheet H50)",
+   "page_pictures_match_key": true,
+   "rated_at_utc": "2026-10-08T20:37:55.788Z"
+  }
+ ],
+ "calls": [
+  {
+   "page": "grown_page_sebastien",
+   "shown_position": 1,
+   "picture": "grown_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of grown)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "grown_page_sebastien",
+   "shown_position": 2,
+   "picture": "ctrl",
+   "kind": "level",
+   "arm": "readable control: w00's own render of the window",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "grown_page_sebastien",
+   "shown_position": 3,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "grown_page_sebastien",
+   "shown_position": 4,
+   "picture": "grown",
+   "kind": "level",
+   "arm": "arm: the standard grower on PHerc0841's regular 9.366 um scan, one seed click per half and 0 correction minutes, two growth-sized grows assembled over the window (0.98 coverage), read with the 2.4 um reader",
+   "rater": "sebastien",
+   "call": "rows"
+  },
+  {
+   "page": "grown_page_sebastien",
+   "shown_position": 5,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "sebastien",
+   "call": "nothing"
+  },
+  {
+   "page": "grown_page_sebastien",
+   "shown_position": 6,
+   "picture": "guard",
+   "kind": "guard",
+   "arm": "guard: a picture of this window Sebastien had already called not rows blind (amendment 1, read 2)",
+   "rater": "sebastien",
+   "call": "strokes"
+  },
+  {
+   "page": "grown_page_chris",
+   "shown_position": 1,
+   "picture": "grown_blank",
+   "kind": "blank",
+   "arm": "wrong-order blank: the same surface's ink map with the layer order reversed (no text expected) (of grown)",
+   "rater": "chris",
+   "call": "nothing"
+  },
+  {
+   "page": "grown_page_chris",
+   "shown_position": 2,
+   "picture": "ctrl",
+   "kind": "level",
+   "arm": "readable control: w00's own render of the window",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "grown_page_chris",
+   "shown_position": 3,
+   "picture": "grown",
+   "kind": "level",
+   "arm": "arm: the standard grower on PHerc0841's regular 9.366 um scan, one seed click per half and 0 correction minutes, two growth-sized grows assembled over the window (0.98 coverage), read with the 2.4 um reader",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "grown_page_chris",
+   "shown_position": 4,
+   "picture": "calib",
+   "kind": "calib",
+   "arm": "calibration: a known-rows ink map of another public fragment's known text (not this window), a picture both raters had rated before",
+   "rater": "chris",
+   "call": "rows"
+  },
+  {
+   "page": "grown_page_chris",
+   "shown_position": 5,
+   "picture": "guard",
+   "kind": "guard",
+   "arm": "guard: the 50 % holes picture H50 of partsheet_tolerance (rated before by both raters)",
+   "rater": "chris",
+   "call": "strokes"
+  },
+  {
+   "page": "grown_page_chris",
+   "shown_position": 6,
+   "picture": "calib_blank",
+   "kind": "calib_blank",
+   "arm": "the calibration map in the wrong layer order (wrong-order blank)",
+   "rater": "chris",
+   "call": "strokes"
+  }
+ ],
+ "judge": {
+  "loop_verdict_for_observed_outcome": {
+   "GROWER-READS (two raters)": "PASS"
+  },
+  "claim_wording": "the standard grower, one seed click and 0 correction minutes on the regular scan, gives a 20 mm field that reads rows for two blind humans (one window, known text, one grow per seed; the read does not show the sheet)",
+  "judge_notes": [
+   "Chris's guard (the partsheet 50 % holes picture) was later called rows by both raters, so it checked a 'rows to everything' rater only loosely; Sebastien's guard is a picture he had already called not rows (amendment 1)"
+  ],
+  "source": "the independent Judge re-score of this test (its verdict section)"
+ }
+}
